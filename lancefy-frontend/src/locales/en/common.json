@@ -1,0 +1,2150 @@
+{
+  "save": "Save",
+  "cancel": "Cancel",
+  "loading": "Loading...",
+  "all": "All",
+  "common": {
+    "view": {
+      "card": "Card",
+      "table": "Table"
+    },
+    "success": "Success",
+    "errorTitle": "Error",
+    "error": "Something went wrong",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "notSpecified": "Not specified",
+    "save": "Save"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "gallery": "Gallery",
+    "explore": "Explore",
+    "jobs": "Jobs",
+    "freelancers": "Freelancers",
+    "disputes": "Disputes",
+    "profile": "Profile",
+    "publicProfile": "Public profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "notifications": "Notifications",
+    "adminBrand": "LanceFy Admin"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "users": "Manage Users",
+    "kyc": "KYC Review",
+    "disputes": "Disputes",
+    "community": "Community Moderation",
+    "projects": "Projects",
+    "payments": "Payments",
+    "meta": {
+      "dashboard": {
+        "title": "Admin Dashboard",
+        "description": "Manage LanceFy operations and keep an eye on platform activity."
+      },
+      "users": {
+        "title": "Manage Users",
+        "description": "Review and manage user accounts across the platform."
+      },
+      "kyc": {
+        "title": "KYC Review",
+        "description": "Review identity verification documents submitted by users."
+      },
+      "disputes": {
+        "title": "Disputes",
+        "description": "Review and resolve disputes raised between clients and freelancers."
+      },
+      "community": {
+        "title": "Community Moderation",
+        "description": "Manage posts and comments — every action automatically notifies the owner."
+      },
+      "projects": {
+        "title": "Project Review",
+        "description": "Review and moderate project activity."
+      },
+      "payments": {
+        "title": "Payments",
+        "description": "Monitor transactions and payment status."
+      },
+      "default": {
+        "title": "Admin Panel",
+        "description": "Manage platform data and administrative workflows."
+      }
+    }
+  },
+  "dashboard": {
+    "overview": "Overview",
+    "projects": "My Projects",
+    "work": "My Work",
+    "proposals": "My Proposals",
+    "payments": "Payments",
+    "transactions": "Transactions",
+    "transactionsDescription": "Track your incoming, outgoing, pending, and refunded transactions.",
+    "messages": "Messages",
+    "disputes": "Disputes",
+    "calendar": "Calendar"
+  },
+  "communityPage": {
+    "sidebar": {
+      "searchPlaceholder": "Search posts...",
+      "clear": "Clear",
+      "categories": "Categories",
+      "sortBy": "Sort by"
+    },
+    "categories": {
+      "all": "All",
+      "general": "General",
+      "artwork": "Artwork",
+      "coding": "Coding",
+      "design": "Design",
+      "writing": "Writing"
+    },
+    "sort": {
+      "latest": "Latest",
+      "reactions": "Popular",
+      "views": "Most viewed"
+    },
+    "header": {
+      "eyebrow": "Community",
+      "title": "Community showcase",
+      "titleSuffix": "updates, work-in-progress, case studies",
+      "subtitle": "A shared feed for work highlights, ideas, and freelancer activity in the same visual spirit as Explore.",
+      "totalPosts": "{{total}} posts",
+      "categoryPrefix": "Category:",
+      "filtersActive": "Active filters"
+    },
+    "actions": {
+      "myPosts": "My posts",
+      "createPost": "Create post"
+    },
+    "filters": {
+      "title": "Applied filters",
+      "searchPrefix": "Search:",
+      "sortPrefix": "Sort by:"
+    },
+    "feedPrompt": "Share your work, project, or case study...",
+    "empty": {
+      "title": "No posts yet",
+      "filteredSubtitle": "Try adjusting your search or changing the filters.",
+      "defaultSubtitle": "Be the first to share a fresh update with the community.",
+      "createFirst": "Create your first post"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "common": {
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "comments": {
+      "reply": "Reply",
+      "replyPlaceholder": "Reply to {{name}}...",
+      "hideReplies": "Hide replies",
+      "showReplies": "View {{count}} replies",
+      "writeComment": "Write a comment...",
+      "none": "No comments yet"
+    },
+    "modals": {
+      "deleteReplyTitle": "Delete reply",
+      "deleteReplyMessage": "Delete this reply? This action cannot be undone.",
+      "deleteCommentTitle": "Delete comment",
+      "deleteCommentMessage": "Delete this comment? This action cannot be undone.",
+      "deletePostTitle": "Delete post",
+      "deletePostMessage": "Delete this post? This action cannot be undone."
+    },
+    "post": {
+      "privateOnly": "Only me",
+      "edited": "Edited",
+      "viewProfile": "View profile",
+      "sendMessage": "Send message",
+      "edit": "Edit",
+      "deletePost": "Delete post",
+      "like": "Like",
+      "comment": "Comment",
+      "share": "Share",
+      "copied": "Copied!",
+      "deleting": "Deleting...",
+      "likes": "{{count}} likes",
+      "comments": "{{count}} comments",
+      "views": "{{count}} views"
+    },
+    "composer": {
+      "createTitle": "Create new post",
+      "editTitle": "Edit post",
+      "visibility": {
+        "public": "Public",
+        "private": "Only me"
+      },
+      "placeholder": "Share your work, project, or case study...",
+      "categoryLabel": "Category",
+      "imageLabel": "Images",
+      "uploadHint": "Click or drag images here",
+      "save": "Save",
+      "post": "Post",
+      "errorFallback": "Something went wrong. Please try again.",
+      "validation": {
+        "contentOrImage": "Please add text or at least one image."
+      }
+    },
+    "timeAgo": {
+      "justNow": "Just now",
+      "minuteAgo": "{{count}} minute ago",
+      "minutesAgo": "{{count}} minutes ago",
+      "hourAgo": "{{count}} hour ago",
+      "hoursAgo": "{{count}} hours ago",
+      "dayAgo": "{{count}} day ago",
+      "daysAgo": "{{count}} days ago",
+      "monthAgo": "{{count}} month ago",
+      "monthsAgo": "{{count}} months ago",
+      "yearAgo": "{{count}} year ago",
+      "yearsAgo": "{{count}} years ago"
+    }
+  },
+  "accountSettings": {
+    "eyebrow": "Account",
+    "title": "Account Settings",
+    "subtitle": "Manage your profile, verification, billing, and creator settings from one place.",
+    "nav": {
+      "profile": "Profile",
+      "verification": "Identity Verification",
+      "payments": "Payments",
+      "portfolio": "Portfolio",
+      "notifications": "Notifications"
+    },
+    "verification": {
+      "title": "Identity Verification",
+      "subtitle": "Review your current KYC status and continue the verification flow when needed.",
+      "actions": {
+        "start": "Start verification",
+        "resubmit": "Resubmit verification",
+        "viewStatus": "View status",
+        "goDashboard": "Go to dashboard"
+      },
+      "status": {
+        "notSubmitted": "Not submitted",
+        "underReview": "Under review",
+        "approved": "Approved",
+        "needsResubmission": "Needs resubmission",
+        "rejected": "Rejected"
+      },
+      "summary": {
+        "status": "Current status",
+        "submittedAt": "Submitted at",
+        "reviewedAt": "Reviewed at",
+        "reviewNote": "Review note",
+        "notAvailable": "Not available yet",
+        "noReviewNote": "No review note has been added yet."
+      },
+      "notSubmitted": {
+        "title": "Verify your identity to unlock freelancer features",
+        "description": "Submit your KYC details once. We will guide you through the required identity documents inside a secure verification flow."
+      },
+      "underReview": {
+        "title": "Your verification is under review",
+        "description": "Your documents have been submitted successfully. Our team is reviewing them now and you can return to this page at any time for updates."
+      },
+      "approved": {
+        "title": "Your identity has been verified",
+        "description": "Everything is approved and your account is ready for freelancer-only features and future payout setup."
+      },
+      "needsResubmission": {
+        "title": "Additional information is required",
+        "description": "Your submission needs an update before approval. Review the note below, then resubmit your documents from the secure verification flow."
+      },
+      "rejected": {
+        "title": "Your verification was not approved",
+        "description": "The current submission cannot be approved. Review the latest status and submit a corrected verification package when you are ready."
+      }
+    }
+  },
+  "portfolioPage": {
+    "hero": {
+      "title": "Portfolio studio",
+      "subtitle": "Organize your best work into polished folders so clients can browse your craft, specialties, and case studies in one place."
+    },
+    "section": {
+      "title": "Work Portfolio",
+      "subtitle": "Create folders, upload visuals, and keep your showcase presentation-ready."
+    },
+    "actions": {
+      "newFolder": "New folder",
+      "create": "Create folder"
+    },
+    "meta": {
+      "verified": "Verified",
+      "hourlyRate": "฿{{value}} / hr",
+      "foldersCount": "{{count}} folders",
+      "filesCount": "{{count}} files"
+    },
+    "visibility": {
+      "public": "Public",
+      "private": "Private"
+    },
+    "form": {
+      "titleLabel": "Folder title",
+      "titlePlaceholder": "Folder title, for example UI Design or Product Renders",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Add a short context about the work inside this folder."
+    },
+    "create": {
+      "title": "Create a new folder",
+      "subtitle": "Set up a clean showcase area before you start uploading files."
+    },
+    "upload": {
+      "title": "Upload files",
+      "subtitle": "Click or drag image and video files here.",
+      "multi": "Multiple files supported",
+      "uploading": "Uploading {{count}} file(s)..."
+    },
+    "empty": {
+      "title": "No portfolio folders yet",
+      "subtitle": "Create your first folder to start organizing visuals, demos, and client-ready examples."
+    },
+    "emptyFolder": {
+      "title": "No files in this folder yet",
+      "subtitle": "Switch to edit mode and upload the first image or video."
+    }
+  },
+  "publicProfilePage": {
+    "hero": {
+      "eyebrow": "Public Profile"
+    },
+    "actions": {
+      "back": "Back",
+      "editProfile": "Edit profile",
+      "editPortfolio": "Edit portfolio"
+    },
+    "sections": {
+      "skills": "Skills",
+      "portfolio": "Work Portfolio",
+      "portfolioSubtitle": "Selected work, case studies, and creative samples shared publicly.",
+      "reviews": "Reviews"
+    },
+    "meta": {
+      "verified": "Verified",
+      "hourlyRate": "฿{{value}} / hr",
+      "foldersCount": "{{count}} folders",
+      "filesCount": "{{count}} files",
+      "reviewsCount": "{{count}} reviews"
+    },
+    "fallbacks": {
+      "user": "Unknown user",
+      "portfolio": "Portfolio {{number}}"
+    },
+    "notFound": {
+      "title": "User not found",
+      "subtitle": "We couldn't find this public profile. The user may have removed it or the link may be invalid."
+    },
+    "emptyBio": "This user has not added a public bio yet.",
+    "emptyPortfolio": {
+      "title": "No work samples yet",
+      "subtitle": "Public portfolio folders will appear here once this user starts sharing work."
+    },
+    "emptyPortfolioFolder": "No files in this folder yet.",
+    "emptyReviews": {
+      "title": "No reviews yet",
+      "subtitle": "Client feedback and completed project reviews will appear here."
+    },
+    "reviewBy": "By {{name}}",
+    "portfolioItemAlt": "Portfolio work sample"
+  },
+  "project": {
+    "create": "New Project",
+    "title": "My Projects",
+    "subtitle": "Projects that you own",
+    "offerTitle": "Send Offer",
+    "offer": "Send Offer",
+    "offerModal": {
+      "title": "Send Offer",
+      "subtitle": "Share your budget and a short message",
+      "milestonesTitle": "Milestones",
+      "milestoneTitle": "Milestone {{number}}",
+      "addMilestone": "+ Add Milestone",
+      "removeMilestone": "Remove",
+      "titlePlaceholder": "Milestone title",
+      "budgetLabel": "Proposed Budget",
+      "budgetPlaceholder": "e.g. 25000",
+      "durationLabel": "Duration (days)",
+      "durationPlaceholder": "e.g. 7",
+      "detailLabel": "Details",
+      "detailPlaceholder": "Describe the deliverables for this milestone...",
+      "totalBudget": "Total Budget",
+      "mustMatchProjectBudget": "Total milestone amount must equal project budget",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Introduce yourself and describe your approach...",
+      "submit": "Send Offer",
+      "cancel": "Cancel"
+    },
+    "offerToast": {
+      "success": "Offer sent",
+      "error": "Unable to send offer",
+      "invalidBudget": "Please enter a valid budget",
+      "invalidMilestones": "Please complete milestone details",
+      "counterBudgetMustMatch": "Counter offer total must stay at the original amount ({{budget}} {{currency}})",
+      "counterNoChanges": "No changes detected in counter offer",
+      "exceedsProjectBudget": "Counter offer budget exceeds project budget ({{budget}} {{currency}})"
+    },
+    "exploreJobDetailPage": {
+      "notFound": "Project not found",
+      "backToBoard": "Back to job board",
+      "postedAt": "Posted {{date}}",
+      "deadline": "Deadline: {{date}}",
+      "budgetWithCurrency": "Budget ({{currency}})",
+      "jobDetails": "Job Details",
+      "noDescription": "No additional details provided",
+      "clientInfoTitle": "Client Info",
+      "clientPrefix": "Client #{{id}}",
+      "projectOwner": "Project owner",
+      "interestedTitle": "Interested in this job?",
+      "loadingOfferStatus": "Loading offer status...",
+      "statusLabel": "Status:",
+      "offerPrompt": "Send your offer with your price",
+      "statsTitle": "Job Stats",
+      "budget": "Budget",
+      "status": "Status",
+      "postedAtLabel": "Posted",
+      "deadlineLabel": "Deadline"
+    },
+    "backToProjects": "Back to projects",
+    "backToDetail": "Back to project",
+    "createdAt": "Created on {{date}}",
+    "description": "Description",
+    "deadline": "Deadline",
+    "proposals": "Proposals",
+    "noProposals": "No proposals yet",
+    "noProposalsHint": "Freelancers will start sending proposals once your project is published",
+    "activity": "Activity",
+    "activityEmpty": "No activity yet",
+    "info": "Project Info",
+    "budget": "Budget",
+    "category": "Category",
+    "manage": "Manage Project",
+    "projectId": "Project ID",
+    "managePage": {
+      "breadcrumb": {
+        "projects": "Projects"
+      },
+      "extendRequest": "Extend Request",
+      "tabs": {
+        "overview": "Overview",
+        "board": "Board",
+        "milestones": "Milestones",
+        "chat": "Chat",
+        "files": "Files",
+        "activity": "Activity"
+      },
+      "sections": {
+        "details": "Project Details"
+      },
+      "fields": {
+        "category": "Category",
+        "paymentModel": "Payment Model",
+        "paymentModelValue": "Per Milestone",
+        "budget": "Budget",
+        "createdAt": "Created",
+        "scope": "Scope"
+      },
+      "paymentSummary": {
+        "title": "Payment Summary",
+        "total": "Total Budget",
+        "funded": "Funded",
+        "released": "Released",
+        "remaining": "Remaining"
+      },
+      "participants": {
+        "title": "Participants",
+        "client": "Client",
+        "freelancer": "Freelancer",
+        "freelancerAssigned": "Freelancer #{{id}}",
+        "notAssigned": "Not assigned"
+      },
+      "offers": {
+        "title": "Offers",
+        "loading": "Loading offers...",
+        "empty": "No offers yet",
+        "freelancerPrefix": "Freelancer",
+        "submittedAt": "Submitted {{date}}",
+        "pendingSelfTitle": "Offer submitted",
+        "pendingSelfSubtitle": "Your offer is pending client review",
+        "editMilestones": "Edit Milestones",
+        "editMilestonesSubtitle": "Update milestones in your offer before the client decides",
+        "saveMilestones": "Save Milestones",
+        "editMilestonesSuccess": "Milestones updated successfully",
+        "editMilestonesError": "Unable to update milestones",
+        "counter": "Counter Offer",
+        "counterTitle": "Counter Offer",
+        "counterSubtitle": "Adjust budget, milestones, or message and send revised terms to the freelancer",
+        "counterSubmit": "Send Counter Offer",
+        "viewCounter": "View Counter Offer",
+        "counterSuccess": "Counter offer sent",
+        "counterError": "Unable to send counter offer",
+        "counterAcceptSuccess": "Counter offer accepted",
+        "counterAcceptError": "Unable to accept counter offer",
+        "withdraw": "Withdraw Offer",
+        "withdrawConfirm": "Do you want to withdraw this offer?",
+        "withdrawSuccess": "Offer withdrawn successfully",
+        "withdrawError": "Unable to withdraw offer",
+        "rejectConfirmTitle": "Reject Offer",
+        "rejectConfirmDescription": "Please provide a reason to inform the freelancer.",
+        "rejectReasonLabel": "Rejection Reason",
+        "rejectReasonPlaceholder": "Enter a reason, e.g. budget or plan does not match requirements",
+        "rejectReasonRequired": "Please provide a rejection reason",
+        "rejectSuccess": "Offer rejected successfully",
+        "rejectError": "Unable to reject offer",
+        "accept": "Accept Offer",
+        "reject": "Reject Offer",
+        "chat": "Chat",
+        "counterPending": "Counter Pending",
+        "accepted": "Accepted",
+        "rejected": "Rejected",
+        "confirmHire": "Do you want to hire this freelancer?",
+        "hireSuccess": "Hired successfully",
+        "dealAcceptedToast": "The proposal has been accepted. Please continue the discussion in chat.",
+        "hireError": "Unable to hire right now",
+        "chatError": "Unable to start chat"
+      },
+      "milestones": {
+        "due": "Due {{date}}",
+        "submitWork": "Submit Work",
+        "viewDetail": "View Detail",
+        "reviewSubmission": "Review Submission",
+        "numbered": "Milestone {{number}}",
+        "status": "Status",
+        "paidStatus": "Paid Status",
+        "reviewStatus": "Review Status"
+      },
+      "reviewToast": {
+        "missing": "No submission to review",
+        "success": "Review saved",
+        "error": "Unable to review submission"
+      },
+      "board": {
+        "title": "Project Board",
+        "subtitle": "Visual workflow of project milestones",
+        "noTasks": "No tasks",
+        "noDueDate": "No due date",
+        "funded": "Funded",
+        "columns": {
+          "todo": "To Do",
+          "inProgress": "In Progress",
+          "review": "Review",
+          "done": "Done"
+        }
+      },
+      "badges": {
+        "inReview": "In Review",
+        "done": "Done",
+        "uncomplete": "Uncomplete",
+        "inProgress": "In Progress",
+        "funded": "Funded",
+        "released": "Released",
+        "reservedGateway": "Reserved (Gateway)",
+        "unfunded": "Unfunded",
+        "submitted": "Wait for approval",
+        "approved": "Approved",
+        "rejected": "Rejected",
+        "revisionRequested": "Revision Request"
+      },
+      "chatPanel": {
+        "title": "Project Chat",
+        "subtitle": "Direct chat between project owner and assigned freelancer",
+        "accessDenied": "Only project owner and assigned freelancer can use this chat",
+        "noAssignment": "No freelancer is assigned to this project yet",
+        "loading": "Loading conversation...",
+        "empty": "No messages yet",
+        "placeholder": "Type a message...",
+        "send": "Send",
+        "you": "You",
+        "unknownUser": "Unknown user",
+        "file": "Attached file",
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "loadError": "Unable to load conversation",
+        "sendError": "Unable to send message"
+      },
+      "filesPanel": {
+        "title": "All Attachments",
+        "subtitle": "Files and images shared by project owner and assigned freelancer",
+        "loading": "Loading attachments...",
+        "empty": "No attachments found yet",
+        "file": "Attached file",
+        "image": "Image",
+        "fromMilestone": "Milestone: {{title}}",
+        "fromProject": "Project attachment"
+      },
+      "activityPanel": {
+        "title": "Activity Timeline",
+        "subtitle": "Project events from chat, milestones, and workflow",
+        "loading": "Loading activity...",
+        "empty": "No activity yet",
+        "actorMe": "Me",
+        "actorCreator": "Creator",
+        "projectCreated": "Project created",
+        "projectPublished": "Project published",
+        "assignmentStarted": "Freelancer assigned",
+        "offerSubmitted": "Offer submitted",
+        "milestoneCreated": "Milestone created",
+        "workSubmitted": "Work submitted",
+        "workApproved": "Submission approved",
+        "workRejected": "Submission rejected",
+        "workReviewed": "Submission reviewed",
+        "filesAttached": "{{count}} file(s) attached",
+        "chatMessage": "Chat message",
+        "chatImage": "Image sent in chat",
+        "chatFile": "File sent in chat"
+      },
+      "emptyTab": "No data in this tab yet"
+    },
+    "completionPanel": {
+      "title": "🎉 Project Completion",
+      "subtitle": "All work is completed. Please confirm to close the project.",
+      "client": "CLIENT",
+      "freelancer": "FREELANCER",
+      "approved": "Confirmed",
+      "pending": "Pending",
+      "confirmButton": "Confirm Completion",
+      "saving": "Saving...",
+      "confirmed": "You have confirmed completion"
+    },
+    "submitWork": {
+      "title": "Submit Work",
+      "milestoneLabel": "Milestone",
+      "untitledMilestone": "Untitled milestone",
+      "uploadFiles": "Upload Files",
+      "clickToUpload": "Click to upload",
+      "dragAndDrop": "or drag and drop",
+      "fileTypes": "PNG, JPG, WEBP, PDF, DOCX, ZIP, PSD, AI up to 20MB",
+      "submissionNotes": "Submission Notes",
+      "notesPlaceholder": "Describe what you've delivered, any notes for the client, etc...",
+      "submit": "Submit Work",
+      "details": {
+        "title": "Milestone Details",
+        "amount": "Amount",
+        "dueDate": "Due Date",
+        "status": "Status",
+        "submissionDetail": "Submission Detail",
+        "lastSubmitted": "Last submitted"
+      },
+      "tips": {
+        "title": "Tips",
+        "items": {
+          "upload": "Upload all deliverables mentioned in the milestone",
+          "notes": "Provide clear notes about your work",
+          "review": "Client will review and approve or request revisions",
+          "release": "Payment is released after approval"
+        }
+      },
+      "errors": {
+        "notFound": "Milestone not found",
+        "onlyAssignee": "Only the assignee can submit work",
+        "alreadySubmitted": "Submission is already pending review",
+        "alreadyApproved": "This milestone is already approved",
+        "previousMilestoneRequired": "Please complete previous milestone(s) before submitting this one"
+      },
+      "toast": {
+        "success": "Work submitted successfully",
+        "error": "Failed to submit work"
+      }
+    },
+    "reviewSubmissionPage": {
+      "title": "Review Submission",
+      "submittedFiles": "Submitted Files",
+      "noSubmittedFiles": "No attached files found in this submission",
+      "freelancerNote": "Freelancer Note",
+      "reviewActions": "Review Actions",
+      "summary": {
+        "amount": "Amount",
+        "dueDate": "Due Date",
+        "freelancer": "Freelancer"
+      },
+      "approve": {
+        "title": "Approve & Release Payment",
+        "description": "Work meets requirements. Payment will be released to the freelancer.",
+        "button": "Approve & Release Payment"
+      },
+      "revision": {
+        "title": "Request Revision",
+        "description": "Clearly describe what needs to be fixed before resubmission.",
+        "placeholder": "Explain what needs to be changed...",
+        "button": "Request Revision"
+      },
+      "dispute": {
+        "title": "Open Dispute",
+        "description": "Use this only for serious issues that need platform mediation.",
+        "placeholder": "Describe the dispute details...",
+        "button": "Open Dispute"
+      },
+      "details": {
+        "title": "Payment Breakdown",
+        "milestoneAmount": "Milestone Amount",
+        "platformFee": "Platform Fee (5%)",
+        "freelancerReceives": "Freelancer Receives",
+        "dueDate": "Due Date",
+        "status": "Status",
+        "paidStatus": "Paid Status",
+        "submittedAt": "Submitted At"
+      },
+      "tips": {
+        "title": "Review Tips",
+        "items": {
+          "files": "Check that all files are complete and accessible",
+          "scope": "Verify work matches the agreed scope",
+          "feedback": "If changes are needed, provide clear feedback",
+          "dispute": "Use disputes only when truly necessary"
+        }
+      },
+      "errors": {
+        "notFound": "Milestone not found",
+        "onlyClient": "Only the client can review this submission",
+        "noSubmission": "No submission available for review",
+        "alreadyReviewed": "This submission has already been reviewed",
+        "revisionRequired": "Please provide revision details",
+        "disputeRequired": "Please provide dispute details"
+      },
+      "toast": {
+        "approveSuccess": "Submission approved and payment released",
+        "approveError": "Unable to approve or release payment",
+        "revisionSuccess": "Revision request sent",
+        "revisionError": "Unable to request revision",
+        "disputeUnavailable": "Dispute flow is not available yet"
+      }
+    },
+    "milestones": "Milestones",
+    "milestonesEmpty": "No milestones yet",
+    "payments": "Payments",
+    "paymentsEmpty": "No payment records",
+    "settings": "Project Settings",
+    "edit": "Edit Project",
+    "report": "Report",
+    "archive": "Archive Project",
+    "close": "Close Project",
+    "confirmDelete": "Are you sure you want to delete this project?",
+    "deleteTitle": "Delete project",
+    "deleteDescription": "Are you sure you want to delete this project? This action cannot be undone.",
+    "deleteSuccess": "Project deleted successfully",
+    "deleteError": "Failed to delete project",
+    "saveDraftSuccess": "Draft saved successfully",
+    "saveDraftError": "Failed to save draft",
+    "publishSuccess": "Project published successfully",
+    "publishError": "Failed to publish project",
+    "searchPlaceholder": "Search projects...",
+    "createPage": {
+      "title": "Create New Project",
+      "subtitle": "Set up your project with milestones and escrow",
+      "intro": {
+        "createTitle": "Post a Project",
+        "editTitle": "Edit Project Details",
+        "subtitle": "Fill in complete details to attract high-quality freelancers"
+      },
+      "sections": {
+        "title": {
+          "title": "Project Title",
+          "description": "Keep it concise and clear, e.g. Minimal logo design for coffee shop"
+        },
+        "category": {
+          "title": "Categories",
+          "description": "You can select multiple categories. If missing, choose Other and add one"
+        },
+        "description": {
+          "title": "Project Description",
+          "description": "Explain project scope, requirements, and deliverables with rich text support"
+        },
+        "images": {
+          "title": "Reference Images",
+          "description": "Attach mood board, references, or samples you like (optional)",
+          "coverTipStrong": "The first image is used as card cover",
+          "coverTip": "on Explore page. Put your best image first"
+        },
+        "budget": {
+          "title": "Budget & Deadline",
+          "description": "A clear total budget helps freelancers estimate accurately"
+        }
+      },
+      "autosave": "Draft is auto-saved",
+      "imageUploadError": "Image upload failed",
+      "step": {
+        "details": "Project Details",
+        "review": "Review"
+      },
+      "form": {
+        "title": "Project Title",
+        "titlePlaceholder": "e.g. Character Design for Mobile Game",
+        "category": "Category",
+        "categoryPlaceholder": "Select category",
+        "scope": "Project Scope",
+        "scopePlaceholder": "Describe your project requirements, deliverables, and expectations...",
+        "deadlineDate": "Deadline",
+        "deadlineDatePlaceholder": "Select deadline",
+        "budget": "Total Budget",
+        "budgetPlaceholder": "e.g. 25000",
+        "currency": "Currency"
+      },
+      "action": {
+        "next": "Next: Review",
+        "back": "Back",
+        "create": "Create Project",
+        "saveDraft": "Save Draft",
+        "publish": "Publish Project"
+      }
+    },
+    "editPage": {
+      "title": "Edit Project",
+      "subtitle": "Update your project details"
+    },
+    "status": {
+      "label": "Status",
+      "all": "All",
+      "pending": "Pending",
+      "draft": "Draft",
+      "open": "Open",
+      "expired": "Expired",
+      "active": "Active",
+      "closed": "Closed",
+      "complete": "Completed",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "table": {
+      "project": "Project",
+      "freelancer": "Freelancer",
+      "category": "Category",
+      "status": "Status",
+      "budget": "Budget",
+      "progress": "Progress",
+      "notAssigned": "Not assigned",
+      "created": "Created",
+      "actions": "Actions",
+      "viewJob": "View Job",
+      "viewProject": "View Project",
+      "showing": "Showing {{start}}–{{end}} of {{total}}",
+      "prev": "Prev",
+      "next": "Next",
+      "per_page": "{{count}} / page"
+    },
+    "empty": {
+      "title": "No projects found",
+      "subtitle": "Try changing the status filter"
+    },
+    "firstEmpty": {
+      "title": "Start your first project",
+      "subtitle": "Create your first project and manage all your work in one place"
+    },
+    "summary": {
+      "total": "Total Projects",
+      "active": "Active",
+      "completed": "Completed"
+    },
+    "error": {
+      "notFound": "Project not found"
+    }
+  },
+  "jobs": {
+    "categories": "Categories",
+    "newJob": "New Job",
+    "detailPage": {
+      "notFound": "Job not found",
+      "backToList": "Back to job list",
+      "jobDetails": "Job details",
+      "noDescription": "No description provided",
+      "receivedProposals": "Received proposals ({{count}})",
+      "noProposals": "No proposals yet",
+      "clientInfoTitle": "Client information",
+      "unknownOwner": "Unknown",
+      "sendProposal": "Send proposal",
+      "jobType": {
+        "hire": "Hire",
+        "service": "Offer service"
+      },
+      "summary": {
+        "title": "Job summary",
+        "budget": "Budget",
+        "deliveryDate": "Delivery date",
+        "proposals": "Proposals",
+        "type": "Type"
+      },
+      "status": {
+        "pending": "Pending",
+        "accepted": "Accepted ✅",
+        "rejected": "Rejected",
+        "withdrawn": "Withdrawn"
+      },
+      "form": {
+        "proposedBudget": "Proposed budget (THB)",
+        "proposedBudgetPlaceholder": "Leave blank if negotiable",
+        "message": "Message",
+        "messagePlaceholder": "Introduce yourself and explain why you're a good fit...",
+        "submit": "Confirm submit",
+        "submitting": "Submitting..."
+      },
+      "toast": {
+        "submitSuccess": "Proposal submitted successfully",
+        "submitError": "Failed to submit proposal"
+      },
+      "pending": {
+        "title": "Proposal Pending",
+        "subtitle": "Waiting for the job owner to accept your proposal"
+      },
+      "accepted": {
+        "notice": "Your proposal has been accepted. Please continue the discussion in chat.",
+        "goToChat": "Go to chat"
+      },
+      "submitted": {
+        "title": "You have already submitted a proposal for this job",
+        "latestStatus": "Latest status: {{status}}"
+      },
+      "errors": {
+        "dealChatMissing": "Deal chat room not found",
+        "openDealChatFailed": "Unable to open the chat room right now"
+      }
+    },
+    "createPage": {
+      "back": "Back",
+      "pageTitle": "Create New Job",
+      "pageSubtitle": "Complete the form to attract better-matched applicants.",
+      "sections": {
+        "postType": {
+          "title": "Post Type",
+          "description": "Choose whether you are hiring or offering your own service."
+        },
+        "details": {
+          "title": "Job Details",
+          "description": "Provide a clear title and explain the expected outcome."
+        },
+        "budget": {
+          "title": "Budget",
+          "description": "Set your budget to improve applicant quality."
+        },
+        "images": {
+          "title": "Job Images",
+          "description": "Upload reference images to make your brief clearer.",
+          "coverTipStrong": "Tip:",
+          "coverTip": "The first image will be used as the cover image."
+        },
+        "categorySkills": {
+          "title": "Category & Skills",
+          "description": "Select the main category and required skills for this job."
+        },
+        "timeline": {
+          "title": "Timeline",
+          "description": "Set expected delivery and post expiration dates."
+        }
+      },
+      "jobType": {
+        "hire": "Hire",
+        "service": "Offer Service",
+        "hireHint": "Post a job to find freelancers",
+        "serviceHint": "Offer your own service package"
+      },
+      "fields": {
+        "title": "Job Title",
+        "titlePlaceholder": "e.g. Logo design for a startup",
+        "description": "Description",
+        "descriptionPlaceholder": "Describe scope, expected outputs, and requirements...",
+        "budget": "Budget (THB)",
+        "budgetPlaceholder": "Leave blank if negotiable",
+        "category": "Category",
+        "categoryPlaceholder": "Select a category",
+        "skills": "Required Skills",
+        "skillsPlaceholder": "Search skills e.g. React, Figma...",
+        "deliveryDate": "Delivery Date",
+        "expiresAt": "Expires On",
+        "datePlaceholder": "dd/mm/yyyy",
+        "openCalendar": "Open calendar"
+      },
+      "actions": {
+        "saveDraft": "Save Draft",
+        "publishNow": "Publish Now",
+        "saving": "Saving..."
+      },
+      "toast": {
+        "titleRequired": "Please enter a job title",
+        "invalidDate": "Please use date format dd/mm/yyyy",
+        "publishSuccess": "Job posted successfully",
+        "draftSuccess": "Draft saved successfully",
+        "error": "Something went wrong"
+      }
+    },
+    "boardPage": {
+      "title": "Browse Jobs",
+      "titleSuffix": "Job Board",
+      "subtitle": "Discover new opportunities and work with top clients.",
+      "mineBadge": "Your listings",
+      "mineSubtitle": "Manage your published and draft jobs from one place.",
+      "totalFound": "{{total}} jobs found",
+      "searchPlaceholder": "Search jobs by title or description...",
+      "myJobsTitle": "My Jobs ({{total}})",
+      "tabs": {
+        "all": "All",
+        "hire": "Hiring",
+        "service": "Services",
+        "mine": "My Jobs"
+      },
+      "sort": {
+        "publishedDesc": "Newest first",
+        "publishedAsc": "Oldest first",
+        "budgetDesc": "Highest budget",
+        "budgetAsc": "Lowest budget",
+        "deadlineAsc": "Earliest deadline"
+      },
+      "filters": {
+        "title": "Filters",
+        "active": "Filters applied",
+        "budgetMinLabel": "Min budget (THB)",
+        "budgetMinPlaceholder": "e.g. 5,000",
+        "budgetMaxLabel": "Max budget (THB)",
+        "budgetMaxPlaceholder": "e.g. 50,000",
+        "clear": "Clear filters",
+        "clearAll": "Clear all filters",
+        "filteredBy": "Filtered by:",
+        "other": "Other"
+      },
+      "actions": {
+        "postJob": "Post Job",
+        "postFirstJob": "Post your first job"
+      },
+      "empty": {
+        "mineTitle": "You have not posted any jobs yet.",
+        "mineSubtitle": "Use the main action above when you are ready to publish your first listing.",
+        "searchTitle": "No jobs match your search.",
+        "searchSubtitle": "Try adjusting your filters or search keywords."
+      },
+      "status": {
+        "expired": "Expired",
+        "expiringInDays": "Expires in {{days}} days"
+      },
+      "jobType": {
+        "hire": "Hiring",
+        "service": "Service"
+      },
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next"
+      }
+    },
+    "myWork": {
+      "title": "My Work",
+      "subtitle": "Projects you are currently working on and have completed",
+      "searchPlaceholder": "Search projects...",
+      "defaultProject": "Project",
+      "assignedOn": "Started on {{date}}",
+      "startDateUnknown": "Start date not specified",
+      "filter": {
+        "all": "All",
+        "inProgress": "In Progress",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      },
+      "status": {
+        "in_progress": "In Progress",
+        "completed": "Completed",
+        "cancelled": "Cancelled",
+        "accepted": "Accepted",
+        "active": "Active",
+        "pending": "Pending"
+      },
+      "summary": {
+        "total": "Total Projects",
+        "active": "Active",
+        "completed": "Completed"
+      },
+      "table": {
+        "project": "Project",
+        "owner": "Project Owner",
+        "status": "Status",
+        "budget": "Budget",
+        "progress": "Progress",
+        "assigned": "Assigned",
+        "actions": "Actions",
+        "view": "View"
+      },
+      "empty": {
+        "title": "No work items yet"
+      },
+      "locked": {
+        "alt": "Verify identity before using My Work",
+        "title": "Verify identity or become a freelancer first",
+        "subtitle": "My Work will be available after your KYC is approved.",
+        "ctaUnderReview": "Check verification status",
+        "ctaDefault": "Verify identity / Become Freelancer"
+      }
+    },
+    "myProposals": {
+      "title": "My Proposals",
+      "subtitle": "Proposals you have submitted to projects",
+      "searchPlaceholder": "Search by job ID or message...",
+      "noFilterResult": "No proposals match your filters",
+      "pendingHint": "Waiting for owner acceptance",
+      "loadingProject": "Loading project name...",
+      "unknownProject": "Unknown project",
+      "projectIdLabel": "Project ID: {{id}}",
+      "confirmWithdraw": "Do you want to withdraw this proposal?",
+      "stats": {
+        "total": "Total Proposals",
+        "pending": "Pending",
+        "accepted": "Accepted",
+        "rejected": "Rejected"
+      },
+      "table": {
+        "project": "Project",
+        "proposal": "Proposal",
+        "status": "Status",
+        "budget": "Proposed Budget",
+        "hint": "Note",
+        "actions": "Actions"
+      },
+      "status": {
+        "pending": "Pending",
+        "accepted": "Accepted",
+        "rejected": "Rejected",
+        "withdrawn": "Withdrawn"
+      },
+      "actions": {
+        "withdraw": "Withdraw",
+        "viewJob": "View Job",
+        "viewProposal": "View Proposal",
+        "chatDeal": "Chat Deal"
+      },
+      "empty": {
+        "prefix": "No proposals yet. You can find jobs and submit proposals at",
+        "cta": "Explore Jobs"
+      },
+      "error": {
+        "loadFailed": "Failed to load data",
+        "withdrawFailed": "Unable to withdraw proposal",
+        "dealChatNotFound": "Deal chat room not found for this accepted proposal",
+        "openDealChatFailed": "Unable to open deal chat"
+      },
+      "locked": {
+        "alt": "Verify identity before using My Proposal",
+        "title": "Please verify identity before using My Proposal",
+        "subtitle": "Complete KYC approval or become a freelancer to access this page.",
+        "ctaUnderReview": "Check verification status",
+        "ctaDefault": "Verify identity / Become Freelancer"
+      }
+    }
+  },
+  "freelancer": {
+    "empty": {
+      "alt": "Become a freelancer first",
+      "title": "Become a Freelancer first",
+      "subtitle": "You need to be approved as a freelancer before you can access this page.",
+      "cta": "Become a Freelancer"
+    },
+    "loading": "Loading...",
+    "verificationInProgress": "Verification in progress",
+    "completeVerification": "Complete verification",
+    "become": "Become a Freelancer",
+    "states": {
+      "loading": {
+        "alt": "Loading freelancer status",
+        "title": "Loading freelancer status",
+        "subtitle": "Please wait while we check your verification status.",
+        "cta": "Loading..."
+      },
+      "notSubmitted": {
+        "alt": "Become a freelancer first",
+        "title": "Become a Freelancer first",
+        "subtitle": "You need to complete your KYC application before you can access this page.",
+        "cta": "Become a Freelancer"
+      },
+      "underReview": {
+        "alt": "KYC verification in progress",
+        "title": "KYC Verification in Progress",
+        "subtitle": "Your application has been submitted and is currently under review. You can check your latest verification status here.",
+        "cta": "Check Status"
+      },
+      "needsResubmission": {
+        "alt": "KYC resubmission required",
+        "title": "KYC Resubmission Required",
+        "subtitle": "Your application needs additional information before it can be approved. Please review and resubmit your KYC.",
+        "cta": "Update KYC"
+      },
+      "rejected": {
+        "alt": "KYC was not approved",
+        "title": "KYC Was Not Approved",
+        "subtitle": "Your previous submission was not approved. Please review the details and submit your information again.",
+        "cta": "Resubmit KYC"
+      },
+      "approved": {
+        "alt": "Freelancer access approved",
+        "title": "You Are Already Approved",
+        "subtitle": "Your freelancer verification is complete. You can now continue to your dashboard.",
+        "cta": "Go to Dashboard"
+      }
+    }
+  },
+  "freelancersPage": {
+    "sidebarTitle": "Freelancer Categories",
+    "sidebarAll": "All",
+    "sidebarPopular": "Popular",
+    "title": "Browse Freelancers",
+    "titleSuffix": "Talent Directory",
+    "subtitle": "Find skilled freelancers that match your project requirements.",
+    "totalFound": "{{total}} freelancers found",
+    "searchPlaceholder": "Search by name, username, or skill...",
+    "sort": {
+      "newest": "Newest first",
+      "ratingDesc": "Highest rated",
+      "rateAsc": "Lowest rate",
+      "rateDesc": "Highest rate"
+    },
+    "filters": {
+      "title": "Filters",
+      "active": "Filters applied",
+      "clear": "Clear filters",
+      "clearAll": "Clear all filters",
+      "verifiedOnly": "Verified only",
+      "rateMinLabel": "Min rate (THB/hr)",
+      "rateMaxLabel": "Max rate (THB/hr)",
+      "rateMinPlaceholder": "e.g. 300",
+      "rateMaxPlaceholder": "e.g. 1,500",
+      "categories": "Categories",
+      "skills": "Skills"
+    },
+    "empty": {
+      "title": "No freelancers match your search.",
+      "subtitle": "Try adjusting your filters or search keywords."
+    },
+    "card": {
+      "anonymous": "Anonymous",
+      "verified": "Verified",
+      "hourlyRate": "Hourly rate",
+      "rateNotSet": "Rate not set",
+      "noReviews": "No reviews yet",
+      "viewProfile": "View profile"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAll": "Mark all as read",
+    "empty": "No notifications yet",
+    "viewAll": "View all",
+    "count": "{{total}} items",
+    "unread": "{{count}} unread",
+    "deleteRead": "Delete read",
+    "confirmDeleteRead": "Delete all read notifications?",
+    "noResults": "No notifications found",
+    "clearFilters": "Clear filters",
+    "filterAll": "All",
+    "filterUnread": "Unread",
+    "filterRead": "Read",
+    "allTypes": "All types",
+    "loading": "Loading...",
+    "loadMore": "Load more ({{count}} items)"
+  },
+  "notificationSettings": {
+    "title": "Notification Settings",
+    "subtitle": "Choose which updates you want to receive and where they should be delivered.",
+    "loading": "Loading notification settings...",
+    "preferenceTitle": "Delivery preferences",
+    "preferenceSubtitle": "Control in-app and email notifications without changing any of your existing rules.",
+    "headers": {
+      "type": "Notification type",
+      "inApp": "In-App",
+      "email": "Email"
+    },
+    "groups": {
+      "proposals": "Proposals",
+      "jobsProjects": "Jobs & Projects",
+      "payments": "Payments",
+      "messages": "Messages",
+      "kycDisputes": "KYC & Disputes"
+    },
+    "actions": {
+      "save": "Save",
+      "saving": "Saving...",
+      "saved": "Saved",
+      "enableAll": "Enable all",
+      "disableAll": "Disable all"
+    },
+    "errors": {
+      "load": "Unable to load notification settings.",
+      "save": "Unable to save changes. Please try again."
+    }
+  },
+  "kycStatus": {
+    "loading": "Loading KYC status...",
+    "labels": {
+      "status": "Status:",
+      "submittedAt": "Submitted at:",
+      "reviewedAt": "Reviewed at:",
+      "reason": "Reason:",
+      "estimatedReviewTime": "Estimated review time:"
+    },
+    "statuses": {
+      "underReview": "Under review",
+      "needsResubmission": "Needs resubmission",
+      "rejected": "Rejected"
+    },
+    "actions": {
+      "backToDashboard": "Back to Dashboard",
+      "resubmit": "Resubmit KYC"
+    },
+    "attention": {
+      "title": "Your KYC needs attention",
+      "description": "We found some issues with your submission. Please review the details below and submit the required updates.",
+      "reviewDetails": "Review Details",
+      "nextAction": "Next Action",
+      "step1": "Check the review reason carefully.",
+      "step2": "Update your information or documents.",
+      "step3": "Resubmit your KYC for review."
+    },
+    "inProgress": {
+      "title": "KYC Verification in Progress",
+      "descriptionPrefix": "Your identity verification is currently being reviewed. The process usually takes",
+      "estimatedTime": "1–3 business days",
+      "submissionDetails": "Submission Details",
+      "whatHappensNext": "What happens next",
+      "next1": "Our team reviews your submitted information and documents.",
+      "next2": "You may be contacted if additional information is required.",
+      "next3": "Once approved, you will be able to access freelancer features.",
+      "noticeTitle": "Please note",
+      "noticeDescription": "During the review period, some freelancer-only features may remain unavailable."
+    },
+    "fetchFailed": {
+      "title": "Unable to refresh the latest KYC status right now. Showing the most recent saved status."
+    }
+  },
+  "kyc": {
+    "title": "Identity Verification",
+    "subtitle": "Complete the steps below to submit your KYC information.",
+    "step": {
+      "profile": "Profile",
+      "idCard": "ID Card",
+      "selfie": "Selfie"
+    },
+    "page": {
+      "title": "Verify your identity",
+      "subtitle": "Complete your KYC information to apply as a freelancer."
+    },
+    "form": {
+      "fullName": "Full name",
+      "fullNamePlaceholder": "Enter your full legal name",
+      "citizenId": "Citizen ID / National ID",
+      "citizenIdPlaceholder": "Enter your 13-digit ID number",
+      "citizenIdHint": "Please enter numbers only.",
+      "citizenIdError": "Citizen ID must be 13 digits.",
+      "dateOfBirth": "Date of birth",
+      "country": "Country",
+      "countryPlaceholder": "Select your country",
+      "address": "Address",
+      "addressPlaceholder": "Enter your current address",
+      "countries": {
+        "thailand": "Thailand",
+        "unitedStates": "United States",
+        "japan": "Japan"
+      }
+    },
+    "upload": {
+      "idCard": "Upload your government-issued ID card.",
+      "idCardTitle": "Upload ID card",
+      "idCardDescription": "Please upload a clear photo of your ID card.",
+      "selfie": "Upload a clear selfie for identity verification.",
+      "selfieTitle": "Upload selfie",
+      "selfieDescription": "Please upload a clear selfie that matches your ID.",
+      "clickUpload": "Click to upload",
+      "imageOnlyHint": "Accepted format: image files only",
+      "selectedFile": "Selected file: {{name}}"
+    },
+    "review": {
+      "beforeSubmit": "Before you submit",
+      "beforeSubmitDescription": "Please make sure your ID photo and selfie are clear and readable. Verification usually takes 1–3 business days after submission."
+    },
+    "notice": {
+      "title": "Important",
+      "description": "Please make sure all information matches your official documents exactly."
+    },
+    "actions": {
+      "next": "Next",
+      "back": "Back",
+      "submit": "Submit KYC",
+      "submitting": "Submitting..."
+    },
+    "toast": {
+      "submitSuccess": "Your KYC has been submitted successfully.",
+      "submitFailed": "Submit failed. Please try again."
+    }
+  },
+  "adminUsers": {
+    "page": {
+      "title": "Manage Users",
+      "subtitle": "Manage backoffice access and platform users from one place."
+    },
+    "tabs": {
+      "teamAccess": "Team Access",
+      "platformUsers": "Platform Users"
+    },
+    "actions": {
+      "inviteTeam": "Invite Team",
+      "view": "View",
+      "activate": "Activate",
+      "deactivate": "Deactivate",
+      "viewKyc": "View KYC"
+    },
+    "summary": {
+      "totalUsers": "Total Users",
+      "activeUsers": "Active Users",
+      "pendingInvites": "Pending Invites",
+      "pendingKyc": "Pending KYC",
+      "totalTeam": "Team Members",
+      "activeTeam": "Active Team"
+    },
+    "filters": {
+      "kyc": "KYC status",
+      "allKyc": "All KYC"
+    },
+    "kyc": {
+      "unverified": "Not verified",
+      "pending": "Pending",
+      "verified": "Verified",
+      "rejected": "Rejected"
+    },
+    "searchPlaceholder": "Search by email, name, role, or status...",
+    "searchTeamPlaceholder": "Search by email, name, role, or status...",
+    "searchPlatformPlaceholder": "Search by email, name, username, status, or KYC...",
+    "empty": "No users matched your search.",
+    "table": {
+      "email": "Email",
+      "name": "Name",
+      "role": "Role",
+      "kyc": "KYC",
+      "status": "Status",
+      "invitedAt": "Last Activity",
+      "pendingProfile": "Pending account setup",
+      "actions": "Actions",
+      "count": "{{count}} records"
+    },
+    "status": {
+      "active": "Active",
+      "invited": "Invited",
+      "inactive": "Inactive"
+    },
+    "detail": {
+      "title": "User Details",
+      "username": "Username",
+      "phone": "Phone",
+      "createdAt": "Created At",
+      "lastActivity": "Last Activity",
+      "roles": "Roles",
+      "invitation": "Invitation",
+      "invitationStatus": "Invitation Status",
+      "invitedRole": "Invited Role",
+      "invitedAt": "Invited At",
+      "acceptedAt": "Accepted At",
+      "bio": "Bio"
+    },
+    "inviteModal": {
+      "title": "Invite Team Member",
+      "subtitle": "Send an invitation email with the selected role. The recipient will open a secure LanceFy page to finish setting up their account.",
+      "email": "Email",
+      "emailPlaceholder": "name@company.com",
+      "role": "Role",
+      "rolePlaceholder": "Select role",
+      "helper": "The invite link opens a secure setup page where the user enters first name, last name, and password before signing in.",
+      "submit": "Send Invite",
+      "sending": "Sending..."
+    },
+    "toast": {
+      "loadFailed": "Unable to load users right now.",
+      "inviteSuccess": "Invitation sent successfully.",
+      "inviteFailed": "Unable to send invitation.",
+      "detailFailed": "Unable to load user details.",
+      "statusUpdated": "User status updated successfully.",
+      "statusUpdateFailed": "Unable to update user status."
+    }
+  },
+  "inviteFlow": {
+    "page": {
+      "title": "Complete Your Invitation",
+      "subtitle": "Review your invitation details and complete your account setup."
+    },
+    "sections": {
+      "invitation": "Invitation Summary",
+      "identity": "Personal Information",
+      "security": "Set Password",
+      "requirements": "Access Requirements"
+    },
+    "form": {
+      "email": "Email",
+      "firstname": "First Name",
+      "firstnamePlaceholder": "Enter your first name",
+      "lastname": "Last Name",
+      "lastnamePlaceholder": "Enter your last name",
+      "username": "Username",
+      "usernamePlaceholder": "Choose your username",
+      "usernameHint": "3-30 lowercase letters, numbers, dots, underscores, or hyphens.",
+      "password": "Password",
+      "passwordPlaceholder": "Create a password",
+      "passwordHint": "Minimum 9 characters, 1 uppercase.",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter your password",
+      "role": "Role",
+      "expiresAt": "Expires"
+    },
+    "actions": {
+      "complete": "Activate Account",
+      "processing": "Activating..."
+    },
+    "states": {
+      "loading": "Loading invitation..."
+    },
+    "success": {
+      "title": "Your Account Is Ready",
+      "subtitle": "Your details were saved successfully. You can sign in now and continue to LanceFy.",
+      "emailVerified": "Your account is ready. Sign in with these details:",
+      "signIn": "Sign In"
+    },
+    "errors": {
+      "missingToken": "Invitation token is missing.",
+      "loadFailed": "Unable to load this invitation.",
+      "nameRequired": "First name and last name are required.",
+      "usernameRequired": "Username is required.",
+      "usernameFormat": "Username must be 3-30 characters using lowercase letters, numbers, dots, underscores, or hyphens.",
+      "passwordLength": "Password must be at least 9 characters.",
+      "passwordUppercase": "Password must include at least one uppercase letter.",
+      "passwordMismatch": "Passwords do not match.",
+      "acceptFailed": "Unable to complete account setup."
+    }
+  },
+  "adminKyc": {
+    "list": {
+      "page": {
+        "title": "Identity Verification",
+        "subtitle": "Review and approve pending KYC submissions from users."
+      },
+      "searchPlaceholder": "Search by name, email, or ID number...",
+      "empty": "There are no KYC submissions waiting for review.",
+      "table": {
+        "user": "User",
+        "status": "Status",
+        "submitted": "Submitted",
+        "actions": "Actions"
+      },
+      "actions": {
+        "view": "View",
+        "openDetail": "Open detail",
+        "close": "Close detail",
+        "reasonPlaceholder": "Reason (optional)..."
+      },
+      "filters": {
+        "allStatuses": "All statuses",
+        "selected": "selected",
+        "clear": "Clear filter"
+      },
+      "status": {
+        "pending": "Pending review",
+        "approved": "Approved",
+        "rejected": "Rejected",
+        "needsResubmission": "Needs resubmission"
+      },
+      "risk": {
+        "low": "Risk: Low",
+        "medium": "Risk: Medium"
+      },
+      "sections": {
+        "personalInfo": "Personal Information",
+        "timeline": "Timeline"
+      },
+      "fields": {
+        "email": "Email"
+      },
+      "defaults": {
+        "country": "Thailand"
+      },
+      "documents": {
+        "loading": "Loading documents...",
+        "empty": "No documents are available for this submission.",
+        "alt": "KYC document",
+        "noImage": "No image",
+        "documentNumber": "Document {{number}}",
+        "received": "Received",
+        "notReceived": "Not received"
+      },
+      "timeline": {
+        "submitted": "Submitted identity verification request",
+        "idCard": "Uploaded ID card",
+        "selfie": "Uploaded selfie",
+        "complete": "Documents complete",
+        "approved": "Approved request",
+        "rejected": "Rejected request",
+        "reviewed": "Reviewed request",
+        "updateItem": "Update",
+        "empty": "There is no timeline available for this submission.",
+        "actors": {
+          "user": "User",
+          "system": "System",
+          "admin": "Admin"
+        }
+      },
+      "time": {
+        "justNow": "Just now",
+        "minutesAgo": "{{count}} minutes ago",
+        "hoursAgo": "{{count}} hours ago",
+        "daysAgo": "{{count}} days ago"
+      },
+      "emptyState": "Select a KYC item from the table to view its details."
+    },
+    "detail": {
+      "header": {
+        "badge": "Identity Verification Review",
+        "title": "Identity Verification Review Record",
+        "subtitle": "Review the applicant's identity information, submitted documents, and verification decision in a formal administrative record."
+      },
+      "status": {
+        "label": "Review Status",
+        "approved": "This verification has been approved and the applicant is cleared for the next step.",
+        "rejected": "This verification was rejected. Please review the note below before taking any further action.",
+        "needsResubmission": "This submission requires updated information or clearer documents before it can be approved.",
+        "pending": "This submission is awaiting final review and decision by the administrator.",
+        "fallback": "The current review status is available below."
+      },
+      "profile": {
+        "title": "Profile Information",
+        "subtitle": "Primary reference information for verifying the applicant's identity.",
+        "reviewStatus": "Review Status"
+      },
+      "sections": {
+        "identity": {
+          "title": "Identity Details",
+          "description": "Personal information used to compare against the submitted documents."
+        },
+        "timeline": {
+          "title": "Submission Timeline",
+          "description": "Timestamps for when the system received and reviewed the submission."
+        },
+        "address": {
+          "title": "Address Information",
+          "description": "Address details for additional reference."
+        }
+      },
+      "fields": {
+        "fullName": "Full Name",
+        "citizenId": "Citizen ID",
+        "dateOfBirth": "Date of Birth",
+        "country": "Country",
+        "submittedAt": "Submitted At",
+        "reviewedAt": "Reviewed At",
+        "address": "Address"
+      },
+      "documents": {
+        "title": "Documents",
+        "subtitle": "Check the clarity, correctness, and consistency of the uploaded documents.",
+        "idCard": "ID Card",
+        "selfie": "Selfie",
+        "open": "Open",
+        "noDocument": "No document uploaded",
+        "loadFailed": "Document failed to load"
+      },
+      "review": {
+        "title": "Review Action",
+        "subtitle": "Record the review outcome and any supporting notes for the decision.",
+        "currentStatus": "Current Status",
+        "documentsLabel": "Documents Received",
+        "reasonLabel": "Review Reason",
+        "reasonPlaceholder": "Enter an additional reason for rejection or internal note",
+        "documentsComplete": "All 2 documents uploaded",
+        "documentsIncomplete": "Documents are incomplete",
+        "helper": "If you reject without a reason, the system will use \"Rejected by admin\" as the default message.",
+        "noteTitle": "Review Note",
+        "defaultRejectReason": "Rejected by admin"
+      },
+      "actions": {
+        "backToQueue": "Back to queue",
+        "approve": "Approve",
+        "reject": "Reject",
+        "processing": "Processing..."
+      },
+      "states": {
+        "loading": "Loading...",
+        "notFound": "KYC detail not found."
+      },
+      "errors": {
+        "missingUserId": "Missing user id.",
+        "loadFailed": "Failed to load KYC detail. Please try again.",
+        "approveFailed": "Failed to approve KYC. Please try again.",
+        "rejectFailed": "Failed to reject KYC. Please try again."
+      }
+    }
+  },
+  "dashboardPage": {
+    "hero": {
+      "titleEmployer": "Hiring Overview",
+      "titleFreelancer": "My Work Overview",
+      "welcome": "Welcome back, {{name}}"
+    },
+    "roleTabs": {
+      "employer": "Employer",
+      "freelancer": "Freelancer"
+    },
+    "actions": {
+      "postJob": "Post Job",
+      "postJobNow": "Post a job",
+      "findWork": "Find Work",
+      "viewAll": "View all",
+      "viewAllWork": "View work",
+      "viewDisputes": "View disputes",
+      "updateProfile": "Update Profile",
+      "verifyKyc": "Verify KYC",
+      "review": "Review",
+      "open": "Open",
+      "viewWork": "View Work",
+      "browseJobs": "Browse Jobs",
+      "createJob": "Create Job"
+    },
+    "banners": {
+      "disputes": "{{count}} disputes are still open and waiting for resolution.",
+      "completeProfile": "Complete your profile to improve your chances of getting hired.",
+      "completeKyc": "Verify your identity to unlock the full work and payout flow."
+    },
+    "stats": {
+      "employer": {
+        "activeProjects": {
+          "label": "Active Projects",
+          "sub": "Currently in progress"
+        },
+        "proposals": {
+          "label": "Proposals Waiting",
+          "sub": "From {{count}} jobs"
+        },
+        "pendingReviews": {
+          "label": "Pending Reviews",
+          "sub": "Milestones waiting for review"
+        },
+        "totalBudget": {
+          "label": "Total Budget",
+          "sub": "{{count}} projects"
+        }
+      },
+      "freelancer": {
+        "activeWork": {
+          "label": "Active Work",
+          "sub": "Projects currently moving"
+        },
+        "proposals": {
+          "label": "Proposals",
+          "sub": "{{count}} pending"
+        },
+        "urgentMilestones": {
+          "label": "Urgent Milestones",
+          "sub": "{{count}} milestones total"
+        },
+        "earnings": {
+          "label": "Earnings Received",
+          "pending": "{{amount}} pending",
+          "ready": "Ready to withdraw after transfer clears"
+        }
+      }
+    },
+    "sections": {
+      "activeProjects": {
+        "title": "Active Projects"
+      },
+      "postedJobs": {
+        "title": "Posted Jobs"
+      },
+      "pendingReviews": {
+        "title": "Pending Reviews"
+      },
+      "disputes": {
+        "title": "Disputes"
+      },
+      "milestonesToSubmit": {
+        "title": "Milestones to Submit"
+      },
+      "myProposals": {
+        "title": "My Proposals"
+      },
+      "activeWork": {
+        "title": "Active Work"
+      },
+      "latestReviews": {
+        "title": "Latest Reviews"
+      }
+    },
+    "empty": {
+      "activeProjects": {
+        "title": "No active projects yet",
+        "description": "Post a job or close a deal with a freelancer to get your first project moving."
+      },
+      "postedJobs": {
+        "title": "No jobs posted yet",
+        "description": "Create your first job post to start receiving proposals and open deals with freelancers."
+      },
+      "pendingReviews": {
+        "title": "Nothing waiting for review",
+        "description": "When a freelancer submits a milestone, it will appear here right away."
+      },
+      "workQueue": {
+        "title": "No pending milestones",
+        "description": "Your queue is clear right now. Explore new opportunities to keep your pipeline moving."
+      },
+      "proposals": {
+        "title": "No proposals yet",
+        "description": "Start sending proposals to jobs you are interested in and track responses here."
+      },
+      "activeWork": {
+        "title": "No active work yet",
+        "description": "Once a proposal is accepted, your active projects will appear here automatically."
+      }
+    },
+    "status": {
+      "urgent": "Urgent",
+      "overdue": "Overdue",
+      "inProgress": "In Progress",
+      "active": "active",
+      "proposals": {
+        "pending": "Waiting",
+        "accepted": "Accepted",
+        "rejected": "Rejected",
+        "withdrawn": "Withdrawn"
+      },
+      "disputes": {
+        "open": "Open",
+        "reviewing": "Reviewing",
+        "resolved": "Resolved"
+      }
+    },
+    "queue": {
+      "due": "Due {{date}} ({{days}} days)",
+      "overdue": "{{days}} days overdue",
+      "daysLeft": "{{days}} days left",
+      "overBy": "{{days}} days overdue"
+    },
+    "projectCard": {
+      "progress": "{{done}}/{{total}} milestones completed · {{budget}}",
+      "percentComplete": "{{progress}}% complete"
+    },
+    "postedJobs": {
+      "meta": "{{count}} proposals · {{status}}"
+    },
+    "rating": {
+      "title": "Average Rating",
+      "fromReviews": "From {{count}} reviews"
+    },
+    "fallbacks": {
+      "untitledProject": "Untitled Project",
+      "untitledMilestone": "Untitled Milestone",
+      "dispute": "Dispute",
+      "job": "Job #{{id}}"
+    }
+  },
+  "paymentsPage": {
+    "tabs": {
+      "methods": "Payment Methods",
+      "transactions": "Transactions"
+    },
+    "fundMilestone": {
+      "title": "Fund milestone escrow",
+      "untitled": "Untitled milestone",
+      "helper": "Your payment will be held in escrow until this milestone is approved for release.",
+      "summary": {
+        "amount": "Milestone amount",
+        "fee": "Omise fee",
+        "total": "Total to pay",
+        "includedFee": "Payment gateway fee is already included in this price."
+      },
+      "actions": {
+        "confirm": "Confirm funding",
+        "processing": "Processing..."
+      },
+      "toast": {
+        "success": "Escrow funded successfully.",
+        "error": "Unable to fund escrow."
+      },
+      "errors": {
+        "quoteFailed": "Unable to load payment summary."
+      }
+    },
+      "hero": {
+        "eyebrow": "Payments & Billing",
+        "title": "Payment Methods",
+        "subtitle": "Manage your cards and view transaction history",
+        "securityShort": "Card details are encrypted and tokenized securely",
+        "gatewayReady": "Gateway ready for test-mode setup"
+      },
+    "summary": {
+      "savedMethods": "Saved Methods",
+      "defaultMethod": "Default Method",
+      "none": "None yet"
+    },
+    "payout": {
+      "title": "Payout setup will appear here for freelancers",
+      "subtitle": "Receiving-money onboarding will be enabled in a later flow. For now, this page focuses on secure payment methods for checkout."
+    },
+    "addCard": {
+      "title": "Add Payment Method",
+      "subtitle": "Add a card for future checkout.",
+      "securityNote": "Your card details are tokenized by Omise in the browser. LanceFy only stores the masked card reference needed for future payments.",
+      "gatewayUnavailable": "Omise is not configured in this environment yet. Add the payment gateway keys before using this form."
+    },
+    "form": {
+      "holderName": "Cardholder Name",
+      "holderNamePlaceholder": "Name as shown on card",
+      "cardNumber": "Card Number",
+      "cardNumberPlaceholder": "1234 5678 9012 3456",
+      "expiryMonth": "Expiry Month",
+      "expiryYear": "Expiry Year",
+      "cvc": "Security Code",
+      "cvcPlaceholder": "CVC / CVV",
+      "setAsDefault": "Set this card as my default payment method"
+    },
+      "saved": {
+        "title": "Saved Cards",
+      "subtitle": "Manage saved cards.",
+      "emptyTitle": "No payment methods saved yet",
+      "emptySubtitle": "Add your first card to make future checkout faster.",
+      "defaultBadge": "Default",
+      "endsWith": "Ending in •••• {{last4}}",
+      "expires": "Expires {{month}}/{{year}}",
+      "cardFallback": "Card"
+    },
+      "transactions": {
+        "title": "Recent Transactions",
+      "subtitle": "Recent payment activity.",
+      "emptyTitle": "No transactions yet",
+      "emptySubtitle": "Transactions will appear here after payment flows start running.",
+      "columns": {
+        "type": "Type",
+        "reference": "Reference",
+        "date": "Date",
+        "amount": "Amount",
+        "status": "Status"
+      },
+      "types": {
+        "charge": "Payment charged",
+        "transfer": "Payout transfer",
+        "refund": "Refund issued",
+        "reversal": "Reversal processed",
+        "fallback": "Transaction"
+      },
+      "status": {
+        "succeeded": "Succeeded",
+        "pending": "Pending",
+        "failed": "Failed",
+        "reversed": "Reversed"
+      }
+    },
+    "actions": {
+      "addPaymentMethod": "Add Payment Method",
+      "adding": "Saving...",
+      "makeDefault": "Make Default",
+      "remove": "Remove"
+    },
+    "states": {
+      "loadingMethods": "Loading payment methods...",
+      "loadingTransactions": "Loading transaction history..."
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "errors": {
+      "loadFailed": "Unable to load your payment page right now.",
+      "gatewayUnavailable": "Payment gateway is not configured yet.",
+      "addFailed": "Unable to save this payment method.",
+      "defaultFailed": "Unable to update the default payment method.",
+      "deleteFailed": "Unable to remove this payment method."
+    }
+  },
+  "calendarPage": {
+    "title": "Calendar",
+    "subtitle": "Track milestones, project deadlines, and job expiration dates in one schedule view.",
+    "actions": {
+      "previousMonth": "Previous month",
+      "nextMonth": "Next month",
+      "today": "Today"
+    },
+    "summary": {
+      "total": "Filtered events",
+      "overdue": "Overdue",
+      "upcoming": "Upcoming"
+    },
+    "filters": {
+      "title": "Filter events",
+      "subtitle": "Switch between all dates or focus on one event type.",
+      "all": "All events"
+    },
+    "weekdays": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "eventTypes": {
+      "milestone": "Milestone",
+      "project_deadline": "Project deadline",
+      "job_expires": "Job expires"
+    },
+    "grid": {
+      "moreCount": "+{{count}} more"
+    },
+    "sidebar": {
+      "selectDate": "Select a date",
+      "eventsCount": "{{count}} events",
+      "emptyTitle": "No events on this date",
+      "emptySubtitle": "Choose another day or switch the current filter."
+    },
+    "labels": {
+      "overdue": "Overdue"
+    },
+    "errors": {
+      "title": "Unable to load calendar",
+      "load": "We couldn't load calendar events right now. Please try again."
+    }
+  },
+  "messagesPage": {
+    "title": "Messages",
+    "subtitle": "Track conversations, deals, and project chats in one place.",
+    "searchPlaceholder": "Search conversations...",
+    "tabs": {
+      "all": "All",
+      "dm": "DM",
+      "deal": "Deal",
+      "project": "Work",
+      "archive": "Archive"
+    },
+    "sidebar": {
+      "conversationTools": "Conversation tools"
+    },
+    "actions": {
+      "newChat": "Start New Chat",
+      "offerMilestone": "Offer Milestone",
+      "viewProject": "Go to Project",
+      "projectChat": "Project Chat",
+      "accept": "Accept",
+      "counter": "Counter",
+      "reject": "Reject"
+    },
+    "status": {
+      "archived": "Archived",
+      "offerPending": "Offer Pending",
+      "dealClosed": "Deal Closed",
+      "dealRoom": "Deal Room"
+    },
+    "fallbacks": {
+      "user": "User",
+      "group": "Group chat",
+      "project": "Project",
+      "workChannel": "Work channel",
+      "dealPrefix": "Deal",
+      "projectPrefix": "Project"
+    },
+    "roomTypes": {
+      "dm": "DM",
+      "deal": "Deal",
+      "project": "Project",
+      "group": "Group",
+      "main": "Main"
+    },
+    "header": {
+      "dm": "DM",
+      "members": "{{count}} members"
+    },
+    "roomList": {
+      "loading": "Loading...",
+      "empty": "No conversations",
+      "attachment": "Attachment"
+    },
+    "messageList": {
+      "senderFallback": "User",
+      "reply": "Reply",
+      "delete": "Delete",
+      "fileOrImage": "File/Image",
+      "attachmentAlt": "Attachment",
+      "offerMilestone": "Offer Milestone",
+      "counter": "Counter",
+      "totalMilestones": "Total Milestones:",
+      "milestone": "Milestone {{number}}",
+      "dueDays": "Due: {{days}} days",
+      "etaFallback": "ETA: -",
+      "total": "Total",
+      "offerAccepted": "Offer Accepted",
+      "offerRejected": "Offer Rejected",
+      "acceptedMilestoneOffer": "Accepted milestone offer",
+      "rejectedMilestoneOffer": "Rejected milestone offer"
+    },
+    "composer": {
+      "dealClosedContinue": "Deal closed. Continue in Project Chat",
+      "uploadingFile": "Uploading file...",
+      "replyPrefix": "Replying: {{content}}...",
+      "placeholder": "Type a message here...",
+      "typing": "{{names}} typing...",
+      "dealClosedBanner": "Deal is closed — project chat is ready"
+    },
+    "emptyState": {
+      "title": "Welcome to chat",
+      "subtitle": "Choose a conversation from the list on the left or start a new chat.",
+      "newChat": "Start new conversation"
+    },
+    "roomInfo": {
+      "title": "Conversation info",
+      "room": "Room",
+      "conversation": "Conversation",
+      "members": "Members ({{count}})",
+      "addPeople": "Add people",
+      "you": "You"
+    },
+    "newChatModal": {
+      "inviteTitle": "Add member",
+      "newChatTitle": "Start new conversation",
+      "searchPlaceholder": "Search by name or email...",
+      "searching": "Searching...",
+      "notFound": "No users found",
+      "typeMore": "Type at least 2 characters to search"
+    },
+    "offerModal": {
+      "title": "Offer Milestone",
+      "subtitle": "Send a milestone offer for the project owner to review.",
+      "submit": "Send Offer Milestone"
+    },
+    "counterOfferModal": {
+      "title": "Counter Milestone Offer",
+      "subtitle": "Adjust milestones and send a counter offer back.",
+      "submit": "Send Counter"
+    },
+    "toast": {
+      "uploadFailed": "Upload failed.",
+      "startDmFailed": "Unable to start this conversation right now. Please try again later.",
+      "dealClosedContinueInProject": "This deal is closed. Please continue in Project Chat.",
+      "offerFreelancerOnly": "Only the freelancer can send a milestone offer.",
+      "offerIncomplete": "Please complete the offer details before sending.",
+      "offerExceedsBudget": "The offer budget exceeds the project budget.",
+      "offerDealOnly": "Milestone offers can only be sent in Deal Chat.",
+      "offerSuccess": "Milestone offer sent successfully.",
+      "offerFailed": "Unable to send the offer.",
+      "acceptPromoteSuccess": "Offer accepted and moved to Project Chat successfully.",
+      "acceptPromoteFailed": "The offer was accepted, but Project Chat could not be created."
+    }
+  },
+  "messagesWidget": {
+    "title": "Messages",
+    "searchPlaceholder": "Search conversations...",
+    "inputPlaceholder": "Type a message...",
+    "fileLabel": "File",
+    "fallbacks": {
+      "chat": "Chat"
+    },
+    "roomTypes": {
+      "project": "Project",
+      "group": "Group"
+    },
+    "actions": {
+      "back": "Back",
+      "openFull": "Open full",
+      "openAll": "Open all",
+      "newChat": "Start new conversation",
+      "close": "Close",
+      "send": "Send"
+    },
+    "states": {
+      "loading": "Loading...",
+      "empty": "No conversations yet",
+      "noMessages": "No messages yet"
+    }
+  }
+}

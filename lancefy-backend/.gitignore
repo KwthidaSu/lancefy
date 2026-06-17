@@ -1,0 +1,59 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Runtime files / logs
+*.log
+logs/
+celerybeat-schedule
+celerybeat-schedule.*
+*.pid
+
+# Uploads / user-generated files
+uploads/*
+!uploads/.gitkeep
+
+# Database / local files
+*.sqlite
+*.sqlite3
+*.db
+
+# Alembic / migration local cache
+alembic/__pycache__/
+
+# Docker local override files
+docker-compose.override.yml
+
+# Node / frontend tooling if accidentally created here
+node_modules/
+dist/
+build/
+.npm/
+.pnpm-store/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

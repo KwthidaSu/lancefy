@@ -1,0 +1,74 @@
+[
+  {
+    "id": "10000000-0000-0000-0000-000000000001",
+    "name": "Programming & Tech",
+    "slug": "programming-tech",
+    "icon": "code-2",
+    "subcategories": [
+      { "id": "11000000-0000-0000-0000-000000000001", "name": "Web Development",   "slug": "web-development"   },
+      { "id": "11000000-0000-0000-0000-000000000002", "name": "Mobile Apps",       "slug": "mobile-apps"       },
+      { "id": "11000000-0000-0000-0000-000000000003", "name": "Backend & API",     "slug": "backend-api"       },
+      { "id": "11000000-0000-0000-0000-000000000004", "name": "DevOps & Cloud",    "slug": "devops-cloud"      },
+      { "id": "11000000-0000-0000-0000-000000000005", "name": "Data Science & AI", "slug": "data-science-ai"   }
+    ]
+  },
+  {
+    "id": "10000000-0000-0000-0000-000000000002",
+    "name": "Design & Creative",
+    "slug": "design-creative",
+    "icon": "palette",
+    "subcategories": [
+      { "id": "11000000-0000-0000-0000-000000000011", "name": "UI/UX Design",       "slug": "uiux-design"        },
+      { "id": "11000000-0000-0000-0000-000000000012", "name": "Branding & Logo",    "slug": "branding-logo"      },
+      { "id": "11000000-0000-0000-0000-000000000013", "name": "Illustration",       "slug": "illustration"       },
+      { "id": "11000000-0000-0000-0000-000000000014", "name": "Motion Graphics",   "slug": "motion-graphics"    },
+      { "id": "11000000-0000-0000-0000-000000000015", "name": "Video & Animation", "slug": "video-animation"    }
+    ]
+  },
+  {
+    "id": "10000000-0000-0000-0000-000000000003",
+    "name": "Writing & Content",
+    "slug": "writing-content",
+    "icon": "pen-line",
+    "subcategories": [
+      { "id": "11000000-0000-0000-0000-000000000021", "name": "Copywriting",          "slug": "copywriting"         },
+      { "id": "11000000-0000-0000-0000-000000000022", "name": "Blog & SEO Content",   "slug": "blog-seo-content"    },
+      { "id": "11000000-0000-0000-0000-000000000023", "name": "Translation",          "slug": "translation"         },
+      { "id": "11000000-0000-0000-0000-000000000024", "name": "Technical Writing",    "slug": "technical-writing"   }
+    ]
+  },
+  {
+    "id": "10000000-0000-0000-0000-000000000004",
+    "name": "Digital Marketing",
+    "slug": "digital-marketing",
+    "icon": "trending-up",
+    "subcategories": [
+      { "id": "11000000-0000-0000-0000-000000000031", "name": "Social Media Marketing", "slug": "social-media-marketing" },
+      { "id": "11000000-0000-0000-0000-000000000032", "name": "SEO & SEM",              "slug": "seo-sem"                },
+      { "id": "11000000-0000-0000-0000-000000000033", "name": "Performance Marketing",  "slug": "performance-marketing"  },
+      { "id": "11000000-0000-0000-0000-000000000034", "name": "Email Marketing",        "slug": "email-marketing"        }
+    ]
+  },
+  {
+    "id": "10000000-0000-0000-0000-000000000005",
+    "name": "Photography",
+    "slug": "photography",
+    "icon": "camera",
+    "subcategories": [
+      { "id": "11000000-0000-0000-0000-000000000041", "name": "Product Photography", "slug": "product-photography" },
+      { "id": "11000000-0000-0000-0000-000000000042", "name": "Portrait & Headshot", "slug": "portrait-headshot"   },
+      { "id": "11000000-0000-0000-0000-000000000043", "name": "Event Photography",   "slug": "event-photography"   }
+    ]
+  },
+  {
+    "id": "10000000-0000-0000-0000-000000000006",
+    "name": "Business & Finance",
+    "slug": "business-finance",
+    "icon": "briefcase",
+    "subcategories": [
+      { "id": "11000000-0000-0000-0000-000000000051", "name": "Business Consulting", "slug": "business-consulting" },
+      { "id": "11000000-0000-0000-0000-000000000052", "name": "Financial Modeling",  "slug": "financial-modeling"  },
+      { "id": "11000000-0000-0000-0000-000000000053", "name": "Legal & Contracts",   "slug": "legal-contracts"     }
+    ]
+  }
+]

@@ -1,0 +1,269 @@
+@import './styles/tokens.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Lora:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'Sarabun', system-ui, sans-serif;
+    background-color: rgb(var(--background));
+    color: rgb(var(--text-primary));
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  *:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px rgb(var(--primary));
+  }
+
+  body .rdp *:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  body .rdp-day,
+  body .rdp-day:focus,
+  body .rdp-day:focus-visible,
+  body .rdp-button,
+  body .rdp-button:focus,
+  body .rdp-button:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+@layer components {
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background-color: rgb(var(--surface));
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: rgb(var(--border));
+    border-radius: 9999px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(var(--primary));
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .no-scroll {
+    overflow: hidden;
+  }
+
+  .bg-green-50,
+  .bg-green-100,
+  .bg-green-200,
+  .bg-green-300,
+  .bg-emerald-50,
+  .bg-emerald-100,
+  .bg-emerald-200,
+  .bg-emerald-300,
+  .bg-teal-50,
+  .bg-teal-100,
+  .bg-teal-200,
+  .bg-teal-300,
+  .bg-green-50\/50,
+  .bg-green-50\/70,
+  .bg-green-100\/50,
+  .bg-green-100\/70,
+  .bg-green-200\/50,
+  .bg-green-200\/70,
+  .bg-emerald-50\/50,
+  .bg-emerald-50\/70,
+  .bg-emerald-100\/50,
+  .bg-emerald-100\/70,
+  .bg-emerald-200\/50,
+  .bg-emerald-200\/70,
+  .bg-teal-50\/50,
+  .bg-teal-50\/70,
+  .bg-teal-100\/50,
+  .bg-teal-100\/70,
+  .bg-teal-200\/50,
+  .bg-teal-200\/70 {
+    background-color: rgb(var(--accent)) !important;
+  }
+
+  .text-green-500,
+  .text-green-600,
+  .text-green-700,
+  .text-green-800,
+  .text-green-900,
+  .text-emerald-500,
+  .text-emerald-600,
+  .text-emerald-700,
+  .text-emerald-800,
+  .text-emerald-900,
+  .text-teal-500,
+  .text-teal-600,
+  .text-teal-700,
+  .text-teal-800,
+  .text-teal-900 {
+    color: rgb(var(--primary)) !important;
+  }
+
+  .border-green-50,
+  .border-green-100,
+  .border-green-200,
+  .border-green-300,
+  .border-green-400,
+  .border-emerald-50,
+  .border-emerald-100,
+  .border-emerald-200,
+  .border-emerald-300,
+  .border-emerald-400,
+  .border-teal-50,
+  .border-teal-100,
+  .border-teal-200,
+  .border-teal-300,
+  .border-teal-400 {
+    border-color: rgb(var(--primary) / 0.18) !important;
+  }
+
+  .bg-green-400,
+  .bg-green-500,
+  .bg-green-600,
+  .bg-green-700,
+  .bg-emerald-400,
+  .bg-emerald-500,
+  .bg-emerald-600,
+  .bg-emerald-700,
+  .bg-teal-400,
+  .bg-teal-500,
+  .bg-teal-600,
+  .bg-teal-700,
+  .bg-teal-800,
+  .bg-green-800,
+  .bg-emerald-800 {
+    background-color: rgb(var(--primary)) !important;
+  }
+
+  .hover\:bg-green-50:hover,
+  .hover\:bg-green-100:hover,
+  .hover\:bg-green-200:hover,
+  .hover\:bg-emerald-50:hover,
+  .hover\:bg-emerald-100:hover,
+  .hover\:bg-emerald-200:hover,
+  .hover\:bg-emerald-300:hover,
+  .hover\:bg-teal-50:hover,
+  .hover\:bg-teal-100:hover,
+  .hover\:bg-teal-200:hover,
+  .hover\:bg-teal-300:hover,
+  .hover\:bg-green-300:hover {
+    background-color: rgb(var(--accent)) !important;
+  }
+
+  .hover\:bg-green-600:hover,
+  .hover\:bg-green-700:hover,
+  .hover\:bg-green-800:hover,
+  .hover\:bg-emerald-600:hover,
+  .hover\:bg-emerald-700:hover,
+  .hover\:bg-emerald-800:hover,
+  .hover\:bg-teal-600:hover,
+  .hover\:bg-teal-700:hover,
+  .hover\:bg-teal-800:hover {
+    background-color: rgb(var(--primary-hover)) !important;
+  }
+
+  .hover\:text-green-600:hover,
+  .hover\:text-green-700:hover,
+  .hover\:text-green-800:hover,
+  .hover\:text-emerald-600:hover,
+  .hover\:text-emerald-700:hover,
+  .hover\:text-emerald-800:hover,
+  .hover\:text-teal-600:hover,
+  .hover\:text-teal-700:hover,
+  .hover\:text-teal-800:hover {
+    color: rgb(var(--primary-hover)) !important;
+  }
+
+  .from-green-50,
+  .from-green-100,
+  .from-emerald-50,
+  .from-emerald-100,
+  .from-teal-50,
+  .from-teal-100 {
+    --tw-gradient-from: rgb(var(--accent)) var(--tw-gradient-from-position) !important;
+    --tw-gradient-to: rgb(var(--accent) / 0) var(--tw-gradient-to-position) !important;
+  }
+
+  .to-green-50,
+  .to-green-100,
+  .to-emerald-50,
+  .to-emerald-100,
+  .to-teal-50,
+  .to-teal-100 {
+    --tw-gradient-to: rgb(var(--accent)) var(--tw-gradient-to-position) !important;
+  }
+
+  .via-green-50,
+  .via-green-100,
+  .via-emerald-50,
+  .via-emerald-100,
+  .via-teal-50,
+  .via-teal-100 {
+    --tw-gradient-stops: var(--tw-gradient-from),
+      rgb(var(--accent)) var(--tw-gradient-via-position),
+      var(--tw-gradient-to) !important;
+  }
+
+  .ring-green-100,
+  .ring-green-200,
+  .ring-emerald-100,
+  .ring-emerald-200,
+  .ring-teal-100 {
+    --tw-ring-color: rgb(var(--primary) / 0.14) !important;
+  }
+
+  .ring-teal-200 {
+    --tw-ring-color: rgb(var(--primary) / 0.14) !important;
+  }
+
+  .dark .dark\:bg-green-900\/20,
+  .dark .dark\:bg-green-900\/30,
+  .dark .dark\:bg-green-900\/40,
+  .dark .dark\:bg-emerald-900\/20,
+  .dark .dark\:bg-emerald-900\/30,
+  .dark .dark\:bg-emerald-900\/40,
+  .dark .dark\:bg-teal-900\/20,
+  .dark .dark\:bg-teal-900\/30,
+  .dark .dark\:bg-teal-900\/40 {
+    background-color: rgb(var(--primary) / 0.12) !important;
+  }
+
+  .dark .dark\:text-green-300,
+  .dark .dark\:text-green-400,
+  .dark .dark\:text-emerald-300,
+  .dark .dark\:text-emerald-400,
+  .dark .dark\:text-teal-300,
+  .dark .dark\:text-teal-400 {
+    color: rgb(var(--primary)) !important;
+  }
+
+  .dark .dark\:border-green-700,
+  .dark .dark\:border-emerald-700,
+  .dark .dark\:border-teal-700 {
+    border-color: rgb(var(--primary) / 0.24) !important;
+  }
+}

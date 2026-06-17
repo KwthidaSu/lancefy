@@ -1,0 +1,32 @@
+{
+    "realm": "app",
+    "enabled": true,
+    "clients": [
+        {
+            "clientId": "frontend",
+            "enabled": true,
+            "publicClient": true,
+            "directAccessGrantsEnabled": true,
+            "standardFlowEnabled": true,
+            "implicitFlowEnabled": false,
+            "redirectUris": [
+                "http://localhost:5173/*",
+                "http://YOUR_EC2_IP/*"
+            ],
+            "webOrigins": [
+                "http://localhost:5173",
+                "http://YOUR_EC2_IP"
+            ]
+        },
+        {
+            "clientId": "backend",
+            "enabled": true,
+            "publicClient": false,
+            "directAccessGrantsEnabled": true,
+            "standardFlowEnabled": true,
+            "implicitFlowEnabled": false,
+            "redirectUris": [],
+            "webOrigins": []
+        }
+    ]
+}

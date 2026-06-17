@@ -1,0 +1,362 @@
+[
+  {
+    "id": "20000000-0000-0000-0000-000000000001",
+    "name": "HTML / CSS",
+    "slug": "html-css",
+    "subcategories": ["web-development"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000002",
+    "name": "JavaScript",
+    "slug": "javascript",
+    "subcategories": ["web-development", "mobile-apps", "backend-api"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000003",
+    "name": "TypeScript",
+    "slug": "typescript",
+    "subcategories": ["web-development", "backend-api"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000004",
+    "name": "React",
+    "slug": "react",
+    "subcategories": ["web-development"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000005",
+    "name": "Next.js",
+    "slug": "nextjs",
+    "subcategories": ["web-development"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000006",
+    "name": "Vue.js",
+    "slug": "vuejs",
+    "subcategories": ["web-development"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000007",
+    "name": "Tailwind CSS",
+    "slug": "tailwind-css",
+    "subcategories": ["web-development", "uiux-design"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000008",
+    "name": "WordPress",
+    "slug": "wordpress",
+    "subcategories": ["web-development", "blog-seo-content"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000009",
+    "name": "Flutter",
+    "slug": "flutter",
+    "subcategories": ["mobile-apps"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000010",
+    "name": "React Native",
+    "slug": "react-native",
+    "subcategories": ["mobile-apps"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000011",
+    "name": "Swift",
+    "slug": "swift",
+    "subcategories": ["mobile-apps"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000012",
+    "name": "Kotlin",
+    "slug": "kotlin",
+    "subcategories": ["mobile-apps"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000013",
+    "name": "Python",
+    "slug": "python",
+    "subcategories": ["backend-api", "data-science-ai"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000014",
+    "name": "FastAPI",
+    "slug": "fastapi",
+    "subcategories": ["backend-api"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000015",
+    "name": "Django",
+    "slug": "django",
+    "subcategories": ["backend-api"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000016",
+    "name": "Node.js",
+    "slug": "nodejs",
+    "subcategories": ["backend-api"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000017",
+    "name": "PostgreSQL",
+    "slug": "postgresql",
+    "subcategories": ["backend-api", "data-science-ai"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000018",
+    "name": "MongoDB",
+    "slug": "mongodb",
+    "subcategories": ["backend-api"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000019",
+    "name": "Redis",
+    "slug": "redis",
+    "subcategories": ["backend-api"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000020",
+    "name": "Docker",
+    "slug": "docker",
+    "subcategories": ["devops-cloud"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000021",
+    "name": "Kubernetes",
+    "slug": "kubernetes",
+    "subcategories": ["devops-cloud"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000022",
+    "name": "AWS",
+    "slug": "aws",
+    "subcategories": ["devops-cloud"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000023",
+    "name": "GCP",
+    "slug": "gcp",
+    "subcategories": ["devops-cloud"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000024",
+    "name": "GitHub Actions",
+    "slug": "github-actions",
+    "subcategories": ["devops-cloud"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000025",
+    "name": "Machine Learning",
+    "slug": "machine-learning",
+    "subcategories": ["data-science-ai"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000026",
+    "name": "TensorFlow",
+    "slug": "tensorflow",
+    "subcategories": ["data-science-ai"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000027",
+    "name": "Pandas",
+    "slug": "pandas",
+    "subcategories": ["data-science-ai"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000028",
+    "name": "Figma",
+    "slug": "figma",
+    "subcategories": ["uiux-design", "branding-logo"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000029",
+    "name": "Adobe XD",
+    "slug": "adobe-xd",
+    "subcategories": ["uiux-design"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000030",
+    "name": "User Research",
+    "slug": "user-research",
+    "subcategories": ["uiux-design"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000031",
+    "name": "Prototyping",
+    "slug": "prototyping",
+    "subcategories": ["uiux-design"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000032",
+    "name": "Adobe Illustrator",
+    "slug": "adobe-illustrator",
+    "subcategories": ["branding-logo", "illustration"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000033",
+    "name": "Adobe Photoshop",
+    "slug": "adobe-photoshop",
+    "subcategories": ["branding-logo", "illustration", "product-photography", "portrait-headshot"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000034",
+    "name": "Brand Strategy",
+    "slug": "brand-strategy",
+    "subcategories": ["branding-logo"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000035",
+    "name": "Procreate",
+    "slug": "procreate",
+    "subcategories": ["illustration"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000036",
+    "name": "Character Design",
+    "slug": "character-design",
+    "subcategories": ["illustration"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000037",
+    "name": "Digital Painting",
+    "slug": "digital-painting",
+    "subcategories": ["illustration"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000038",
+    "name": "After Effects",
+    "slug": "after-effects",
+    "subcategories": ["motion-graphics", "video-animation"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000039",
+    "name": "Cinema 4D",
+    "slug": "cinema-4d",
+    "subcategories": ["motion-graphics"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000040",
+    "name": "Blender",
+    "slug": "blender",
+    "subcategories": ["motion-graphics", "video-animation"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000041",
+    "name": "Premiere Pro",
+    "slug": "premiere-pro",
+    "subcategories": ["video-animation", "motion-graphics"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000042",
+    "name": "DaVinci Resolve",
+    "slug": "davinci-resolve",
+    "subcategories": ["video-animation"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000043",
+    "name": "Copywriting (Thai)",
+    "slug": "copywriting-th",
+    "subcategories": ["copywriting", "social-media-marketing"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000044",
+    "name": "Copywriting (English)",
+    "slug": "copywriting-en",
+    "subcategories": ["copywriting", "blog-seo-content"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000045",
+    "name": "SEO Writing",
+    "slug": "seo-writing",
+    "subcategories": ["blog-seo-content", "seo-sem"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000046",
+    "name": "Content Strategy",
+    "slug": "content-strategy",
+    "subcategories": ["blog-seo-content", "social-media-marketing"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000047",
+    "name": "Thai–English Translation",
+    "slug": "th-en-translation",
+    "subcategories": ["translation"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000048",
+    "name": "Technical Writing",
+    "slug": "technical-writing-skill",
+    "subcategories": ["technical-writing"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000049",
+    "name": "Facebook Ads",
+    "slug": "facebook-ads",
+    "subcategories": ["social-media-marketing", "performance-marketing"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000050",
+    "name": "Instagram Marketing",
+    "slug": "instagram-marketing",
+    "subcategories": ["social-media-marketing"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000051",
+    "name": "TikTok Marketing",
+    "slug": "tiktok-marketing",
+    "subcategories": ["social-media-marketing"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000052",
+    "name": "Google Ads",
+    "slug": "google-ads",
+    "subcategories": ["seo-sem", "performance-marketing"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000053",
+    "name": "SEO (On-page / Off-page)",
+    "slug": "seo",
+    "subcategories": ["seo-sem"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000054",
+    "name": "Google Analytics",
+    "slug": "google-analytics",
+    "subcategories": ["seo-sem", "performance-marketing"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000055",
+    "name": "Email Marketing",
+    "slug": "email-marketing-skill",
+    "subcategories": ["email-marketing"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000056",
+    "name": "Mailchimp",
+    "slug": "mailchimp",
+    "subcategories": ["email-marketing"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000057",
+    "name": "Studio Lighting",
+    "slug": "studio-lighting",
+    "subcategories": ["product-photography", "portrait-headshot"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000058",
+    "name": "Product Styling",
+    "slug": "product-styling",
+    "subcategories": ["product-photography"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000059",
+    "name": "Photo Retouching",
+    "slug": "photo-retouching",
+    "subcategories": ["product-photography", "portrait-headshot", "event-photography"]
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000060",
+    "name": "Event Coverage",
+    "slug": "event-coverage",
+    "subcategories": ["event-photography"]
+  }
+]

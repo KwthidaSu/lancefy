@@ -1,0 +1,179 @@
+{
+  "clients": [
+    {
+      "id": "aaaaaaaa-0000-0000-0000-000000000001",
+      "keycloak_user_id": "bbbbbbbb-0000-0000-0000-000000000001",
+      "email": "client.a@demo.lancefy.io",
+      "username": "somchai_client",
+      "firstname": "สมชาย",
+      "lastname": "ใจดี",
+      "bio": "เจ้าของธุรกิจ Fintech Startup มองหา freelancer คุณภาพสูงสำหรับโปรเจกต์ digital transformation",
+      "status": "active"
+    },
+    {
+      "id": "aaaaaaaa-0000-0000-0000-000000000002",
+      "keycloak_user_id": "bbbbbbbb-0000-0000-0000-000000000002",
+      "email": "client.b@demo.lancefy.io",
+      "username": "natthaporn_biz",
+      "firstname": "ณัฐภรณ์",
+      "lastname": "วงศ์รุ่งเรือง",
+      "bio": "Marketing Director แบรนด์สินค้า FMCG ต้องการทีม creative ช่วยขยายแบรนด์",
+      "status": "active"
+    },
+    {
+      "id": "aaaaaaaa-0000-0000-0000-000000000003",
+      "keycloak_user_id": "bbbbbbbb-0000-0000-0000-000000000003",
+      "email": "client.c@demo.lancefy.io",
+      "username": "prayuth_startup",
+      "firstname": "ประยุทธ์",
+      "lastname": "สตาร์ทอัพ",
+      "bio": "Co-founder SaaS Startup ด้าน HR Tech กำลังสร้าง MVP และขยาย product",
+      "status": "active"
+    },
+    {
+      "id": "aaaaaaaa-0000-0000-0000-000000000004",
+      "keycloak_user_id": "bbbbbbbb-0000-0000-0000-000000000004",
+      "email": "client.d@demo.lancefy.io",
+      "username": "siriporn_corp",
+      "firstname": "ศิริพร",
+      "lastname": "คอร์ปอเรท",
+      "bio": "CTO บริษัท IT ขนาดกลาง ดูแลโปรเจกต์ outsource หลายสาย",
+      "status": "active"
+    }
+  ],
+  "freelancers": [
+    {
+      "id": "aaaaaaaa-0000-0000-0000-000000000011",
+      "keycloak_user_id": "bbbbbbbb-0000-0000-0000-000000000011",
+      "email": "freelancer.1@demo.lancefy.io",
+      "username": "mintra_design",
+      "firstname": "มินตรา",
+      "lastname": "ศิลปกร",
+      "bio": "UI/UX Designer 5 ปี เชี่ยวชาญ Figma, Design System, Fintech & Enterprise UX",
+      "status": "active",
+      "freelance_profile": {
+        "tagline": "UI/UX Designer — Figma Expert | Fintech & Enterprise",
+        "hourly_rate": 800,
+        "is_public": true
+      },
+      "skills": [
+        "figma", "adobe-xd", "user-research", "prototyping", "tailwind-css",
+        "brand-strategy"
+      ]
+    },
+    {
+      "id": "aaaaaaaa-0000-0000-0000-000000000012",
+      "keycloak_user_id": "bbbbbbbb-0000-0000-0000-000000000012",
+      "email": "freelancer.2@demo.lancefy.io",
+      "username": "krit_dev",
+      "firstname": "กฤต",
+      "lastname": "โค้ดดี",
+      "bio": "Full-stack Developer เชี่ยวชาญ FastAPI + Next.js + PostgreSQL มีประสบการณ์ build production system 6 ปี",
+      "status": "active",
+      "freelance_profile": {
+        "tagline": "Full-stack Dev | FastAPI + Next.js | 6 yrs exp",
+        "hourly_rate": 1000,
+        "is_public": true
+      },
+      "skills": [
+        "python", "fastapi", "nextjs", "react", "typescript", "postgresql",
+        "docker", "redis", "github-actions"
+      ]
+    },
+    {
+      "id": "aaaaaaaa-0000-0000-0000-000000000013",
+      "keycloak_user_id": "bbbbbbbb-0000-0000-0000-000000000013",
+      "email": "freelancer.3@demo.lancefy.io",
+      "username": "aim_creative",
+      "firstname": "เอม",
+      "lastname": "ครีเอทีฟ",
+      "bio": "Graphic Designer & Illustrator ถนัด Branding, Children's Book Illustration, Character Design",
+      "status": "active",
+      "freelance_profile": {
+        "tagline": "Branding & Illustration | Cute & Kawaii Style",
+        "hourly_rate": 600,
+        "is_public": true
+      },
+      "skills": [
+        "adobe-illustrator", "adobe-photoshop", "brand-strategy", "figma",
+        "procreate", "character-design", "digital-painting"
+      ]
+    },
+    {
+      "id": "aaaaaaaa-0000-0000-0000-000000000014",
+      "keycloak_user_id": "bbbbbbbb-0000-0000-0000-000000000014",
+      "email": "freelancer.4@demo.lancefy.io",
+      "username": "pat_motion",
+      "firstname": "ภัทร",
+      "lastname": "มูฟวิ่ง",
+      "bio": "Motion Designer & Video Editor เชี่ยวชาญ After Effects, Explainer Video, Motion Branding",
+      "status": "active",
+      "freelance_profile": {
+        "tagline": "Motion Designer | After Effects Expert | Explainer Videos",
+        "hourly_rate": 750,
+        "is_public": true
+      },
+      "skills": [
+        "after-effects", "premiere-pro", "cinema-4d", "blender",
+        "adobe-illustrator", "brand-strategy"
+      ]
+    },
+    {
+      "id": "aaaaaaaa-0000-0000-0000-000000000015",
+      "keycloak_user_id": "bbbbbbbb-0000-0000-0000-000000000015",
+      "email": "freelancer.5@demo.lancefy.io",
+      "username": "nong_writer",
+      "firstname": "น้อง",
+      "lastname": "นักเขียน",
+      "bio": "Content Writer & Translator ภาษาไทย-อังกฤษ เชี่ยวชาญ SEO Content, Legal Translation",
+      "status": "active",
+      "freelance_profile": {
+        "tagline": "Content Writer & Translator | TH-EN | SEO Specialist",
+        "hourly_rate": 400,
+        "is_public": true
+      },
+      "skills": [
+        "copywriting-th", "copywriting-en", "seo-writing", "content-strategy",
+        "th-en-translation", "technical-writing-skill", "wordpress"
+      ]
+    },
+    {
+      "id": "aaaaaaaa-0000-0000-0000-000000000016",
+      "keycloak_user_id": "bbbbbbbb-0000-0000-0000-000000000016",
+      "email": "freelancer.6@demo.lancefy.io",
+      "username": "tae_photo",
+      "firstname": "แต้",
+      "lastname": "ช่างภาพ",
+      "bio": "Professional Photographer เชี่ยวชาญ Product, Food, Fashion Photography และ Video",
+      "status": "active",
+      "freelance_profile": {
+        "tagline": "Photographer | Product / Food / Fashion | Studio & On-location",
+        "hourly_rate": 700,
+        "is_public": true
+      },
+      "skills": [
+        "studio-lighting", "product-styling", "photo-retouching",
+        "adobe-photoshop", "premiere-pro", "event-coverage"
+      ]
+    },
+    {
+      "id": "aaaaaaaa-0000-0000-0000-000000000017",
+      "keycloak_user_id": "bbbbbbbb-0000-0000-0000-000000000017",
+      "email": "freelancer.7@demo.lancefy.io",
+      "username": "bank_fullstack",
+      "firstname": "แบงค์",
+      "lastname": "ฟูลสแตก",
+      "bio": "DevOps & Backend Engineer มี GCP Professional Cert ทำ Microservices + K8s production มา 4 ปี",
+      "status": "active",
+      "freelance_profile": {
+        "tagline": "DevOps + Backend Engineer | K8s | GCP Certified",
+        "hourly_rate": 1200,
+        "is_public": true
+      },
+      "skills": [
+        "python", "fastapi", "nodejs", "docker", "kubernetes",
+        "gcp", "aws", "github-actions", "postgresql", "redis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "programming-tech",
+    "name": "Programming & Tech",
+    "name_th": "โปรแกรมมิ่ง & เทคโนโลยี",
+    "icon": "Code2"
+  },
+  {
+    "slug": "design-creative",
+    "name": "Design & Creative",
+    "name_th": "ดีไซน์ & ครีเอทีฟ",
+    "icon": "Palette"
+  },
+  {
+    "slug": "digital-marketing",
+    "name": "Digital Marketing",
+    "name_th": "ดิจิทัลมาร์เก็ตติ้ง",
+    "icon": "TrendingUp"
+  },
+  {
+    "slug": "writing-translation",
+    "name": "Writing & Translation",
+    "name_th": "เขียน & แปลภาษา",
+    "icon": "PenLine"
+  },
+  {
+    "slug": "video-animation",
+    "name": "Video & Animation",
+    "name_th": "วิดีโอ & แอนิเมชัน",
+    "icon": "Film"
+  },
+  {
+    "slug": "photography",
+    "name": "Photography & Imaging",
+    "name_th": "ถ่ายภาพ & งานภาพ",
+    "icon": "Camera"
+  },
+  {
+    "slug": "business-consulting",
+    "name": "Business & Consulting",
+    "name_th": "ธุรกิจ & ที่ปรึกษา",
+    "icon": "Briefcase"
+  },
+  {
+    "slug": "data-analytics",
+    "name": "Data Science & Analytics",
+    "name_th": "วิทยาศาสตร์ข้อมูล & วิเคราะห์",
+    "icon": "BarChart2"
+  },
+  {
+    "slug": "music-audio",
+    "name": "Music & Audio",
+    "name_th": "ดนตรี & เสียง",
+    "icon": "Music"
+  },
+  {
+    "slug": "other-skills",
+    "name": "Other Skills",
+    "name_th": "ทักษะอื่นๆ",
+    "icon": "Sparkles"
+  }
+]

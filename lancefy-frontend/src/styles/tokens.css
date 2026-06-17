@@ -1,0 +1,44 @@
+:root {
+  --background: 249 250 252;
+  --card: 255 255 255;
+  --surface: 255 255 255;
+
+  --input: 243 247 250;
+  --border: 231 236 242;
+
+  --foreground: 23 33 52;
+  --text-primary: 23 33 52;
+  --text-secondary: 86 99 123;
+  --text-muted: 108 120 144;
+  --text-subtle: 142 152 170;
+
+  --primary: 23 68 140;
+  --primary-hover: 19 57 117;
+  --primary-foreground: 255 255 255;
+
+  --accent: 239 245 252;
+  --accent-foreground: 23 68 140;
+
+  --success: 34 115 195;
+  --danger: 223 58 58;
+
+  --radius: 12px;
+}
+
+@keyframes card-flip {
+  from {
+    opacity: 0;
+    transform: perspective(800px) rotateY(-15deg) scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: perspective(800px) rotateY(0deg) scale(1);
+  }
+}
+
+.animate-card-flip {
+  animation: card-flip 0.6s ease-out forwards;
+  transform-origin: center center;
+  will-change: transform, opacity;
+}

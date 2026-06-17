@@ -1,0 +1,2149 @@
+{
+  "save": "บันทึก",
+  "cancel": "ยกเลิก",
+  "loading": "กำลังโหลด...",
+  "all": "ทั้งหมด",
+  "common": {
+    "view": {
+      "card": "การ์ด",
+      "table": "ตาราง"
+    },
+    "success": "สำเร็จ",
+    "errorTitle": "เกิดข้อผิดพลาด",
+    "error": "เกิดข้อผิดพลาดบางอย่าง",
+    "delete": "ลบ",
+    "deleting": "กำลังลบ...",
+    "notSpecified": "ไม่ได้ระบุ",
+    "save": "บันทึก"
+  },
+  "nav": {
+    "dashboard": "แดชบอร์ด",
+    "gallery": "แกลเลอรี",
+    "explore": "สำรวจ",
+    "jobs": "งาน",
+    "freelancers": "ฟรีแลนซ์",
+    "disputes": "ข้อพิพาท",
+    "profile": "โปรไฟล์",
+    "settings": "ตั้งค่า",
+    "logout": "ออกจากระบบ",
+    "notifications": "การแจ้งเตือน",
+    "adminBrand": "LanceFy Admin",
+    "publicProfile": "Public profile"
+  },
+  "admin": {
+    "dashboard": "แดชบอร์ด",
+    "users": "จัดการผู้ใช้",
+    "kyc": "ตรวจสอบ KYC",
+    "disputes": "ข้อพิพาท",
+    "community": "จัดการชุมชน",
+    "projects": "โปรเจกต์",
+    "payments": "การชำระเงิน",
+    "meta": {
+      "dashboard": {
+        "title": "แดชบอร์ดแอดมิน",
+        "description": "ติดตามภาพรวมการทำงานของระบบและกิจกรรมบนแพลตฟอร์ม LanceFy"
+      },
+      "users": {
+        "title": "จัดการผู้ใช้",
+        "description": "ตรวจสอบและจัดการบัญชีผู้ใช้ภายในระบบ"
+      },
+      "kyc": {
+        "title": "ตรวจสอบ KYC",
+        "description": "ตรวจสอบเอกสารยืนยันตัวตนที่ผู้ใช้ส่งเข้ามา"
+      },
+      "disputes": {
+        "title": "ข้อพิพาท",
+        "description": "ตรวจสอบและแก้ไขข้อพิพาทระหว่างลูกค้าและฟรีแลนซ์"
+      },
+      "community": {
+        "title": "จัดการชุมชน",
+        "description": "บริหารจัดการโพสและคอมเมนต์ — ทุก action จะแจ้งเตือน owner อัตโนมัติ"
+      },
+      "projects": {
+        "title": "ตรวจสอบโปรเจกต์",
+        "description": "ตรวจสอบและกำกับดูแลกิจกรรมของโปรเจกต์ในระบบ"
+      },
+      "payments": {
+        "title": "การชำระเงิน",
+        "description": "ติดตามธุรกรรมและสถานะการชำระเงิน"
+      },
+      "default": {
+        "title": "แผงควบคุมแอดมิน",
+        "description": "จัดการข้อมูลและงานดูแลระบบของแพลตฟอร์ม"
+      }
+    }
+  },
+  "dashboard": {
+    "overview": "ภาพรวม",
+    "projects": "โปรเจกต์ของฉัน",
+    "work": "งานที่รับทำ",
+    "proposals": "ข้อเสนอของฉัน",
+    "payments": "การเงิน",
+    "transactions": "ธุรกรรม",
+    "transactionsDescription": "ติดตามรายการรับเงิน จ่ายเงิน รายการรอดำเนินการ และการคืนเงินทั้งหมด",
+    "messages": "ข้อความ",
+    "disputes": "ข้อพิพาท",
+    "calendar": "ปฏิทิน"
+  },
+  "communityPage": {
+    "sidebar": {
+      "searchPlaceholder": "ค้นหาโพสต์...",
+      "clear": "ล้าง",
+      "categories": "หมวดหมู่",
+      "sortBy": "เรียงตาม"
+    },
+    "categories": {
+      "all": "ทั้งหมด",
+      "general": "ทั่วไป",
+      "artwork": "Artwork",
+      "coding": "Coding",
+      "design": "Design",
+      "writing": "Writing"
+    },
+    "sort": {
+      "latest": "ล่าสุด",
+      "reactions": "ยอดนิยม",
+      "views": "ยอดวิว"
+    },
+    "header": {
+      "eyebrow": "Community",
+      "title": "พื้นที่แชร์งานของชุมชน",
+      "titleSuffix": "updates, work-in-progress, case studies",
+      "subtitle": "รวมโพสต์ผลงาน ไอเดีย และความเคลื่อนไหวของฟรีแลนซ์ในธีมเดียวกับหน้า explore",
+      "totalPosts": "{{total}} โพสต์",
+      "categoryPrefix": "หมวด:",
+      "filtersActive": "มีตัวกรองที่ใช้งานอยู่"
+    },
+    "actions": {
+      "myPosts": "โพสต์ของฉัน",
+      "createPost": "สร้างโพสต์"
+    },
+    "filters": {
+      "title": "ตัวกรองที่ใช้",
+      "searchPrefix": "ค้นหา:",
+      "sortPrefix": "เรียงตาม:"
+    },
+    "feedPrompt": "แชร์ผลงาน โปรเจกต์ หรือ case study ของคุณ...",
+    "empty": {
+      "title": "ยังไม่มีโพสต์",
+      "filteredSubtitle": "ลองปรับคำค้นหาหรือเปลี่ยนตัวกรองดูอีกครั้ง",
+      "defaultSubtitle": "เป็นคนแรกที่แชร์อัปเดตใหม่ให้ชุมชนเห็น",
+      "createFirst": "โพสต์แรกของคุณ"
+    },
+    "pagination": {
+      "previous": "ก่อนหน้า",
+      "next": "ถัดไป"
+    },
+    "common": {
+      "cancel": "ยกเลิก",
+      "delete": "ลบ"
+    },
+    "comments": {
+      "reply": "ตอบกลับ",
+      "replyPlaceholder": "ตอบกลับ {{name}}...",
+      "hideReplies": "ซ่อนการตอบกลับ",
+      "showReplies": "ดูการตอบกลับ {{count}} รายการ",
+      "writeComment": "เขียนความคิดเห็น...",
+      "none": "ยังไม่มีความคิดเห็น"
+    },
+    "modals": {
+      "deleteReplyTitle": "ลบการตอบกลับ",
+      "deleteReplyMessage": "ต้องการลบการตอบกลับนี้ใช่ไหม? ไม่สามารถกู้คืนได้",
+      "deleteCommentTitle": "ลบความคิดเห็น",
+      "deleteCommentMessage": "ต้องการลบความคิดเห็นนี้ใช่ไหม? ไม่สามารถกู้คืนได้",
+      "deletePostTitle": "ลบโพสต์",
+      "deletePostMessage": "ต้องการลบโพสต์นี้ใช่ไหม? ไม่สามารถกู้คืนได้"
+    },
+    "post": {
+      "privateOnly": "เฉพาะฉัน",
+      "edited": "แก้ไขแล้ว",
+      "viewProfile": "ดูโปรไฟล์",
+      "sendMessage": "ส่งข้อความ",
+      "edit": "แก้ไข",
+      "deletePost": "ลบโพสต์",
+      "like": "ไลก์",
+      "comment": "ความเห็น",
+      "share": "แชร์",
+      "copied": "คัดลอกแล้ว!",
+      "deleting": "กำลังลบ...",
+      "likes": "{{count}} ไลก์",
+      "comments": "{{count}} ความเห็น",
+      "views": "{{count}} วิว"
+    },
+    "composer": {
+      "createTitle": "สร้างโพสต์ใหม่",
+      "editTitle": "แก้ไขโพสต์",
+      "visibility": {
+        "public": "สาธารณะ",
+        "private": "เฉพาะตัวเอง"
+      },
+      "placeholder": "แชร์ผลงาน โปรเจกต์ หรือ case study ของคุณ...",
+      "categoryLabel": "หมวดหมู่",
+      "imageLabel": "รูปภาพ",
+      "uploadHint": "คลิกหรือลากรูปมาวางที่นี่",
+      "save": "บันทึก",
+      "post": "โพสต์",
+      "errorFallback": "เกิดข้อผิดพลาด กรุณาลองใหม่",
+      "validation": {
+        "contentOrImage": "กรุณาใส่ข้อความหรือรูปภาพ"
+      }
+    },
+    "timeAgo": {
+      "justNow": "เมื่อกี้นี้",
+      "minuteAgo": "{{count}} นาทีที่แล้ว",
+      "minutesAgo": "{{count}} นาทีที่แล้ว",
+      "hourAgo": "{{count}} ชั่วโมงที่แล้ว",
+      "hoursAgo": "{{count}} ชั่วโมงที่แล้ว",
+      "dayAgo": "{{count}} วันที่แล้ว",
+      "daysAgo": "{{count}} วันที่แล้ว",
+      "monthAgo": "{{count}} เดือนที่แล้ว",
+      "monthsAgo": "{{count}} เดือนที่แล้ว",
+      "yearAgo": "{{count}} ปีที่แล้ว",
+      "yearsAgo": "{{count}} ปีที่แล้ว"
+    }
+  },
+  "notifications": {
+    "title": "การแจ้งเตือน",
+    "markAll": "อ่านทั้งหมด",
+    "empty": "ยังไม่มีการแจ้งเตือน",
+    "viewAll": "ดูทั้งหมด",
+    "count": "{{total}} รายการ",
+    "unread": "ยังไม่อ่าน {{count}}",
+    "deleteRead": "ลบที่อ่านแล้ว",
+    "confirmDeleteRead": "ลบการแจ้งเตือนที่อ่านแล้วทั้งหมด?",
+    "noResults": "ไม่พบการแจ้งเตือน",
+    "clearFilters": "ล้างตัวกรอง",
+    "filterAll": "ทั้งหมด",
+    "filterUnread": "ยังไม่อ่าน",
+    "filterRead": "อ่านแล้ว",
+    "allTypes": "ทุกประเภท",
+    "loading": "กำลังโหลด...",
+    "loadMore": "โหลดเพิ่มเติม ({{count}} รายการ)"
+  },
+  "notificationSettings": {
+    "title": "ตั้งค่าการแจ้งเตือน",
+    "subtitle": "เลือกประเภทการอัปเดตที่ต้องการรับ และกำหนดช่องทางการแจ้งเตือนที่เหมาะกับคุณ",
+    "loading": "กำลังโหลดการตั้งค่าการแจ้งเตือน...",
+    "preferenceTitle": "ช่องทางการแจ้งเตือน",
+    "preferenceSubtitle": "จัดการการแจ้งเตือนในแอปและทางอีเมลได้โดยไม่กระทบกฎการแจ้งเตือนเดิม",
+    "headers": {
+      "type": "ประเภทการแจ้งเตือน",
+      "inApp": "ในแอป",
+      "email": "อีเมล"
+    },
+    "groups": {
+      "proposals": "ข้อเสนอ",
+      "jobsProjects": "งานและโปรเจกต์",
+      "payments": "การชำระเงิน",
+      "messages": "ข้อความ",
+      "kycDisputes": "KYC และข้อพิพาท"
+    },
+    "actions": {
+      "save": "บันทึก",
+      "saving": "กำลังบันทึก...",
+      "saved": "บันทึกแล้ว",
+      "enableAll": "เปิดทั้งหมด",
+      "disableAll": "ปิดทั้งหมด"
+    },
+    "errors": {
+      "load": "โหลดการตั้งค่าไม่สำเร็จ",
+      "save": "บันทึกไม่สำเร็จ กรุณาลองใหม่อีกครั้ง"
+    }
+  },
+  "portfolioPage": {
+    "hero": {
+      "title": "พื้นที่จัดการพอร์ตโฟลิโอ",
+      "subtitle": "รวมผลงานเด่นของคุณไว้เป็นโฟลเดอร์อย่างเป็นระเบียบ เพื่อให้ลูกค้าดูงาน ความถนัด และ case study ได้ง่ายในที่เดียว"
+    },
+    "section": {
+      "title": "ผลงานของฉัน",
+      "subtitle": "สร้างโฟลเดอร์ อัปโหลดภาพหรือวิดีโอ และจัดพอร์ตให้พร้อมนำเสนอเสมอ"
+    },
+    "actions": {
+      "newFolder": "เพิ่มโฟลเดอร์",
+      "create": "สร้างโฟลเดอร์"
+    },
+    "meta": {
+      "verified": "ยืนยันแล้ว",
+      "hourlyRate": "฿{{value}} / ชม.",
+      "foldersCount": "{{count}} โฟลเดอร์",
+      "filesCount": "{{count}} ไฟล์"
+    },
+    "visibility": {
+      "public": "สาธารณะ",
+      "private": "ส่วนตัว"
+    },
+    "form": {
+      "titleLabel": "ชื่อโฟลเดอร์",
+      "titlePlaceholder": "ชื่อโฟลเดอร์ เช่น UI Design หรือ Product Renders",
+      "descriptionLabel": "คำอธิบาย",
+      "descriptionPlaceholder": "ใส่คำอธิบายสั้น ๆ เกี่ยวกับผลงานในโฟลเดอร์นี้"
+    },
+    "create": {
+      "title": "สร้างโฟลเดอร์ใหม่",
+      "subtitle": "เตรียมพื้นที่แสดงผลงานให้เรียบร้อยก่อนเริ่มอัปโหลดไฟล์"
+    },
+    "upload": {
+      "title": "อัปโหลดไฟล์",
+      "subtitle": "คลิกหรือลากไฟล์ภาพและวิดีโอมาวางที่นี่",
+      "multi": "รองรับหลายไฟล์",
+      "uploading": "กำลังอัปโหลด {{count}} ไฟล์..."
+    },
+    "empty": {
+      "title": "ยังไม่มีโฟลเดอร์พอร์ตโฟลิโอ",
+      "subtitle": "สร้างโฟลเดอร์แรกเพื่อเริ่มจัดหมวดผลงาน ตัวอย่างงาน และเดโมสำหรับลูกค้า"
+    },
+    "emptyFolder": {
+      "title": "ยังไม่มีไฟล์ในโฟลเดอร์นี้",
+      "subtitle": "สลับเป็นโหมดแก้ไขแล้วอัปโหลดรูปหรือวิดีโอแรกได้เลย"
+    }
+  },
+  "publicProfilePage": {
+    "hero": {
+      "eyebrow": "Public Profile"
+    },
+    "actions": {
+      "back": "à¸¢à¹‰à¸­à¸™à¸à¸¥à¸±à¸š",
+      "editProfile": "à¹à¸à¹‰à¹„à¸‚à¹‚à¸›à¸£à¹„à¸Ÿà¸¥à¹Œ",
+      "editPortfolio": "à¹à¸à¹‰à¹„à¸‚à¸žà¸­à¸£à¹Œà¸•à¹‚à¸Ÿà¸¥à¸´à¹‚à¸­"
+    },
+    "sections": {
+      "skills": "à¸—à¸±à¸à¸©à¸°",
+      "portfolio": "à¸œà¸¥à¸‡à¸²à¸™",
+      "portfolioSubtitle": "à¸£à¸§à¸¡à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡à¸‡à¸²à¸™ case study à¹à¸¥à¸°à¸œà¸¥à¸‡à¸²à¸™à¸ªà¸²à¸˜à¸²à¸£à¸“à¸°à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸à¹à¸ªà¸”à¸‡à¹„à¸§à¹‰",
+      "reviews": "à¸£à¸µà¸§à¸´à¸§"
+    },
+    "meta": {
+      "verified": "à¸¢à¸·à¸™à¸¢à¸±à¸™à¹à¸¥à¹‰à¸§",
+      "hourlyRate": "à¸¿{{value}} / à¸Šà¸¡.",
+      "foldersCount": "{{count}} à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œ",
+      "filesCount": "{{count}} à¹„à¸Ÿà¸¥à¹Œ",
+      "reviewsCount": "{{count}} à¸£à¸µà¸§à¸´à¸§"
+    },
+    "fallbacks": {
+      "user": "à¹„à¸¡à¹ˆà¸—à¸£à¸²à¸šà¸Šà¸·à¹ˆà¸­à¸œà¸¹à¹‰à¹ƒà¸Šà¹‰",
+      "portfolio": "Portfolio {{number}}"
+    },
+    "notFound": {
+      "title": "à¹„à¸¡à¹ˆà¸žà¸šà¹‚à¸›à¸£à¹„à¸Ÿà¸¥à¹Œà¸™à¸µà¹‰",
+      "subtitle": "à¹€à¸£à¸²à¹„à¸¡à¹ˆà¸žà¸šà¸«à¸™à¹‰à¸² public profile à¸—à¸µà¹ˆà¸•à¹‰à¸­à¸‡à¸à¸²à¸£ à¸­à¸²à¸ˆà¸–à¸¹à¸à¸¥à¸šà¹„à¸›à¹à¸¥à¹‰à¸§à¸«à¸£à¸·à¸­à¸¥à¸´à¸‡à¸à¹Œà¹„à¸¡à¹ˆà¸–à¸¹à¸à¸•à¹‰à¸­à¸‡"
+    },
+    "emptyBio": "à¸œà¸¹à¹‰à¹ƒà¸Šà¹‰à¸„à¸™à¸™à¸µà¹‰à¸¢à¸±à¸‡à¹„à¸¡à¹ˆà¹„à¸”à¹‰à¹€à¸žà¸´à¹ˆà¸¡à¸„à¸³à¹à¸™à¸°à¸™à¸³à¸•à¸±à¸§à¸ªà¸²à¸˜à¸²à¸£à¸“à¸°",
+    "emptyPortfolio": {
+      "title": "à¸¢à¸±à¸‡à¹„à¸¡à¹ˆà¸¡à¸µà¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡à¸œà¸¥à¸‡à¸²à¸™",
+      "subtitle": "à¹€à¸¡à¸·à¹ˆà¸­à¸œà¸¹à¹‰à¹ƒà¸Šà¹‰à¸„à¸™à¸™à¸µà¹‰à¹€à¸£à¸´à¹ˆà¸¡à¹à¸Šà¸£à¹Œà¸œà¸¥à¸‡à¸²à¸™à¸ªà¸²à¸˜à¸²à¸£à¸“à¸° à¸ˆà¸°à¹à¸ªà¸”à¸‡à¹ƒà¸™à¸ªà¹ˆà¸§à¸™à¸™à¸µà¹‰"
+    },
+    "emptyPortfolioFolder": "à¸¢à¸±à¸‡à¹„à¸¡à¹ˆà¸¡à¸µà¹„à¸Ÿà¸¥à¹Œà¹ƒà¸™à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œà¸™à¸µà¹‰",
+    "emptyReviews": {
+      "title": "à¸¢à¸±à¸‡à¹„à¸¡à¹ˆà¸¡à¸µà¸£à¸µà¸§à¸´à¸§",
+      "subtitle": "à¸„à¸§à¸²à¸¡à¹€à¸«à¹‡à¸™à¸ˆà¸²à¸à¸¥à¸¹à¸à¸„à¹‰à¸²à¹à¸¥à¸°à¸£à¸µà¸§à¸´à¸§à¸ˆà¸²à¸à¸‡à¸²à¸™à¸—à¸µà¹ˆà¸ªà¸³à¹€à¸£à¹‡à¸ˆà¹à¸¥à¹‰à¸§à¸ˆà¸°à¹à¸ªà¸”à¸‡à¸—à¸µà¹ˆà¸™à¸µà¹ˆ"
+    },
+    "reviewBy": "à¹‚à¸”à¸¢ {{name}}",
+    "portfolioItemAlt": "à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡à¸œà¸¥à¸‡à¸²à¸™"
+  },
+  "project": {
+    "create": "สร้างโปรเจกต์",
+    "title": "โปรเจกต์ของฉัน",
+    "subtitle": "โปรเจกต์ทั้งหมดที่คุณเป็นเจ้าของ",
+    "offerTitle": "ส่งข้อเสนอ",
+    "offer": "ส่งข้อเสนอ",
+    "offerModal": {
+      "title": "ส่งข้อเสนอ",
+      "subtitle": "ระบุงบประมาณและข้อความถึงผู้ว่าจ้าง",
+      "milestonesTitle": "ไมล์สโตน",
+      "milestoneTitle": "ไมล์สโตน {{number}}",
+      "addMilestone": "+ เพิ่มไมล์สโตน",
+      "removeMilestone": "ลบ",
+      "titlePlaceholder": "ชื่อไมล์สโตน",
+      "budgetLabel": "งบที่เสนอ",
+      "budgetPlaceholder": "เช่น 25000",
+      "durationLabel": "ระยะเวลา (วัน)",
+      "durationPlaceholder": "เช่น 7",
+      "detailLabel": "รายละเอียด",
+      "detailPlaceholder": "อธิบายสิ่งที่ต้องส่งมอบในไมล์สโตนนี้...",
+      "totalBudget": "งบรวม",
+      "mustMatchProjectBudget": "ยอดรวมไมล์สโตนต้องเท่ากับงบโปรเจกต์",
+      "messageLabel": "ข้อความ",
+      "messagePlaceholder": "แนะนำตัวและอธิบายแนวทางการทำงาน...",
+      "submit": "ส่งข้อเสนอ",
+      "cancel": "ยกเลิก"
+    },
+    "offerToast": {
+      "success": "ส่งข้อเสนอเรียบร้อย",
+      "error": "ไม่สามารถส่งข้อเสนอได้",
+      "invalidBudget": "กรุณากรอกงบประมาณให้ถูกต้อง",
+      "invalidMilestones": "กรุณากรอกรายละเอียดไมล์สโตนให้ครบ",
+      "counterBudgetMustMatch": "ยอดรวม Counter Offer ต้องเท่าราคาเดิม ({{budget}} {{currency}})",
+      "counterNoChanges": "ไม่มีการเปลี่ยนแปลงใน Counter Offer",
+      "exceedsProjectBudget": "ยอด Counter Offer เกินงบโปรเจกต์ ({{budget}} {{currency}})"
+    },
+    "exploreJobDetailPage": {
+      "notFound": "ไม่พบโปรเจกต์",
+      "backToBoard": "กลับไปบอร์ดหางาน",
+      "postedAt": "โพสต์เมื่อ {{date}}",
+      "deadline": "ครบกำหนด: {{date}}",
+      "budgetWithCurrency": "งบประมาณ ({{currency}})",
+      "jobDetails": "รายละเอียดงาน",
+      "noDescription": "ไม่ได้ระบุรายละเอียดเพิ่มเติม",
+      "clientInfoTitle": "ข้อมูลลูกค้า",
+      "clientPrefix": "Client #{{id}}",
+      "projectOwner": "เจ้าของโปรเจกต์",
+      "interestedTitle": "สนใจงานนี้?",
+      "loadingOfferStatus": "กำลังโหลดสถานะข้อเสนอ...",
+      "statusLabel": "สถานะ:",
+      "offerPrompt": "ส่งข้อเสนอพร้อมราคาของคุณ",
+      "statsTitle": "สถิติงาน",
+      "budget": "งบประมาณ",
+      "status": "สถานะ",
+      "postedAtLabel": "โพสต์เมื่อ",
+      "deadlineLabel": "ครบกำหนด"
+    },
+    "backToProjects": "กลับไปหน้าโปรเจกต์",
+    "backToDetail": "กลับไปหน้าโปรเจกต์",
+    "createdAt": "สร้างเมื่อ {{date}}",
+    "description": "รายละเอียด",
+    "deadline": "วันส่งมอบ",
+    "proposals": "ข้อเสนอจากฟรีแลนซ์",
+    "noProposals": "ยังไม่มีข้อเสนอ",
+    "noProposalsHint": "เมื่อเผยแพร่โปรเจกต์แล้ว ฟรีแลนซ์จะเริ่มส่งข้อเสนอเข้ามา",
+    "activity": "กิจกรรม",
+    "activityEmpty": "ยังไม่มีกิจกรรม",
+    "info": "ข้อมูลโปรเจกต์",
+    "budget": "งบประมาณ",
+    "category": "หมวดหมู่",
+    "manage": "จัดการโปรเจกต์",
+    "projectId": "รหัสโปรเจกต์",
+    "managePage": {
+      "breadcrumb": {
+        "projects": "โปรเจกต์"
+      },
+      "extendRequest": "ขอขยายเวลา",
+      "tabs": {
+        "overview": "ภาพรวม",
+        "board": "บอร์ด",
+        "milestones": "ไมล์สโตน",
+        "chat": "แชท",
+        "files": "ไฟล์แนบ",
+        "activity": "กิจกรรม"
+      },
+      "sections": {
+        "details": "รายละเอียดโปรเจกต์"
+      },
+      "fields": {
+        "category": "หมวดหมู่",
+        "paymentModel": "รูปแบบการชำระเงิน",
+        "paymentModelValue": "จ่ายตามไมล์สโตน",
+        "budget": "งบประมาณ",
+        "createdAt": "วันที่สร้าง",
+        "scope": "ขอบเขตงาน"
+      },
+      "paymentSummary": {
+        "title": "สรุปการชำระเงิน",
+        "total": "งบประมาณรวม",
+        "funded": "ฝากเงินแล้ว",
+        "released": "จ่ายแล้ว",
+        "remaining": "คงเหลือ"
+      },
+      "participants": {
+        "title": "ผู้เกี่ยวข้อง",
+        "client": "ลูกค้า",
+        "freelancer": "ฟรีแลนซ์",
+        "freelancerAssigned": "ฟรีแลนซ์ #{{id}}",
+        "notAssigned": "ยังไม่ได้มอบหมาย"
+      },
+      "offers": {
+        "title": "ข้อเสนอจากฟรีแลนซ์",
+        "loading": "กำลังโหลดข้อเสนอ...",
+        "empty": "ยังไม่มีข้อเสนอ",
+        "freelancerPrefix": "ฟรีแลนซ์",
+        "submittedAt": "ส่งเมื่อ {{date}}",
+        "pendingSelfTitle": "คุณส่งข้อเสนอแล้ว",
+        "pendingSelfSubtitle": "ข้อเสนอของคุณอยู่ระหว่างรอการพิจารณา",
+        "editMilestones": "แก้ไข Milestones",
+        "editMilestonesSubtitle": "แก้ไข milestones ในข้อเสนอของคุณก่อนที่ลูกค้าจะตัดสินใจ",
+        "saveMilestones": "บันทึก Milestones",
+        "editMilestonesSuccess": "อัปเดต Milestones เรียบร้อย",
+        "editMilestonesError": "ไม่สามารถอัปเดต Milestones ได้",
+        "counter": "ยื่นข้อเสนอกลับ",
+        "counterTitle": "ยื่นข้อเสนอกลับ",
+        "counterSubtitle": "ปรับงบ ไมล์สโตน หรือข้อความ แล้วส่งเงื่อนไขใหม่ให้ฟรีแลนซ์",
+        "counterSubmit": "ส่งข้อเสนอกลับ",
+        "viewCounter": "ดู Counter Offer",
+        "counterSuccess": "ส่งข้อเสนอกลับเรียบร้อย",
+        "counterError": "ไม่สามารถส่งข้อเสนอกลับได้",
+        "counterAcceptSuccess": "ตอบรับ Counter Offer เรียบร้อย",
+        "counterAcceptError": "ไม่สามารถตอบรับ Counter Offer ได้",
+        "withdraw": "ถอนข้อเสนอ",
+        "withdrawConfirm": "ต้องการถอนข้อเสนอนี้ใช่หรือไม่?",
+        "withdrawSuccess": "ถอนข้อเสนอเรียบร้อย",
+        "withdrawError": "ไม่สามารถถอนข้อเสนอได้",
+        "rejectConfirmTitle": "ปฏิเสธข้อเสนอ",
+        "rejectConfirmDescription": "โปรดระบุเหตุผลเพื่อแจ้งให้ฟรีแลนซ์ทราบ",
+        "rejectReasonLabel": "เหตุผลในการปฏิเสธ",
+        "rejectReasonPlaceholder": "ระบุเหตุผล เช่น งบประมาณหรือแผนงานยังไม่ตรงความต้องการ",
+        "rejectReasonRequired": "กรุณาระบุเหตุผลในการปฏิเสธ",
+        "rejectSuccess": "ปฏิเสธข้อเสนอเรียบร้อย",
+        "rejectError": "ไม่สามารถปฏิเสธข้อเสนอได้",
+        "accept": "รับข้อเสนอ",
+        "reject": "ปฏิเสธข้อเสนอ",
+        "chat": "แชท",
+        "counterPending": "รอการตอบกลับ Counter",
+        "accepted": "รับข้อเสนอแล้ว",
+        "rejected": "ปฏิเสธข้อเสนอแล้ว",
+        "confirmHire": "ต้องการจ้างฟรีแลนซ์คนนี้ใช่หรือไม่?",
+        "hireSuccess": "จ้างงานสำเร็จ",
+        "dealAcceptedToast": "ข้อเสนอได้รับการยอมรับแล้ว กรุณาพูดคุยต่อในห้องแชท",
+        "hireError": "ไม่สามารถจ้างงานได้ในขณะนี้",
+        "chatError": "ไม่สามารถเริ่มแชทได้"
+      },
+      "milestones": {
+        "due": "ครบกำหนด {{date}}",
+        "submitWork": "ส่งงาน",
+        "viewDetail": "ดูรายละเอียด",
+        "reviewSubmission": "ตรวจงานที่ส่ง",
+        "numbered": "ไมล์สโตน {{number}}",
+        "status": "สถานะ",
+        "paidStatus": "สถานะการจ่ายเงิน",
+        "reviewStatus": "สถานะการตรวจงาน"
+      },
+      "reviewToast": {
+        "missing": "ไม่พบงานที่ส่งให้ตรวจ",
+        "success": "บันทึกการตรวจงานแล้ว",
+        "error": "ไม่สามารถบันทึกการตรวจงานได้"
+      },
+      "board": {
+        "title": "บอร์ดงานโปรเจกต์",
+        "subtitle": "ภาพรวมการทำงานของไมล์สโตน",
+        "noTasks": "ไม่มีงาน",
+        "noDueDate": "ไม่มีกำหนดส่ง",
+        "funded": "ฝากเงินแล้ว",
+        "columns": {
+          "todo": "ต้องทำ",
+          "inProgress": "กำลังทำ",
+          "review": "ตรวจงาน",
+          "done": "เสร็จแล้ว"
+        }
+      },
+      "badges": {
+        "inReview": "กำลังตรวจงาน",
+        "done": "เสร็จแล้ว",
+        "uncomplete": "ยังไม่เสร็จ",
+        "inProgress": "กำลังทำ",
+        "funded": "ฝากเงินแล้ว",
+        "released": "จ่ายแล้ว",
+        "reservedGateway": "กันเงินไว้ (Gateway)",
+        "unfunded": "ยังไม่ฝากเงิน",
+        "submitted": "รออนุมัติ",
+        "approved": "อนุมัติแล้ว",
+        "rejected": "ถูกปฏิเสธ",
+        "revisionRequested": "ขอแก้ไข"
+      },
+      "chatPanel": {
+        "title": "แชทโปรเจกต์",
+        "subtitle": "พื้นที่แชทตรงระหว่างเจ้าของโปรเจกต์และผู้รับงาน",
+        "accessDenied": "เฉพาะเจ้าของโปรเจกต์และผู้รับงานเท่านั้นที่ใช้งานแชทนี้ได้",
+        "noAssignment": "โปรเจกต์นี้ยังไม่มีการมอบหมายผู้รับงาน",
+        "loading": "กำลังโหลดบทสนทนา...",
+        "empty": "ยังไม่มีข้อความ",
+        "placeholder": "พิมพ์ข้อความ...",
+        "send": "ส่ง",
+        "you": "คุณ",
+        "unknownUser": "ผู้ใช้ไม่ทราบชื่อ",
+        "file": "ไฟล์แนบ",
+        "today": "วันนี้",
+        "yesterday": "เมื่อวาน",
+        "loadError": "ไม่สามารถโหลดบทสนทนาได้",
+        "sendError": "ไม่สามารถส่งข้อความได้"
+      },
+      "filesPanel": {
+        "title": "ไฟล์แนบทั้งหมด",
+        "subtitle": "ไฟล์และรูปที่เจ้าของโปรเจกต์กับผู้รับงานเคยส่งทั้งหมด",
+        "loading": "กำลังโหลดไฟล์แนบ...",
+        "empty": "ยังไม่พบไฟล์แนบ",
+        "file": "ไฟล์แนบ",
+        "image": "รูปภาพ",
+        "fromProject": "ไฟล์แนบโปรเจกต์",
+          "fromMilestone": "ไมล์สโตน: {{title}}"
+      },
+      "activityPanel": {
+        "title": "ไทม์ไลน์กิจกรรม",
+        "subtitle": "เหตุการณ์ของโปรเจกต์จากแชท ไมล์สโตน และ workflow",
+        "loading": "กำลังโหลดกิจกรรม...",
+        "empty": "ยังไม่มีกิจกรรม",
+        "actorMe": "Me",
+        "actorCreator": "ผู้จัดทำ",
+        "projectCreated": "สร้างโปรเจกต์",
+        "projectPublished": "เผยแพร่โปรเจกต์",
+        "assignmentStarted": "มอบหมายผู้รับงาน",
+        "offerSubmitted": "มีการส่งข้อเสนอ",
+        "milestoneCreated": "สร้างไมล์สโตน",
+        "workSubmitted": "ส่งงานแล้ว",
+        "workApproved": "อนุมัติงานแล้ว",
+        "workRejected": "ปฏิเสธงาน",
+        "workReviewed": "ตรวจงานแล้ว",
+        "filesAttached": "แนบไฟล์ {{count}} ไฟล์",
+        "chatMessage": "ข้อความแชท",
+        "chatImage": "ส่งรูปในแชท",
+        "chatFile": "ส่งไฟล์ในแชท"
+      },
+      "emptyTab": "ยังไม่มีข้อมูลในแท็บนี้"
+    },
+    "completionPanel": {
+      "title": "🎉 จบงานโปรเจกต์ (Completion)",
+      "subtitle": "งานทั้งหมดเสร็จสิ้นแล้ว กรุณากดยืนยันเพื่อปิดโปรเจกต์",
+      "client": "ลูกค้า (CLIENT)",
+      "freelancer": "ฟรีแลนซ์ (FREELANCER)",
+      "approved": "ยืนยันแล้ว",
+      "pending": "รอยืนยัน",
+      "confirmButton": "ยืนยันจบงาน",
+      "saving": "กำลังบันทึก...",
+      "confirmed": "คุณได้ยืนยันจบงานแล้ว"
+    },
+    "submitWork": {
+      "title": "ส่งงาน",
+      "milestoneLabel": "ไมล์สโตน",
+      "untitledMilestone": "ไมล์สโตนไม่มีชื่อ",
+      "uploadFiles": "อัปโหลดไฟล์",
+      "clickToUpload": "คลิกเพื่ออัปโหลด",
+      "dragAndDrop": "หรือลากไฟล์มาวาง",
+      "fileTypes": "PNG, JPG, WEBP, PDF, DOCX, ZIP, PSD, AI ขนาดไม่เกิน 20MB",
+      "submissionNotes": "หมายเหตุการส่งงาน",
+      "notesPlaceholder": "อธิบายสิ่งที่ส่งมอบและหมายเหตุให้ลูกค้า...",
+      "submit": "ส่งงาน",
+      "details": {
+        "title": "รายละเอียดไมล์สโตน",
+        "amount": "จำนวนเงิน",
+        "dueDate": "กำหนดส่ง",
+        "status": "สถานะ",
+        "submissionDetail": "รายละเอียดงานที่ส่ง",
+        "lastSubmitted": "ส่งล่าสุด"
+      },
+      "tips": {
+        "title": "คำแนะนำ",
+        "items": {
+          "upload": "อัปโหลดไฟล์ตามรายการที่ระบุในไมล์สโตน",
+          "notes": "ใส่รายละเอียดงานให้ชัดเจน",
+          "review": "ลูกค้าจะตรวจและอนุมัติหรือขอแก้ไข",
+          "release": "ระบบจะปล่อยเงินหลังอนุมัติ"
+        }
+      },
+      "errors": {
+        "notFound": "ไม่พบไมล์สโตน",
+        "onlyAssignee": "เฉพาะผู้รับงานเท่านั้นที่สามารถส่งงานได้",
+        "alreadySubmitted": "มีการส่งงานรอการตรวจอยู่แล้ว",
+        "alreadyApproved": "ไมล์สโตนนี้อนุมัติเรียบร้อยแล้ว",
+        "previousMilestoneRequired": "กรุณาส่งและให้งานไมล์สโตนก่อนหน้าเสร็จก่อน จึงจะส่งไมล์สโตนนี้ได้"
+      },
+      "toast": {
+        "success": "ส่งงานเรียบร้อยแล้ว",
+        "error": "ส่งงานไม่สำเร็จ"
+      }
+    },
+    "reviewSubmissionPage": {
+      "title": "ตรวจงานที่ส่ง",
+      "submittedFiles": "ไฟล์ที่ส่งมา",
+      "noSubmittedFiles": "ยังไม่พบไฟล์แนบจากการส่งงานนี้",
+      "freelancerNote": "ข้อความจากฟรีแลนซ์",
+      "reviewActions": "การตรวจงาน",
+      "summary": {
+        "amount": "จำนวนเงิน",
+        "dueDate": "กำหนดส่ง",
+        "freelancer": "ฟรีแลนซ์"
+      },
+      "approve": {
+        "title": "อนุมัติและปล่อยเงิน",
+        "description": "งานผ่านตามที่ตกลง ระบบจะปล่อยเงินให้ฟรีแลนซ์ทันที",
+        "button": "อนุมัติและปล่อยเงิน"
+      },
+      "revision": {
+        "title": "ขอแก้ไขงาน",
+        "description": "ระบุสิ่งที่ต้องแก้ไขให้ชัดเจน เพื่อให้ฟรีแลนซ์ส่งงานใหม่",
+        "placeholder": "อธิบายสิ่งที่ต้องแก้ไข...",
+        "button": "ส่งคำขอแก้ไข"
+      },
+      "dispute": {
+        "title": "เปิดข้อพิพาท",
+        "description": "ใช้เมื่อมีปัญหาร้ายแรงที่ต้องให้ระบบเข้ามาไกล่เกลี่ย",
+        "placeholder": "ระบุรายละเอียดข้อพิพาท...",
+        "button": "เปิดข้อพิพาท"
+      },
+      "details": {
+        "title": "สรุปการชำระเงิน",
+        "milestoneAmount": "มูลค่าไมล์สโตน",
+        "platformFee": "ค่าธรรมเนียมแพลตฟอร์ม (5%)",
+        "freelancerReceives": "ฟรีแลนซ์จะได้รับ",
+        "dueDate": "กำหนดส่ง",
+        "status": "สถานะ",
+        "paidStatus": "สถานะการจ่ายเงิน",
+        "submittedAt": "ส่งงานเมื่อ"
+      },
+      "tips": {
+        "title": "Review Tips",
+        "items": {
+          "files": "ตรวจไฟล์ที่ส่งว่าครบและเปิดใช้งานได้",
+          "scope": "ตรวจว่างานตรงตามขอบเขตที่ตกลง",
+          "feedback": "หากต้องแก้ไข ให้ feedback ที่ชัดเจน",
+          "dispute": "ใช้ข้อพิพาทเมื่อจำเป็นจริงๆ"
+        }
+      },
+      "errors": {
+        "notFound": "ไม่พบไมล์สโตน",
+        "onlyClient": "เฉพาะเจ้าของงานเท่านั้นที่ตรวจงานได้",
+        "noSubmission": "ยังไม่มีงานที่ส่งมาให้ตรวจ",
+        "alreadyReviewed": "งานนี้ถูกตรวจไปแล้ว",
+        "revisionRequired": "กรุณาระบุข้อความที่ต้องการให้แก้ไข",
+        "disputeRequired": "กรุณาระบุรายละเอียดข้อพิพาท"
+      },
+      "toast": {
+        "approveSuccess": "อนุมัติและปล่อยเงินเรียบร้อยแล้ว",
+        "approveError": "ไม่สามารถอนุมัติหรือปล่อยเงินได้",
+        "revisionSuccess": "ส่งคำขอแก้ไขเรียบร้อยแล้ว",
+        "revisionError": "ไม่สามารถส่งคำขอแก้ไขได้",
+        "disputeUnavailable": "ระบบเปิดข้อพิพาทยังไม่พร้อมใช้งาน"
+      }
+    },
+    "milestones": "Milestone",
+    "milestonesEmpty": "ยังไม่มี milestone",
+    "payments": "การชำระเงิน",
+    "paymentsEmpty": "ยังไม่มีข้อมูลการชำระเงิน",
+    "settings": "การตั้งค่าโปรเจกต์",
+    "edit": "แก้ไขโปรเจกต์",
+    "report": "รายงาน",
+    "archive": "เก็บถาวร",
+    "close": "ปิดโปรเจกต์",
+    "confirmDelete": "คุณแน่ใจหรือไม่ว่าต้องการลบโปรเจกต์นี้?",
+    "deleteTitle": "ลบโปรเจกต์",
+    "deleteDescription": "คุณแน่ใจหรือไม่ว่าต้องการลบโปรเจกต์นี้? การกระทำนี้ไม่สามารถย้อนกลับได้",
+    "deleteSuccess": "ลบโปรเจกต์เรียบร้อยแล้ว",
+    "deleteError": "ไม่สามารถลบโปรเจกต์ได้",
+    "saveDraftSuccess": "บันทึกร่างเรียบร้อยแล้ว",
+    "saveDraftError": "ไม่สามารถบันทึกร่างได้",
+    "publishSuccess": "เผยแพร่โปรเจกต์เรียบร้อยแล้ว",
+    "publishError": "ไม่สามารถเผยแพร่โปรเจกต์ได้",
+    "searchPlaceholder": "ค้นหาโปรเจกต์...",
+    "createPage": {
+      "title": "สร้างโปรเจกต์ใหม่",
+      "subtitle": "ตั้งค่าโปรเจกต์ของคุณพร้อม milestone และระบบ escrow",
+      "intro": {
+        "createTitle": "ลงประกาศงาน",
+        "editTitle": "แก้ไขรายละเอียดงาน",
+        "subtitle": "กรอกรายละเอียดให้ครบเพื่อดึงดูด Freelancer คุณภาพ"
+      },
+      "sections": {
+        "title": {
+          "title": "ชื่องาน",
+          "description": "เขียนชื่อให้กระชับและชัดเจน เช่น ออกแบบโลโก้ร้านกาแฟสไตล์ minimal"
+        },
+        "category": {
+          "title": "หมวดหมู่",
+          "description": "เลือกได้หลายหมวดหมู่ ถ้าไม่มีกดอื่นๆ แล้วพิมพ์เพิ่มได้เลย"
+        },
+        "description": {
+          "title": "รายละเอียดงาน",
+          "description": "อธิบาย scope งาน สิ่งที่ต้องการ และ deliverable รองรับการจัดรูปแบบข้อความ"
+        },
+        "images": {
+          "title": "รูปภาพอ้างอิง",
+          "description": "แนบ mood board, reference หรือตัวอย่างงานที่ชอบ (ไม่บังคับ)",
+          "coverTipStrong": "รูปแรกจะเป็น cover ของการ์ด",
+          "coverTip": "ที่แสดงในหน้า Explore เลือกรูปที่ดูดีที่สุดไว้ลำดับแรก"
+        },
+        "budget": {
+          "title": "งบประมาณ & กำหนดส่ง",
+          "description": "ระบุงบรวม จะช่วยให้ Freelancer ประเมินงานได้ถูกต้อง"
+        }
+      },
+      "autosave": "ร่างถูกบันทึกอัตโนมัติ",
+      "imageUploadError": "อัปโหลดรูปภาพไม่สำเร็จ",
+      "step": {
+        "details": "รายละเอียดโปรเจกต์",
+        "review": "ตรวจสอบ"
+      },
+      "form": {
+        "title": "ชื่อโปรเจกต์",
+        "titlePlaceholder": "เช่น ออกแบบตัวละครสำหรับเกมมือถือ",
+        "category": "หมวดหมู่",
+        "categoryPlaceholder": "เลือกหมวดหมู่",
+        "scope": "ขอบเขตงาน",
+        "scopePlaceholder": "อธิบายรายละเอียดงาน สิ่งที่ต้องส่งมอบ และความคาดหวัง...",
+        "deadlineDate": "กำหนดวันสิ้นสุด",
+        "deadlineDatePlaceholder": "เลือกวันสิ้นสุด",
+        "budget": "งบประมาณรวม",
+        "budgetPlaceholder": "เช่น 25000",
+        "currency": "สกุลเงิน"
+      },
+      "action": {
+        "next": "ถัดไป: ตรวจสอบ",
+        "back": "ย้อนกลับ",
+        "create": "สร้างโปรเจกต์",
+        "saveDraft": "บันทึกร่าง",
+        "publish": "เผยแพร่โปรเจกต์"
+      }
+    },
+    "editPage": {
+      "title": "แก้ไขโปรเจกต์",
+      "subtitle": "อัปเดตรายละเอียดโปรเจกต์ของคุณ"
+    },
+    "status": {
+      "label": "สถานะ",
+      "all": "ทั้งหมด",
+      "pending": "รอพิจารณา",
+      "draft": "ร่าง",
+      "open": "เปิดรับงาน",
+      "expired": "หมดอายุ",
+      "active": "กำลังดำเนินงาน",
+      "closed": "ปิดงาน",
+      "complete": "เสร็จสิ้น",
+      "completed": "เสร็จสิ้น",
+      "cancelled": "ยกเลิก"
+    },
+    "table": {
+      "project": "โปรเจกต์",
+      "freelancer": "ฟรีแลนซ์",
+      "category": "หมวดหมู่",
+      "status": "สถานะ",
+      "budget": "งบประมาณ",
+      "progress": "ความคืบหน้า",
+      "notAssigned": "ยังไม่ได้มอบหมาย",
+      "created": "วันที่สร้าง",
+      "actions": "การดำเนินการ",
+      "viewJob": "ดูงาน",
+      "viewProject": "ดูโปรเจกต์",
+      "showing": "แสดง {{start}}–{{end}} จากทั้งหมด {{total}} รายการ",
+      "prev": "ก่อนหน้า",
+      "next": "ถัดไป",
+      "per_page": "{{count}} / หน้า"
+    },
+    "empty": {
+      "title": "ไม่พบโปรเจกต์",
+      "subtitle": "ลองเปลี่ยนตัวกรองสถานะดู"
+    },
+    "firstEmpty": {
+      "title": "เริ่มต้นสร้างโปรเจกต์แรกของคุณ",
+      "subtitle": "สร้างโปรเจกต์แรก และจัดการงานทั้งหมดของคุณได้ที่นี่"
+    },
+    "summary": {
+      "total": "โปรเจกต์ทั้งหมด",
+      "active": "กำลังดำเนินการ",
+      "completed": "เสร็จสิ้น"
+    },
+    "error": {
+      "notFound": "ไม่พบโปรเจกต์"
+    }
+  },
+  "jobs": {
+    "categories": "หมวดหมู่",
+    "newJob": "งานใหม่",
+    "detailPage": {
+      "notFound": "ไม่พบงาน",
+      "backToList": "กลับไปหน้ารายการงาน",
+      "jobDetails": "รายละเอียดงาน",
+      "noDescription": "ไม่มีรายละเอียด",
+      "receivedProposals": "ข้อเสนอที่ได้รับ ({{count}})",
+      "noProposals": "ยังไม่มีข้อเสนอ",
+      "clientInfoTitle": "ข้อมูลลูกค้า",
+      "unknownOwner": "ไม่ทราบชื่อ",
+      "sendProposal": "ส่งข้อเสนอ",
+      "jobType": {
+        "hire": "จ้างงาน",
+        "service": "เสนอบริการ"
+      },
+      "summary": {
+        "title": "สรุปงาน",
+        "budget": "งบประมาณ",
+        "deliveryDate": "ครบกำหนด",
+        "proposals": "ข้อเสนอ",
+        "type": "ประเภท"
+      },
+      "status": {
+        "pending": "รอตอบรับ",
+        "accepted": "รับแล้ว ✅",
+        "rejected": "ถูกปฏิเสธ",
+        "withdrawn": "ถอนแล้ว"
+      },
+      "form": {
+        "proposedBudget": "งบประมาณที่เสนอ (บาท)",
+        "proposedBudgetPlaceholder": "เว้นว่างไว้ถ้าจะเจรจาต่อรอง",
+        "message": "ข้อความ",
+        "messagePlaceholder": "แนะนำตัวเองและอธิบายว่าคุณเหมาะสมกับงานนี้อย่างไร...",
+        "submit": "ยืนยันส่ง",
+        "submitting": "กำลังส่ง..."
+      },
+      "toast": {
+        "submitSuccess": "ส่งข้อเสนอสำเร็จ",
+        "submitError": "ส่งข้อเสนอไม่สำเร็จ"
+      },
+      "pending": {
+        "title": "Proposal Pending",
+        "subtitle": "กำลังรอเจ้าของงานตอบรับข้อเสนอของคุณ"
+      },
+      "accepted": {
+        "notice": "ข้อเสนอได้รับการยอมรับแล้ว กรุณาพูดคุยต่อในห้องแชท",
+        "goToChat": "ไปที่แชท"
+      },
+      "submitted": {
+        "title": "คุณเคยส่ง Proposal งานนี้แล้ว",
+        "latestStatus": "สถานะล่าสุด: {{status}}"
+      },
+      "errors": {
+        "dealChatMissing": "ไม่พบห้องแชทของดีลนี้",
+        "openDealChatFailed": "ไม่สามารถเปิดห้องแชทได้ในขณะนี้"
+      }
+    },
+    "createPage": {
+      "back": "กลับ",
+      "pageTitle": "โพสงานใหม่",
+      "pageSubtitle": "กรอกฟอร์มให้ครบเพื่อให้ได้ผู้สมัครที่ตรงงานมากขึ้น",
+      "sections": {
+        "postType": {
+          "title": "รูปแบบโพสต์",
+          "description": "เลือกว่าคุณกำลังเปิดรับคนทำงาน หรือเสนอบริการของตัวเอง"
+        },
+        "details": {
+          "title": "รายละเอียดงาน",
+          "description": "ระบุหัวข้อและอธิบายเป้าหมายงานให้ชัดเจน"
+        },
+        "budget": {
+          "title": "งบประมาณ",
+          "description": "กำหนดราคาที่ต้องการเพื่อคัดกรองผู้สมัครได้แม่นยำขึ้น"
+        },
+        "images": {
+          "title": "รูปประกอบงาน",
+          "description": "อัปโหลดรูปอ้างอิงเพื่อช่วยอธิบายโจทย์งานให้ชัดขึ้น",
+          "coverTipStrong": "คำแนะนำ:",
+          "coverTip": "รูปแรกจะถูกใช้เป็นรูปหน้าปกของงาน"
+        },
+        "categorySkills": {
+          "title": "หมวดหมู่และทักษะ",
+          "description": "ระบุหมวดหลักและทักษะที่เกี่ยวข้องกับงานนี้"
+        },
+        "timeline": {
+          "title": "ช่วงเวลา",
+          "description": "ระบุวันส่งมอบที่คาดหวัง และวันหมดอายุประกาศ"
+        }
+      },
+      "jobType": {
+        "hire": "จ้างงาน (Hire)",
+        "service": "เสนอบริการ (Service)",
+        "hireHint": "สำหรับประกาศงานเพื่อหาฟรีแลนซ์",
+        "serviceHint": "สำหรับโพสต์บริการที่คุณทำได้"
+      },
+      "fields": {
+        "title": "ชื่องาน",
+        "titlePlaceholder": "เช่น ออกแบบ Logo สำหรับสตาร์ทอัพ",
+        "description": "รายละเอียด",
+        "descriptionPlaceholder": "อธิบายงานที่ต้องการ ขอบเขตงาน ผลลัพธ์ที่คาดหวัง...",
+        "budget": "งบประมาณ (บาท)",
+        "budgetPlaceholder": "เว้นว่างไว้ถ้าต้องการเจรจาต่อรอง",
+        "category": "หมวดหมู่",
+        "categoryPlaceholder": "เลือกหมวดหมู่",
+        "skills": "ทักษะที่ต้องการ",
+        "skillsPlaceholder": "ค้นหาทักษะ เช่น React, Figma...",
+        "deliveryDate": "วันส่งมอบ",
+        "expiresAt": "หมดอายุวันที่",
+        "datePlaceholder": "dd/mm/yyyy",
+        "openCalendar": "เปิดปฏิทิน"
+      },
+      "actions": {
+        "saveDraft": "บันทึก Draft",
+        "publishNow": "โพสงานทันที",
+        "saving": "กำลังบันทึก..."
+      },
+      "toast": {
+        "titleRequired": "กรุณาใส่ชื่องาน",
+        "invalidDate": "กรุณากรอกวันที่ในรูปแบบ dd/mm/yyyy",
+        "publishSuccess": "โพสงานสำเร็จ — เปิดรับสมัครแล้ว",
+        "draftSuccess": "บันทึก Draft สำเร็จ",
+        "error": "เกิดข้อผิดพลาด"
+      }
+    },
+    "boardPage": {
+      "title": "ตลาดหางาน",
+      "titleSuffix": "Job Board",
+      "subtitle": "ค้นพบโอกาสใหม่ ๆ และร่วมงานกับลูกค้าชั้นนำ",
+      "mineBadge": "ประกาศงานของคุณ",
+      "mineSubtitle": "จัดการงานที่เผยแพร่และฉบับร่างของคุณได้ในที่เดียว",
+      "totalFound": "พบ {{total}} งาน",
+      "searchPlaceholder": "ค้นหางานตามชื่อ หรือรายละเอียด...",
+      "myJobsTitle": "งานของฉัน ({{total}})",
+      "tabs": {
+        "all": "ทั้งหมด",
+        "hire": "รับสมัครคน",
+        "service": "รับทำงาน",
+        "mine": "งานของฉัน"
+      },
+      "sort": {
+        "publishedDesc": "ใหม่สุดก่อน",
+        "publishedAsc": "เก่าสุดก่อน",
+        "budgetDesc": "งบสูง→ต่ำ",
+        "budgetAsc": "งบต่ำ→สูง",
+        "deadlineAsc": "ครบกำหนดเร็วก่อน"
+      },
+      "filters": {
+        "title": "ตัวกรอง",
+        "active": "มีตัวกรองที่ใช้งานอยู่",
+        "budgetMinLabel": "งบขั้นต่ำ (฿)",
+        "budgetMinPlaceholder": "เช่น 5,000",
+        "budgetMaxLabel": "งบสูงสุด (฿)",
+        "budgetMaxPlaceholder": "เช่น 50,000",
+        "clear": "ล้างตัวกรอง",
+        "clearAll": "ล้างตัวกรองทั้งหมด",
+        "filteredBy": "กรองโดย:",
+        "other": "อื่น ๆ"
+      },
+      "actions": {
+        "postJob": "ลงประกาศงาน",
+        "postFirstJob": "ลงประกาศงานแรก"
+      },
+      "empty": {
+        "mineTitle": "คุณยังไม่มีงานที่ประกาศ",
+        "mineSubtitle": "พร้อมเมื่อไหร่ ค่อยใช้ปุ่มหลักด้านบนเพื่อสร้างประกาศงานแรกของคุณ",
+        "searchTitle": "ไม่พบงานที่ตรงกับการค้นหาของคุณ",
+        "searchSubtitle": "ลองปรับตัวกรองหรือเปลี่ยนคำค้นหาอีกครั้ง"
+      },
+      "status": {
+        "expired": "หมดอายุแล้ว",
+        "expiringInDays": "หมดอายุใน {{days}} วัน"
+      },
+      "jobType": {
+        "hire": "รับสมัคร",
+        "service": "รับทำ"
+      },
+      "pagination": {
+        "previous": "ก่อนหน้า",
+        "next": "ถัดไป"
+      }
+    },
+    "myWork": {
+      "title": "งานของฉัน",
+      "subtitle": "รายการงานที่คุณกำลังทำและเคยรับ",
+      "searchPlaceholder": "ค้นหาโปรเจกต์...",
+      "defaultProject": "โปรเจกต์",
+      "assignedOn": "เริ่มงานเมื่อ {{date}}",
+      "startDateUnknown": "ยังไม่ระบุวันเริ่ม",
+      "filter": {
+        "all": "ทั้งหมด",
+        "inProgress": "กำลังทำ",
+        "completed": "เสร็จแล้ว",
+        "cancelled": "ยกเลิก"
+      },
+      "status": {
+        "in_progress": "กำลังทำ",
+        "completed": "เสร็จแล้ว",
+        "cancelled": "ยกเลิก",
+        "accepted": "ตอบรับแล้ว",
+        "active": "กำลังดำเนินงาน",
+        "pending": "รอดำเนินการ"
+      },
+      "summary": {
+        "total": "โปรเจกต์ทั้งหมด",
+        "active": "กำลังดำเนินการ",
+        "completed": "เสร็จสิ้น"
+      },
+      "table": {
+        "project": "โปรเจกต์",
+        "owner": "เจ้าของโปรเจกต์",
+        "status": "สถานะ",
+        "budget": "งบประมาณ",
+        "progress": "ความคืบหน้า",
+        "assigned": "วันที่รับงาน",
+        "actions": "การดำเนินการ",
+        "view": "ดู"
+      },
+      "empty": {
+        "title": "ยังไม่มีงานที่รับจ้างในตอนนี้"
+      },
+      "locked": {
+        "alt": "ยืนยันตัวตนก่อนใช้งาน My Work",
+        "title": "ยืนยันตัวตนหรือสมัครฟรีแลนซ์ก่อน",
+        "subtitle": "คุณจะใช้งาน My Work ได้หลังจาก KYC ได้รับการอนุมัติแล้ว",
+        "ctaUnderReview": "ตรวจสอบสถานะการยืนยันตัวตน",
+        "ctaDefault": "ยืนยันตัวตน / สมัครเป็นฟรีแลนซ์"
+      }
+    },
+    "myProposals": {
+      "title": "ข้อเสนอของฉัน",
+      "subtitle": "ข้อเสนอที่คุณส่งไปยังโปรเจกต์ต่างๆ",
+      "searchPlaceholder": "ค้นหาด้วยเลขงานหรือข้อความ...",
+      "noFilterResult": "ไม่พบข้อเสนอที่ตรงกับตัวกรอง",
+      "pendingHint": "กำลังรอเจ้าของงานตอบรับ",
+      "loadingProject": "กำลังโหลดชื่อโปรเจกต์...",
+      "unknownProject": "ไม่พบชื่อโปรเจกต์",
+      "projectIdLabel": "โปรเจกต์ ID: {{id}}",
+      "confirmWithdraw": "ต้องการถอนข้อเสนอนี้ใช่หรือไม่?",
+      "stats": {
+        "total": "ข้อเสนอทั้งหมด",
+        "pending": "รอการตอบรับ",
+        "accepted": "ได้รับการตอบรับ",
+        "rejected": "ถูกปฏิเสธ"
+      },
+      "table": {
+        "project": "โปรเจกต์",
+        "proposal": "ข้อเสนอ",
+        "status": "สถานะ",
+        "budget": "งบที่เสนอ",
+        "hint": "หมายเหตุ",
+        "actions": "การดำเนินการ"
+      },
+      "status": {
+        "pending": "รอตอบรับ",
+        "accepted": "รับแล้ว",
+        "rejected": "ถูกปฏิเสธ",
+        "withdrawn": "ยกเลิกแล้ว"
+      },
+      "actions": {
+        "withdraw": "ถอนข้อเสนอ",
+        "viewJob": "ดูงาน",
+        "viewProposal": "ดู Proposal",
+        "chatDeal": "แชทดีล"
+      },
+      "empty": {
+        "prefix": "ยังไม่มีข้อเสนอ — ไปเลือกงานและส่งข้อเสนอได้ที่หน้า",
+        "cta": "ค้นหางาน"
+      },
+      "error": {
+        "loadFailed": "โหลดข้อมูลไม่สำเร็จ",
+        "withdrawFailed": "ไม่สามารถถอนข้อเสนอได้",
+        "dealChatNotFound": "ไม่พบห้องแชทดีลของข้อเสนอที่ตอบรับนี้",
+        "openDealChatFailed": "ไม่สามารถเปิดห้องแชทดีลได้"
+      },
+      "locked": {
+        "alt": "ยืนยันตัวตนก่อนใช้งาน My Proposal",
+        "title": "ต้องยืนยันตัวตนก่อนใช้งาน My Proposal",
+        "subtitle": "กรุณายืนยันตัวตนให้ผ่านก่อน หรือเปิดโปรไฟล์ฟรีแลนซ์ แล้วคุณจะเห็นข้อเสนอทั้งหมดที่หน้านี้",
+        "ctaUnderReview": "ตรวจสอบสถานะการยืนยันตัวตน",
+        "ctaDefault": "ยืนยันตัวตน / สมัครเป็นฟรีแลนซ์"
+      }
+    }
+  },
+  "freelancer": {
+    "empty": {
+      "alt": "สมัครเป็นฟรีแลนซ์ก่อน",
+      "title": "สมัครเป็นฟรีแลนซ์ก่อน",
+      "subtitle": "คุณต้องได้รับการอนุมัติเป็นฟรีแลนซ์ก่อน จึงจะสามารถเข้าถึงหน้านี้ได้",
+      "cta": "สมัครเป็นฟรีแลนซ์"
+    },
+    "loading": "กำลังโหลด...",
+    "verificationInProgress": "กำลังตรวจสอบ",
+    "completeVerification": "กรอกข้อมูลเพิ่มเติม",
+    "become": "สมัครเป็นฟรีแลนซ์",
+    "states": {
+      "loading": {
+        "alt": "กำลังโหลดสถานะฟรีแลนซ์",
+        "title": "กำลังโหลดสถานะฟรีแลนซ์",
+        "subtitle": "กรุณารอสักครู่ ระบบกำลังตรวจสอบสถานะการยืนยันตัวตนของคุณ",
+        "cta": "กำลังโหลด..."
+      },
+      "notSubmitted": {
+        "alt": "สมัครเป็นฟรีแลนซ์ก่อน",
+        "title": "สมัครเป็นฟรีแลนซ์ก่อน",
+        "subtitle": "คุณต้องกรอกและส่ง KYC ก่อน จึงจะสามารถเข้าถึงหน้านี้ได้",
+        "cta": "สมัครเป็นฟรีแลนซ์"
+      },
+      "underReview": {
+        "alt": "KYC อยู่ระหว่างการตรวจสอบ",
+        "title": "KYC ของคุณอยู่ระหว่างการตรวจสอบ",
+        "subtitle": "ระบบได้รับคำขอของคุณแล้ว และกำลังอยู่ในขั้นตอนตรวจสอบ คุณสามารถดูสถานะล่าสุดได้จากหน้านี้",
+        "cta": "ดูสถานะ"
+      },
+      "needsResubmission": {
+        "alt": "ต้องส่ง KYC ใหม่",
+        "title": "กรุณาส่ง KYC ใหม่",
+        "subtitle": "คำขอของคุณยังต้องการข้อมูลเพิ่มเติมก่อนอนุมัติ กรุณาตรวจสอบรายละเอียดและส่งใหม่อีกครั้ง",
+        "cta": "อัปเดต KYC"
+      },
+      "rejected": {
+        "alt": "KYC ไม่ผ่านการอนุมัติ",
+        "title": "KYC ไม่ผ่านการอนุมัติ",
+        "subtitle": "คำขอครั้งก่อนของคุณไม่ได้รับการอนุมัติ กรุณาตรวจสอบรายละเอียดและส่งข้อมูลใหม่อีกครั้ง",
+        "cta": "ส่ง KYC ใหม่"
+      },
+      "approved": {
+        "alt": "อนุมัติสถานะฟรีแลนซ์แล้ว",
+        "title": "คุณได้รับการอนุมัติแล้ว",
+        "subtitle": "การยืนยันตัวตนสำหรับการเป็นฟรีแลนซ์ของคุณเสร็จสมบูรณ์แล้ว คุณสามารถไปต่อที่แดชบอร์ดได้",
+        "cta": "ไปที่แดชบอร์ด"
+      }
+    }
+  },
+  "freelancersPage": {
+    "sidebarTitle": "หมวดหมู่ฟรีแลนซ์",
+    "sidebarAll": "ทั้งหมด",
+    "sidebarPopular": "ยอดนิยม",
+    "title": "ค้นหา Freelancer",
+    "titleSuffix": "ไดเรกทอรีฟรีแลนซ์",
+    "subtitle": "ค้นหาฟรีแลนซ์ที่เหมาะกับโปรเจกต์และสไตล์การทำงานของคุณ",
+    "totalFound": "พบ {{total}} คน",
+    "searchPlaceholder": "ค้นหาชื่อ ผู้ใช้ หรือทักษะ...",
+    "sort": {
+      "newest": "ใหม่ล่าสุด",
+      "ratingDesc": "เรตติ้งสูงสุด",
+      "rateAsc": "เรตราคาต่ำสุด",
+      "rateDesc": "เรตราคาสูงสุด"
+    },
+    "filters": {
+      "title": "ตัวกรอง",
+      "active": "มีตัวกรองที่ใช้งานอยู่",
+      "clear": "ล้างตัวกรอง",
+      "clearAll": "ล้างตัวกรองทั้งหมด",
+      "verifiedOnly": "ยืนยันตัวตนแล้ว",
+      "rateMinLabel": "เรตราคาต่ำสุด (บาท/ชม.)",
+      "rateMaxLabel": "เรตราคาสูงสุด (บาท/ชม.)",
+      "rateMinPlaceholder": "เช่น 300",
+      "rateMaxPlaceholder": "เช่น 1,500",
+      "categories": "หมวดหมู่",
+      "skills": "ทักษะ"
+    },
+    "empty": {
+      "title": "ไม่พบฟรีแลนซ์ที่ตรงกับการค้นหา",
+      "subtitle": "ลองปรับคำค้นหาหรือตัวกรองแล้วค้นหาใหม่อีกครั้ง"
+    },
+    "card": {
+      "anonymous": "ไม่ระบุชื่อ",
+      "verified": "ยืนยันแล้ว",
+      "hourlyRate": "เรตราคา / ชั่วโมง",
+      "rateNotSet": "ยังไม่ได้ตั้งราคา",
+      "noReviews": "ยังไม่มีรีวิว",
+      "viewProfile": "ดูโปรไฟล์"
+    }
+  },
+  "kycStatus": {
+    "loading": "กำลังโหลดสถานะ KYC...",
+    "labels": {
+      "status": "สถานะ:",
+      "submittedAt": "ส่งเมื่อ:",
+      "reviewedAt": "ตรวจสอบเมื่อ:",
+      "reason": "เหตุผล:",
+      "estimatedReviewTime": "ระยะเวลาตรวจสอบโดยประมาณ:"
+    },
+    "statuses": {
+      "underReview": "อยู่ระหว่างการตรวจสอบ",
+      "needsResubmission": "ต้องส่งข้อมูลใหม่",
+      "rejected": "ไม่ผ่านการอนุมัติ"
+    },
+    "actions": {
+      "backToDashboard": "กลับไปแดชบอร์ด",
+      "resubmit": "ส่ง KYC ใหม่"
+    },
+    "attention": {
+      "title": "ข้อมูล KYC ของคุณต้องได้รับการแก้ไข",
+      "description": "เราพบปัญหาบางอย่างในการส่งข้อมูลของคุณ กรุณาตรวจสอบรายละเอียดด้านล่างและอัปเดตข้อมูลให้ครบถ้วน",
+      "reviewDetails": "รายละเอียดการตรวจสอบ",
+      "nextAction": "ขั้นตอนถัดไป",
+      "step1": "ตรวจสอบเหตุผลจากการรีวิวอย่างละเอียด",
+      "step2": "แก้ไขข้อมูลหรือเอกสารที่จำเป็น",
+      "step3": "ส่ง KYC ใหม่เพื่อให้ทีมงานตรวจสอบอีกครั้ง"
+    },
+    "inProgress": {
+      "title": "KYC ของคุณอยู่ระหว่างการตรวจสอบ",
+      "descriptionPrefix": "ข้อมูลยืนยันตัวตนของคุณกำลังอยู่ในขั้นตอนการตรวจสอบ ซึ่งโดยปกติจะใช้เวลา",
+      "estimatedTime": "1–3 วันทำการ",
+      "submissionDetails": "รายละเอียดการส่งข้อมูล",
+      "whatHappensNext": "สิ่งที่จะเกิดขึ้นถัดไป",
+      "next1": "ทีมงานจะตรวจสอบข้อมูลและเอกสารที่คุณส่งเข้ามา",
+      "next2": "เราอาจติดต่อคุณหากต้องการข้อมูลเพิ่มเติม",
+      "next3": "เมื่อผ่านการอนุมัติแล้ว คุณจะสามารถใช้งานฟีเจอร์สำหรับฟรีแลนซ์ได้",
+      "noticeTitle": "โปรดทราบ",
+      "noticeDescription": "ในช่วงที่กำลังตรวจสอบ ฟีเจอร์บางอย่างสำหรับฟรีแลนซ์อาจยังไม่พร้อมใช้งาน"
+    },
+    "fetchFailed": {
+      "title": "ไม่สามารถอัปเดตสถานะ KYC ล่าสุดได้ในขณะนี้ กำลังแสดงสถานะที่บันทึกล่าสุด"
+    }
+  },
+  "kyc": {
+    "title": "ยืนยันตัวตน",
+    "subtitle": "กรอกข้อมูลตามขั้นตอนด้านล่างเพื่อส่งคำขอ KYC",
+    "step": {
+      "profile": "ข้อมูลส่วนตัว",
+      "idCard": "บัตรประชาชน",
+      "selfie": "รูปเซลฟี่"
+    },
+    "page": {
+      "title": "ยืนยันตัวตน",
+      "subtitle": "กรอกข้อมูล KYC ให้ครบเพื่อสมัครเป็นฟรีแลนซ์"
+    },
+    "form": {
+      "fullName": "ชื่อ-นามสกุล",
+      "fullNamePlaceholder": "กรอกชื่อ-นามสกุลตามเอกสารทางการ",
+      "citizenId": "เลขบัตรประชาชน / เลขประจำตัว",
+      "citizenIdPlaceholder": "กรอกเลขบัตร 13 หลัก",
+      "citizenIdHint": "กรุณากรอกเฉพาะตัวเลข",
+      "citizenIdError": "เลขบัตรประชาชนต้องมี 13 หลัก",
+      "dateOfBirth": "วันเกิด",
+      "country": "ประเทศ",
+      "countryPlaceholder": "เลือกประเทศ",
+      "address": "ที่อยู่",
+      "addressPlaceholder": "กรอกที่อยู่ปัจจุบัน",
+      "countries": {
+        "thailand": "ประเทศไทย",
+        "unitedStates": "สหรัฐอเมริกา",
+        "japan": "ญี่ปุ่น"
+      }
+    },
+    "upload": {
+      "idCard": "อัปโหลดรูปบัตรประชาชนหรือเอกสารยืนยันตัวตน",
+      "idCardTitle": "อัปโหลดบัตรประชาชน",
+      "idCardDescription": "กรุณาอัปโหลดรูปบัตรประชาชนที่ชัดเจน",
+      "selfie": "อัปโหลดรูปเซลฟี่เพื่อยืนยันตัวตน",
+      "selfieTitle": "อัปโหลดรูปเซลฟี่",
+      "selfieDescription": "กรุณาอัปโหลดรูปเซลฟี่ที่เห็นใบหน้าชัดและตรงกับเอกสาร",
+      "clickUpload": "คลิกเพื่ออัปโหลด",
+      "imageOnlyHint": "รองรับเฉพาะไฟล์รูปภาพ",
+      "selectedFile": "ไฟล์ที่เลือก: {{name}}"
+    },
+    "review": {
+      "beforeSubmit": "ก่อนส่งข้อมูล",
+      "beforeSubmitDescription": "กรุณาตรวจสอบให้แน่ใจว่ารูปบัตรและรูปเซลฟี่ชัดเจนและอ่านได้ง่าย โดยปกติการตรวจสอบจะใช้เวลา 1–3 วันทำการหลังส่งข้อมูล"
+    },
+    "notice": {
+      "title": "ข้อสำคัญ",
+      "description": "กรุณาตรวจสอบให้แน่ใจว่าข้อมูลทั้งหมดตรงกับเอกสารทางการของคุณทุกประการ"
+    },
+    "actions": {
+      "next": "ถัดไป",
+      "back": "ย้อนกลับ",
+      "submit": "ส่งข้อมูล KYC",
+      "submitting": "กำลังส่ง..."
+    },
+    "toast": {
+      "submitSuccess": "ส่งข้อมูล KYC เรียบร้อยแล้ว",
+      "submitFailed": "ส่งข้อมูลไม่สำเร็จ กรุณาลองใหม่อีกครั้ง"
+    }
+  },
+  "adminUsers": {
+    "page": {
+      "title": "จัดการผู้ใช้",
+      "subtitle": "จัดการบัญชีทีมหลังบ้านและผู้ใช้แพลตฟอร์มได้จากหน้าเดียว"
+    },
+    "tabs": {
+      "teamAccess": "ทีมหลังบ้าน",
+      "platformUsers": "ผู้ใช้แพลตฟอร์ม"
+    },
+    "actions": {
+      "inviteTeam": "เชิญเข้าทีม",
+      "view": "ดูข้อมูล",
+      "activate": "เปิดใช้งาน",
+      "deactivate": "ปิดใช้งาน",
+      "viewKyc": "ดู KYC"
+    },
+    "summary": {
+      "totalUsers": "ผู้ใช้ทั้งหมด",
+      "activeUsers": "ผู้ใช้ที่ใช้งานอยู่",
+      "pendingInvites": "คำเชิญที่รอดำเนินการ",
+      "pendingKyc": "KYC ที่รอตรวจ",
+      "totalTeam": "สมาชิกทีม",
+      "activeTeam": "ทีมที่ใช้งานอยู่"
+    },
+    "filters": {
+      "kyc": "สถานะ KYC",
+      "allKyc": "ทุกสถานะ KYC"
+    },
+    "kyc": {
+      "unverified": "ยังไม่ยืนยัน",
+      "pending": "รอตรวจสอบ",
+      "verified": "ยืนยันแล้ว",
+      "rejected": "ไม่ผ่าน"
+    },
+    "searchPlaceholder": "ค้นหาด้วยอีเมล ชื่อ role หรือสถานะ...",
+    "searchTeamPlaceholder": "ค้นหาด้วยอีเมล ชื่อ role หรือสถานะ...",
+    "searchPlatformPlaceholder": "ค้นหาด้วยอีเมล ชื่อ username สถานะ หรือ KYC...",
+    "empty": "ไม่พบผู้ใช้ตามเงื่อนไขที่ค้นหา",
+    "table": {
+      "email": "อีเมล",
+      "name": "ชื่อ",
+      "role": "Role",
+      "kyc": "KYC",
+      "status": "สถานะ",
+      "invitedAt": "อัปเดตล่าสุด",
+      "pendingProfile": "รอตั้งค่าบัญชี",
+      "actions": "จัดการ",
+      "count": "{{count}} รายการ"
+    },
+    "status": {
+      "active": "ใช้งานอยู่",
+      "invited": "เชิญแล้ว",
+      "inactive": "ปิดใช้งาน"
+    },
+    "detail": {
+      "title": "รายละเอียดผู้ใช้",
+      "username": "Username",
+      "phone": "เบอร์โทรศัพท์",
+      "createdAt": "วันที่สร้างบัญชี",
+      "lastActivity": "กิจกรรมล่าสุด",
+      "roles": "Roles",
+      "invitation": "ข้อมูลคำเชิญ",
+      "invitationStatus": "สถานะคำเชิญ",
+      "invitedRole": "Role ที่เชิญ",
+      "invitedAt": "ส่งคำเชิญเมื่อ",
+      "acceptedAt": "ตอบรับเมื่อ",
+      "bio": "แนะนำตัว"
+    },
+    "inviteModal": {
+      "title": "เชิญสมาชิกทีม",
+      "subtitle": "ส่งอีเมลคำเชิญพร้อม role ที่เลือกไว้ โดยผู้รับจะเปิดหน้าตั้งค่าบัญชีของ LanceFy เพื่อกรอกข้อมูลให้ครบ",
+      "email": "อีเมล",
+      "emailPlaceholder": "name@company.com",
+      "role": "Role",
+      "rolePlaceholder": "เลือก role",
+      "helper": "ลิงก์คำเชิญจะพาไปยังหน้าตั้งค่าบัญชี เพื่อกรอกชื่อ นามสกุล และรหัสผ่านก่อนเข้าสู่ระบบ",
+      "submit": "ส่งคำเชิญ",
+      "sending": "กำลังส่ง..."
+    },
+    "toast": {
+      "loadFailed": "ไม่สามารถโหลดข้อมูลผู้ใช้ได้ในขณะนี้",
+      "inviteSuccess": "ส่งคำเชิญเรียบร้อยแล้ว",
+      "inviteFailed": "ไม่สามารถส่งคำเชิญได้",
+      "detailFailed": "ไม่สามารถโหลดรายละเอียดผู้ใช้ได้",
+      "statusUpdated": "อัปเดตสถานะผู้ใช้เรียบร้อยแล้ว",
+      "statusUpdateFailed": "ไม่สามารถอัปเดตสถานะผู้ใช้ได้"
+    }
+  },
+  "inviteFlow": {
+    "page": {
+      "title": "ตั้งค่าบัญชีจากคำเชิญ",
+      "subtitle": "ตรวจสอบรายละเอียดคำเชิญและตั้งค่าบัญชีของคุณให้เรียบร้อย"
+    },
+    "sections": {
+      "invitation": "สรุปรายละเอียดคำเชิญ",
+      "identity": "ข้อมูลส่วนตัว",
+      "security": "ตั้งรหัสผ่าน",
+      "requirements": "ข้อกำหนดการเข้าใช้งาน"
+    },
+    "form": {
+      "email": "อีเมล",
+      "firstname": "ชื่อ",
+      "firstnamePlaceholder": "กรอกชื่อ",
+      "lastname": "นามสกุล",
+      "lastnamePlaceholder": "กรอกนามสกุล",
+      "username": "Username",
+      "usernamePlaceholder": "ตั้งชื่อผู้ใช้",
+      "usernameHint": "ใช้ตัวพิมพ์เล็ก ตัวเลข จุด ขีดล่าง หรือขีดกลาง ความยาว 3-30 ตัวอักษร",
+      "password": "รหัสผ่าน",
+      "passwordPlaceholder": "สร้างรหัสผ่าน",
+      "passwordHint": "อย่างน้อย 9 ตัว และมีตัวพิมพ์ใหญ่อย่างน้อย 1 ตัว",
+      "confirmPassword": "ยืนยันรหัสผ่าน",
+      "confirmPasswordPlaceholder": "กรอกรหัสผ่านอีกครั้ง",
+      "role": "Role",
+      "expiresAt": "หมดอายุ"
+    },
+    "actions": {
+      "complete": "เปิดใช้งานบัญชี",
+      "processing": "กำลังเปิดใช้งาน..."
+    },
+    "states": {
+      "loading": "กำลังโหลดคำเชิญ..."
+    },
+    "success": {
+      "title": "บัญชีพร้อมใช้งานแล้ว",
+      "subtitle": "บันทึกข้อมูลเรียบร้อย คุณสามารถเข้าสู่ระบบและใช้งาน LanceFy ต่อได้ทันที",
+      "emailVerified": "บัญชีของคุณพร้อมใช้งานแล้ว ใช้ข้อมูลด้านล่างนี้เพื่อเข้าสู่ระบบ",
+      "signIn": "เข้าสู่ระบบ"
+    },
+    "errors": {
+      "missingToken": "ไม่พบ token ของคำเชิญ",
+      "loadFailed": "ไม่สามารถเปิดคำเชิญนี้ได้",
+      "nameRequired": "กรุณากรอกชื่อและนามสกุล",
+      "usernameRequired": "กรุณากรอก username",
+      "usernameFormat": "Username ต้องยาว 3-30 ตัว โดยใช้ตัวพิมพ์เล็ก ตัวเลข จุด ขีดล่าง หรือขีดกลางเท่านั้น",
+      "passwordLength": "รหัสผ่านต้องมีอย่างน้อย 9 ตัวอักษร",
+      "passwordUppercase": "รหัสผ่านต้องมีตัวพิมพ์ใหญ่อย่างน้อย 1 ตัว",
+      "passwordMismatch": "รหัสผ่านไม่ตรงกัน",
+      "acceptFailed": "ไม่สามารถตั้งค่าบัญชีได้"
+    }
+  },
+  "adminKyc": {
+    "list": {
+      "page": {
+        "title": "การยืนยันตัวตน",
+        "subtitle": "ตรวจสอบและอนุมัติคำขอ KYC ของผู้ใช้"
+      },
+      "searchPlaceholder": "ค้นหาชื่อ, อีเมล, เลขบัตร...",
+      "empty": "ยังไม่มีคำขอ KYC ที่รอการตรวจสอบ",
+      "table": {
+        "user": "ผู้ใช้",
+        "status": "สถานะ",
+        "submitted": "ส่งเมื่อ",
+        "actions": "จัดการ"
+      },
+      "actions": {
+        "view": "ดูรายละเอียด",
+        "openDetail": "เปิดหน้ารายละเอียด",
+        "close": "ปิดรายละเอียด",
+        "reasonPlaceholder": "เหตุผล (ไม่บังคับ)..."
+      },
+      "filters": {
+        "allStatuses": "ทุกสถานะ",
+        "selected": "รายการ",
+        "clear": "ล้างตัวกรอง"
+      },
+      "status": {
+        "pending": "รอตรวจสอบ",
+        "approved": "อนุมัติแล้ว",
+        "rejected": "ปฏิเสธ",
+        "needsResubmission": "ให้ส่งใหม่"
+      },
+      "risk": {
+        "low": "ความเสี่ยง: ต่ำ",
+        "medium": "ความเสี่ยง: ปานกลาง"
+      },
+      "sections": {
+        "personalInfo": "ข้อมูลส่วนตัว",
+        "timeline": "ไทม์ไลน์"
+      },
+      "fields": {
+        "email": "อีเมล"
+      },
+      "defaults": {
+        "country": "ไทย"
+      },
+      "documents": {
+        "loading": "กำลังโหลดเอกสาร...",
+        "empty": "ยังไม่มีข้อมูลเอกสารในรายการนี้",
+        "alt": "เอกสาร KYC",
+        "noImage": "ไม่มีรูป",
+        "documentNumber": "เอกสาร {{number}}",
+        "received": "ได้รับแล้ว",
+        "notReceived": "ยังไม่ได้รับ"
+      },
+      "timeline": {
+        "submitted": "ส่งคำขอยืนยันตัวตน",
+        "idCard": "อัปโหลดบัตรประชาชน",
+        "selfie": "อัปโหลดเซลฟี่",
+        "complete": "เอกสารครบถ้วน",
+        "approved": "อนุมัติคำขอ",
+        "rejected": "ปฏิเสธคำขอ",
+        "reviewed": "ตรวจสอบคำขอ",
+        "updateItem": "รายการอัปเดต",
+        "empty": "ยังไม่มีไทม์ไลน์สำหรับรายการนี้",
+        "actors": {
+          "user": "ผู้ใช้",
+          "system": "ระบบ",
+          "admin": "แอดมิน"
+        }
+      },
+      "time": {
+        "justNow": "เมื่อสักครู่",
+        "minutesAgo": "{{count}} นาทีที่แล้ว",
+        "hoursAgo": "{{count}} ชม. ที่แล้ว",
+        "daysAgo": "{{count}} วันที่แล้ว"
+      },
+      "emptyState": "เลือกรายการ KYC จากตารางด้านซ้ายเพื่อดูรายละเอียด"
+    },
+    "detail": {
+      "header": {
+        "badge": "การตรวจสอบคำขอยืนยันตัวตน",
+        "title": "บันทึกการตรวจสอบคำขอยืนยันตัวตน",
+        "subtitle": "ตรวจสอบข้อมูลผู้สมัคร เอกสารประกอบ และผลการพิจารณาในรูปแบบที่ชัดเจน เป็นทางการ และเหมาะสำหรับงานผู้ดูแลระบบ"
+      },
+      "status": {
+        "label": "สถานะการพิจารณา",
+        "approved": "คำขอนี้ได้รับการอนุมัติแล้ว และผู้สมัครสามารถดำเนินการในขั้นตอนถัดไปได้",
+        "rejected": "คำขอนี้ถูกปฏิเสธแล้ว กรุณาตรวจสอบหมายเหตุประกอบก่อนดำเนินการเพิ่มเติม",
+        "needsResubmission": "คำขอนี้ต้องแก้ไขข้อมูลหรืออัปโหลดเอกสารใหม่ ก่อนจึงจะสามารถอนุมัติได้",
+        "pending": "คำขอนี้อยู่ระหว่างรอการตรวจสอบและสรุปผลจากผู้ดูแลระบบ",
+        "fallback": "รายละเอียดสถานะปัจจุบันแสดงอยู่ด้านล่าง"
+      },
+      "profile": {
+        "title": "ข้อมูลโปรไฟล์",
+        "subtitle": "ข้อมูลอ้างอิงหลักสำหรับการตรวจสอบตัวตนของผู้ใช้งาน",
+        "reviewStatus": "สถานะการพิจารณา"
+      },
+      "sections": {
+        "identity": {
+          "title": "ข้อมูลยืนยันตัวตน",
+          "description": "ข้อมูลส่วนบุคคลที่ใช้เทียบกับเอกสารแนบ"
+        },
+        "timeline": {
+          "title": "ช่วงเวลาการส่งข้อมูล",
+          "description": "เวลาที่ระบบได้รับเอกสารและเวลาที่มีการพิจารณา"
+        },
+        "address": {
+          "title": "ข้อมูลที่อยู่",
+          "description": "รายละเอียดที่อยู่สำหรับใช้อ้างอิงเพิ่มเติม"
+        }
+      },
+      "fields": {
+        "fullName": "ชื่อ-นามสกุล",
+        "citizenId": "เลขบัตรประชาชน",
+        "dateOfBirth": "วันเดือนปีเกิด",
+        "country": "ประเทศ",
+        "submittedAt": "ส่งเมื่อ",
+        "reviewedAt": "ตรวจสอบเมื่อ",
+        "address": "ที่อยู่"
+      },
+      "documents": {
+        "title": "เอกสาร",
+        "subtitle": "ตรวจสอบความชัดเจน ความถูกต้อง และความสอดคล้องของเอกสาร",
+        "idCard": "บัตรประชาชน",
+        "selfie": "รูปเซลฟี่",
+        "open": "เปิด",
+        "noDocument": "ยังไม่มีการอัปโหลดเอกสาร",
+        "loadFailed": "โหลดเอกสารไม่สำเร็จ"
+      },
+      "review": {
+        "title": "การพิจารณา",
+        "subtitle": "บันทึกผลการตรวจสอบและเหตุผลประกอบการตัดสินใจ",
+        "currentStatus": "สถานะปัจจุบัน",
+        "documentsLabel": "เอกสารที่ได้รับ",
+        "reasonLabel": "เหตุผลในการพิจารณา",
+        "reasonPlaceholder": "ระบุเหตุผลเพิ่มเติมสำหรับการปฏิเสธ หรือบันทึกหมายเหตุภายใน",
+        "documentsComplete": "อัปโหลดครบทั้ง 2 เอกสาร",
+        "documentsIncomplete": "เอกสารยังไม่ครบ",
+        "helper": "หากไม่ระบุเหตุผลตอนปฏิเสธ ระบบจะใช้ข้อความ \"Rejected by admin\" เป็นค่าเริ่มต้น",
+        "noteTitle": "หมายเหตุการพิจารณา",
+        "defaultRejectReason": "Rejected by admin"
+      },
+      "actions": {
+        "backToQueue": "กลับไปคิวตรวจ",
+        "approve": "อนุมัติ",
+        "reject": "ปฏิเสธ",
+        "processing": "กำลังประมวลผล..."
+      },
+      "states": {
+        "loading": "กำลังโหลด...",
+        "notFound": "ไม่พบรายละเอียด KYC"
+      },
+      "errors": {
+        "missingUserId": "ไม่พบรหัสผู้ใช้",
+        "loadFailed": "ไม่สามารถโหลดรายละเอียด KYC ได้ กรุณาลองใหม่อีกครั้ง",
+        "approveFailed": "ไม่สามารถอนุมัติ KYC ได้ กรุณาลองใหม่อีกครั้ง",
+        "rejectFailed": "ไม่สามารถปฏิเสธ KYC ได้ กรุณาลองใหม่อีกครั้ง"
+      }
+    }
+  },
+  "dashboardPage": {
+    "fundMilestone": {
+      "title": "วาง Escrow ให้ Milestone",
+      "untitled": "ไมล์สโตนไม่มีชื่อ",
+      "helper": "ระบบจะถือเงินไว้ใน escrow จนกว่า milestone นี้จะได้รับการอนุมัติให้ปล่อยเงิน",
+      "summary": {
+        "amount": "จำนวนเงินของไมล์สโตน",
+        "fee": "ค่าธรรมเนียม Omise",
+        "total": "ยอดที่ต้องชำระ"
+      },
+      "actions": {
+        "confirm": "ยืนยันการวางเงิน",
+        "processing": "กำลังดำเนินการ..."
+      },
+      "toast": {
+        "success": "วางเงินเข้า escrow สำเร็จแล้ว",
+        "error": "ไม่สามารถวางเงินเข้า escrow ได้"
+      },
+      "errors": {
+        "quoteFailed": "ไม่สามารถโหลดสรุปการชำระเงินได้"
+      }
+    },
+    "hero": {
+      "titleEmployer": "ภาพรวมการจ้างงาน",
+      "titleFreelancer": "ภาพรวมงานของฉัน",
+      "welcome": "ยินดีต้อนรับกลับมา, {{name}}"
+    },
+    "roleTabs": {
+      "employer": "ผู้ว่าจ้าง",
+      "freelancer": "Freelancer"
+    },
+    "actions": {
+      "postJob": "โพสต์งาน",
+      "postJobNow": "โพสต์งานเลย",
+      "findWork": "หางาน",
+      "viewAll": "ดูทั้งหมด",
+      "viewAllWork": "ดูงานทั้งหมด",
+      "viewDisputes": "ดูข้อพิพาท",
+      "updateProfile": "อัปเดตโปรไฟล์",
+      "verifyKyc": "ยืนยัน KYC",
+      "review": "ตรวจรับ",
+      "open": "เปิดดู",
+      "viewWork": "ดูงาน",
+      "browseJobs": "ไปดูงาน",
+      "createJob": "สร้างงานใหม่"
+    },
+    "banners": {
+      "disputes": "มี {{count}} dispute ที่ยังเปิดอยู่ รอการแก้ไข",
+      "completeProfile": "กรอกข้อมูลโปรไฟล์ให้ครบเพื่อเพิ่มโอกาสได้งาน",
+      "completeKyc": "ยืนยันตัวตน KYC เพื่อรับงานและรับเงินได้ครบ flow"
+    },
+    "stats": {
+      "employer": {
+        "activeProjects": {
+          "label": "Projects ที่ active",
+          "sub": "กำลังดำเนินงานอยู่"
+        },
+        "proposals": {
+          "label": "Proposals ที่รอตอบ",
+          "sub": "จาก {{count}} งาน"
+        },
+        "pendingReviews": {
+          "label": "รอตรวจรับงาน",
+          "sub": "มี milestone รออยู่"
+        },
+        "totalBudget": {
+          "label": "งบรวมทั้งหมด",
+          "sub": "{{count}} projects"
+        }
+      },
+      "freelancer": {
+        "activeWork": {
+          "label": "งานที่กำลังทำ",
+          "sub": "โปรเจกต์ที่กำลังเดินอยู่"
+        },
+        "proposals": {
+          "label": "Proposals",
+          "sub": "{{count}} รอตอบ"
+        },
+        "urgentMilestones": {
+          "label": "Milestone เร่งด่วน",
+          "sub": "{{count}} milestone ทั้งหมด"
+        },
+        "earnings": {
+          "label": "รายได้ที่ได้รับแล้ว",
+          "pending": "รอรับ {{amount}}",
+          "ready": "พร้อมถอนเมื่อโอนสำเร็จ"
+        }
+      }
+    },
+    "sections": {
+      "activeProjects": {
+        "title": "Projects ที่กำลังดำเนินการ"
+      },
+      "postedJobs": {
+        "title": "Jobs ที่โพสต์ไว้"
+      },
+      "pendingReviews": {
+        "title": "รอตรวจรับงาน"
+      },
+      "disputes": {
+        "title": "Disputes"
+      },
+      "milestonesToSubmit": {
+        "title": "Milestones ที่ต้องส่ง"
+      },
+      "myProposals": {
+        "title": "Proposals ของฉัน"
+      },
+      "activeWork": {
+        "title": "งานที่กำลังทำ"
+      },
+      "latestReviews": {
+        "title": "รีวิวล่าสุด"
+      }
+    },
+    "empty": {
+      "activeProjects": {
+        "title": "ยังไม่มีโปรเจกต์ที่ active",
+        "description": "เริ่มโพสต์งานหรือคุยดีลกับฟรีแลนซ์เพื่อให้โปรเจกต์แรกของคุณเริ่มเดินได้เลย"
+      },
+      "postedJobs": {
+        "title": "ยังไม่มีงานที่โพสต์ไว้",
+        "description": "สร้าง job post แรกเพื่อเริ่มรับ proposal และเปิดดีลกับฟรีแลนซ์"
+      },
+      "pendingReviews": {
+        "title": "ไม่มีงานรอตรวจรับ",
+        "description": "เมื่อฟรีแลนซ์ส่ง milestone เข้ามา รายการตรวจรับจะขึ้นตรงนี้ทันที"
+      },
+      "workQueue": {
+        "title": "ไม่มี milestone ค้างอยู่",
+        "description": "ตอนนี้คิวงานของคุณโล่งแล้ว ลองออกไปสำรวจงานใหม่เพื่อเติม pipeline ต่อได้เลย"
+      },
+      "proposals": {
+        "title": "ยังไม่มี proposal",
+        "description": "เริ่มส่งข้อเสนอไปยังงานที่สนใจ แล้วติดตามสถานะการตอบกลับจากส่วนนี้"
+      },
+      "activeWork": {
+        "title": "ยังไม่มีงานที่ active",
+        "description": "เมื่อ proposal ถูกตอบรับ งานที่กำลังทำจะขึ้นมาสรุปตรงส่วนนี้ทันที"
+      }
+    },
+    "status": {
+      "urgent": "เร่งด่วน",
+      "overdue": "เกินกำหนด",
+      "inProgress": "กำลังดำเนินการ",
+      "active": "active",
+      "proposals": {
+        "pending": "รอตอบ",
+        "accepted": "ตอบรับแล้ว",
+        "rejected": "ถูกปฏิเสธ",
+        "withdrawn": "ถอนแล้ว"
+      },
+      "disputes": {
+        "open": "เปิดอยู่",
+        "reviewing": "กำลังพิจารณา",
+        "resolved": "แก้ไขแล้ว"
+      }
+    },
+    "queue": {
+      "due": "กำหนด {{date}} ({{days}} วัน)",
+      "overdue": "เกินกำหนด {{days}} วัน",
+      "daysLeft": "{{days}} วันเหลือ",
+      "overBy": "เกิน {{days}} วัน"
+    },
+    "projectCard": {
+      "progress": "{{done}}/{{total}} milestones เสร็จแล้ว · {{budget}}",
+      "percentComplete": "{{progress}}% สำเร็จ"
+    },
+    "postedJobs": {
+      "meta": "{{count}} proposals · {{status}}"
+    },
+    "rating": {
+      "title": "คะแนนเฉลี่ย",
+      "fromReviews": "จาก {{count}} รีวิว"
+    },
+    "fallbacks": {
+      "untitledProject": "โปรเจกต์ไม่มีชื่อ",
+      "untitledMilestone": "ไมล์สโตนไม่มีชื่อ",
+      "dispute": "ข้อพิพาท",
+      "job": "งาน #{{id}}"
+    }
+  },
+  "paymentsPage": {
+    "tabs": {
+      "methods": "ช่องทางชำระเงิน",
+      "transactions": "ธุรกรรม"
+    },
+    "hero": {
+      "eyebrow": "การชำระเงินและการเรียกเก็บเงิน",
+      "title": "ช่องทางชำระเงิน",
+      "subtitle": "บันทึกบัตรอย่างปลอดภัยผ่าน Omise",
+      "securityShort": "รายละเอียดบัตรจะถูก tokenize โดย Omise และระบบจะเก็บเฉพาะข้อมูลอ้างอิงแบบปิดบัง",
+      "gatewayReady": "ระบบพร้อมสำหรับการเพิ่มบัตรในโหมดทดสอบ"
+    },
+    "summary": {
+      "savedMethods": "ช่องทางที่บันทึกไว้",
+      "defaultMethod": "ช่องทางหลัก",
+      "none": "ยังไม่มี"
+    },
+    "payout": {
+      "title": "ส่วนตั้งค่ารับเงินจะเปิดให้ฟรีแลนซ์ในลำดับถัดไป",
+      "subtitle": "รอบนี้หน้านี้จะโฟกัสเฉพาะการเพิ่มช่องทางชำระเงินอย่างปลอดภัยก่อน ส่วนการตั้งค่ารับเงินจะเปิดใช้ใน flow ถัดไป"
+    },
+    "addCard": {
+      "title": "เพิ่มช่องทางชำระเงิน",
+      "subtitle": "เพิ่มบัตรสำหรับ checkout ในอนาคต",
+      "securityNote": "รายละเอียดบัตรของคุณจะถูก tokenize โดย Omise ในเบราว์เซอร์ LanceFy จะเก็บเฉพาะข้อมูลบัตรแบบปิดบังและ reference ที่จำเป็นสำหรับการชำระเงินในอนาคตเท่านั้น",
+      "gatewayUnavailable": "สภาพแวดล้อมนี้ยังไม่ได้ตั้งค่า Omise กรุณาเพิ่ม payment gateway keys ก่อนใช้งานฟอร์มนี้"
+    },
+    "form": {
+      "holderName": "ชื่อบนบัตร",
+      "holderNamePlaceholder": "ชื่อที่แสดงบนบัตร",
+      "cardNumber": "หมายเลขบัตร",
+      "cardNumberPlaceholder": "1234 5678 9012 3456",
+      "expiryMonth": "เดือนหมดอายุ",
+      "expiryYear": "ปีหมดอายุ",
+      "cvc": "รหัสความปลอดภัย",
+      "cvcPlaceholder": "CVC / CVV",
+      "setAsDefault": "ตั้งบัตรนี้เป็นช่องทางชำระเงินหลัก"
+    },
+    "saved": {
+      "title": "ช่องทางชำระเงินที่บันทึกไว้",
+      "subtitle": "จัดการบัตรที่บันทึกไว้",
+      "emptyTitle": "ยังไม่มีช่องทางชำระเงินที่บันทึกไว้",
+      "emptySubtitle": "เพิ่มบัตรใบแรกเพื่อให้พร้อมสำหรับการชำระเงินครั้งถัดไป",
+      "defaultBadge": "ช่องทางหลัก",
+      "endsWith": "ลงท้ายด้วย •••• {{last4}}",
+      "expires": "หมดอายุ {{month}}/{{year}}",
+      "cardFallback": "บัตร"
+    },
+    "transactions": {
+      "title": "ประวัติธุรกรรม",
+      "subtitle": "กิจกรรมการชำระเงินล่าสุด",
+      "emptyTitle": "ยังไม่มีธุรกรรม",
+      "emptySubtitle": "เมื่อ flow การชำระเงินเริ่มทำงาน รายการจะแสดงที่นี่",
+      "columns": {
+        "type": "ประเภท",
+        "reference": "อ้างอิง",
+        "date": "วันที่",
+        "amount": "จำนวนเงิน",
+        "status": "สถานะ"
+      },
+      "types": {
+        "charge": "เรียกเก็บเงินแล้ว",
+        "transfer": "โอนเงินออก",
+        "refund": "คืนเงินแล้ว",
+        "reversal": "ย้อนรายการแล้ว",
+        "fallback": "ธุรกรรม"
+      },
+      "status": {
+        "succeeded": "สำเร็จ",
+        "pending": "รอดำเนินการ",
+        "failed": "ล้มเหลว",
+        "reversed": "ย้อนรายการ"
+      }
+    },
+    "actions": {
+      "addPaymentMethod": "เพิ่มช่องทางชำระเงิน",
+      "adding": "กำลังบันทึก...",
+      "makeDefault": "ตั้งเป็นหลัก",
+      "remove": "ลบ"
+    },
+    "states": {
+      "loadingMethods": "กำลังโหลดช่องทางชำระเงิน...",
+      "loadingTransactions": "กำลังโหลดประวัติธุรกรรม..."
+    },
+    "pagination": {
+      "previous": "ก่อนหน้า",
+      "next": "ถัดไป"
+    },
+    "errors": {
+      "loadFailed": "ไม่สามารถโหลดหน้าการชำระเงินได้ในขณะนี้",
+      "gatewayUnavailable": "ระบบ payment gateway ยังไม่พร้อมใช้งาน",
+      "addFailed": "ไม่สามารถบันทึกช่องทางชำระเงินนี้ได้",
+      "defaultFailed": "ไม่สามารถเปลี่ยนช่องทางหลักได้",
+      "deleteFailed": "ไม่สามารถลบช่องทางชำระเงินนี้ได้"
+    }
+  },
+  "accountSettings": {
+    "eyebrow": "บัญชี",
+    "title": "ตั้งค่าบัญชี",
+    "subtitle": "จัดการโปรไฟล์ การยืนยันตัวตน การชำระเงิน และผลงานของคุณได้จากที่เดียว",
+    "nav": {
+      "profile": "โปรไฟล์",
+      "verification": "ยืนยันตัวตน",
+      "payments": "การชำระเงิน",
+      "portfolio": "ผลงาน",
+      "notifications": "การแจ้งเตือน"
+    },
+    "verification": {
+      "title": "การยืนยันตัวตน",
+      "subtitle": "ตรวจสอบสถานะ KYC ล่าสุดและดำเนินการต่อจากหน้านี้ได้ทันที",
+      "actions": {
+        "start": "เริ่มยืนยันตัวตน",
+        "resubmit": "ส่งใหม่",
+        "viewStatus": "ดูสถานะ",
+        "goDashboard": "กลับไปแดชบอร์ด"
+      },
+      "status": {
+        "notSubmitted": "ยังไม่ได้ส่ง",
+        "underReview": "กำลังตรวจสอบ",
+        "approved": "อนุมัติแล้ว",
+        "needsResubmission": "ต้องส่งเพิ่มเติม",
+        "rejected": "ไม่ผ่าน"
+      },
+      "summary": {
+        "status": "สถานะปัจจุบัน",
+        "submittedAt": "วันที่ส่ง",
+        "reviewedAt": "วันที่ตรวจสอบ",
+        "reviewNote": "หมายเหตุจากการตรวจสอบ",
+        "notAvailable": "ยังไม่มีข้อมูล",
+        "noReviewNote": "ยังไม่มีหมายเหตุจากการตรวจสอบ"
+      },
+      "notSubmitted": {
+        "title": "ยืนยันตัวตนเพื่อเปิดใช้งานฝั่งฟรีแลนซ์",
+        "description": "ส่งข้อมูล KYC พร้อมเอกสารยืนยันตัวตนในขั้นตอนที่ปลอดภัยเพียงครั้งเดียว"
+      },
+      "underReview": {
+        "title": "เอกสารของคุณกำลังถูกตรวจสอบ",
+        "description": "ระบบได้รับเอกสารเรียบร้อยแล้ว และทีมงานกำลังตรวจสอบสถานะให้คุณอยู่ตอนนี้"
+      },
+      "approved": {
+        "title": "ยืนยันตัวตนสำเร็จแล้ว",
+        "description": "บัญชีของคุณพร้อมใช้งานฟีเจอร์สำหรับฟรีแลนซ์และการตั้งค่าการรับเงินในลำดับถัดไป"
+      },
+      "needsResubmission": {
+        "title": "ต้องส่งข้อมูลเพิ่มเติม",
+        "description": "การยืนยันปัจจุบันยังต้องแก้ไขเพิ่มเติม กรุณาตรวจหมายเหตุแล้วส่งเอกสารใหม่อีกครั้ง"
+      },
+      "rejected": {
+        "title": "การยืนยันยังไม่ผ่าน",
+        "description": "เอกสารชุดปัจจุบันยังไม่สามารถอนุมัติได้ กรุณาตรวจสถานะล่าสุดและส่งใหม่เมื่อพร้อม"
+      }
+    }
+  },
+  "calendarPage": {
+    "title": "ปฏิทิน",
+    "subtitle": "ติดตามไมล์สโตน วันครบกำหนดโปรเจกต์ และวันหมดอายุของงานทั้งหมดได้ในมุมมองเดียว",
+    "actions": {
+      "previousMonth": "เดือนก่อนหน้า",
+      "nextMonth": "เดือนถัดไป",
+      "today": "วันนี้"
+    },
+    "summary": {
+      "total": "รายการตามตัวกรอง",
+      "overdue": "เกินกำหนด",
+      "upcoming": "กำลังจะมาถึง"
+    },
+    "filters": {
+      "title": "กรองเหตุการณ์",
+      "subtitle": "สลับดูทุกวันหรือโฟกัสเฉพาะประเภทเหตุการณ์ที่ต้องการ",
+      "all": "ทั้งหมด"
+    },
+    "weekdays": {
+      "mon": "จ",
+      "tue": "อ",
+      "wed": "พ",
+      "thu": "พฤ",
+      "fri": "ศ",
+      "sat": "ส",
+      "sun": "อา"
+    },
+    "eventTypes": {
+      "milestone": "ไมล์สโตน",
+      "project_deadline": "เดดไลน์โปรเจกต์",
+      "job_expires": "งานหมดอายุ"
+    },
+    "grid": {
+      "moreCount": "+{{count}} รายการ"
+    },
+    "sidebar": {
+      "selectDate": "เลือกวันที่",
+      "eventsCount": "{{count}} รายการ",
+      "emptyTitle": "ไม่มีเหตุการณ์ในวันนี้",
+      "emptySubtitle": "ลองเลือกวันอื่นหรือเปลี่ยนตัวกรองที่ใช้งานอยู่"
+    },
+    "labels": {
+      "overdue": "เกินกำหนด"
+    },
+    "errors": {
+      "title": "ไม่สามารถโหลดปฏิทินได้",
+      "load": "เราไม่สามารถโหลดข้อมูลปฏิทินได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง"
+    }
+  },
+  "messagesPage": {
+    "title": "แชท",
+    "subtitle": "ติดตามบทสนทนา ดีล และงานของคุณในที่เดียว",
+    "searchPlaceholder": "ค้นหาการสนทนา...",
+    "tabs": {
+      "all": "ทั้งหมด",
+      "dm": "DM",
+      "deal": "Deal",
+      "project": "งาน",
+      "archive": "เก็บถาวร"
+    },
+    "sidebar": {
+      "conversationTools": "เครื่องมือการสนทนา"
+    },
+    "actions": {
+      "newChat": "เริ่มแชทใหม่",
+      "offerMilestone": "ส่ง Milestone Offer",
+      "viewProject": "ไปที่โปรเจกต์",
+      "projectChat": "Project Chat",
+      "accept": "ยอมรับ",
+      "counter": "โต้กลับ",
+      "reject": "ปฏิเสธ"
+    },
+    "status": {
+      "archived": "เก็บถาวร",
+      "offerPending": "รอการตอบรับ Offer",
+      "dealClosed": "ปิดดีลแล้ว",
+      "dealRoom": "ห้องดีล"
+    },
+    "fallbacks": {
+      "user": "ผู้ใช้",
+      "group": "กลุ่มสนทนา",
+      "project": "โปรเจกต์",
+      "workChannel": "ช่องทางงาน",
+      "dealPrefix": "ดีล",
+      "projectPrefix": "โปรเจกต์"
+    },
+    "roomTypes": {
+      "dm": "DM",
+      "deal": "Deal",
+      "project": "โปรเจกต์",
+      "group": "กลุ่ม",
+      "main": "หลัก"
+    },
+    "header": {
+      "dm": "DM",
+      "members": "{{count}} คน"
+    },
+    "roomList": {
+      "loading": "กำลังโหลด...",
+      "empty": "ยังไม่มีบทสนทนา",
+      "attachment": "ไฟล์แนบ"
+    },
+    "messageList": {
+      "senderFallback": "ผู้ใช้",
+      "reply": "ตอบกลับ",
+      "delete": "ลบ",
+      "fileOrImage": "ไฟล์/รูปภาพ",
+      "attachmentAlt": "ไฟล์แนบ",
+      "offerMilestone": "Offer Milestone",
+      "counter": "โต้กลับ",
+      "totalMilestones": "จำนวน Milestone ทั้งหมด:",
+      "milestone": "Milestone {{number}}",
+      "dueDays": "กำหนดส่ง: {{days}} วัน",
+      "etaFallback": "กำหนดเวลา: -",
+      "total": "รวม",
+      "offerAccepted": "ยอมรับ Offer แล้ว",
+      "offerRejected": "ปฏิเสธ Offer แล้ว",
+      "acceptedMilestoneOffer": "ยอมรับ milestone offer แล้ว",
+      "rejectedMilestoneOffer": "ปฏิเสธ milestone offer แล้ว"
+    },
+    "composer": {
+      "dealClosedContinue": "ดีลปิดแล้ว กรุณาคุยต่อใน Project Chat",
+      "uploadingFile": "กำลังอัปโหลดไฟล์...",
+      "replyPrefix": "กำลังตอบกลับ: {{content}}...",
+      "placeholder": "พิมพ์ข้อความที่นี่...",
+      "typing": "{{names}} กำลังพิมพ์...",
+      "dealClosedBanner": "ดีลนี้ปิดแล้ว พร้อมคุยต่อใน Project Chat"
+    },
+    "emptyState": {
+      "title": "ยินดีต้อนรับสู่ระบบแชท",
+      "subtitle": "เลือกการสนทนาจากรายการทางด้านซ้าย หรือเริ่มแชทใหม่ได้เลย",
+      "newChat": "เริ่มการสนทนาใหม่"
+    },
+    "roomInfo": {
+      "title": "ข้อมูลห้องสนทนา",
+      "room": "ห้อง",
+      "conversation": "การสนทนา",
+      "members": "สมาชิก ({{count}})",
+      "addPeople": "เพิ่มคน",
+      "you": "คุณ"
+    },
+    "newChatModal": {
+      "inviteTitle": "เพิ่มสมาชิก",
+      "newChatTitle": "เริ่มการสนทนาใหม่",
+      "searchPlaceholder": "ค้นหาด้วยชื่อหรืออีเมล...",
+      "searching": "กำลังค้นหา...",
+      "notFound": "ไม่พบผู้ใช้",
+      "typeMore": "พิมพ์อย่างน้อย 2 ตัวอักษรเพื่อค้นหา"
+    },
+    "offerModal": {
+      "title": "Offer Milestone",
+      "subtitle": "ส่งข้อเสนอ Milestone ให้เจ้าของโปรเจกต์พิจารณา",
+      "submit": "ส่ง Offer Milestone"
+    },
+    "counterOfferModal": {
+      "title": "Counter Milestone Offer",
+      "subtitle": "ปรับ milestone และส่งข้อเสนอโต้กลับ",
+      "submit": "ส่ง Counter"
+    },
+    "toast": {
+      "uploadFailed": "อัปโหลดไฟล์ไม่สำเร็จ",
+      "startDmFailed": "ไม่สามารถเริ่มการสนทนาได้ในขณะนี้ กรุณาลองใหม่อีกครั้งภายหลัง",
+      "dealClosedContinueInProject": "ดีลนี้ปิดแล้ว กรุณาคุยต่อใน Project Chat",
+      "offerFreelancerOnly": "เฉพาะฝั่งฟรีแลนซ์เท่านั้นที่ส่ง milestone offer ได้",
+      "offerIncomplete": "กรุณากรอกข้อมูล Offer ให้ครบถ้วนก่อนส่ง",
+      "offerExceedsBudget": "งบที่เสนอเกิน Project Budget",
+      "offerDealOnly": "ส่ง Offer Milestone ได้เฉพาะใน Deal Chat",
+      "offerSuccess": "ส่ง Offer Milestone สำเร็จ",
+      "offerFailed": "ส่ง Offer ไม่สำเร็จ",
+      "acceptPromoteSuccess": "ยอมรับ Offer แล้ว และย้ายไป Project Chat เรียบร้อย",
+      "acceptPromoteFailed": "ยอมรับ Offer แล้ว แต่สร้าง Project Chat ไม่สำเร็จ"
+    }
+  },
+  "messagesWidget": {
+    "title": "ข้อความ",
+    "searchPlaceholder": "ค้นหาการสนทนา...",
+    "inputPlaceholder": "พิมพ์ข้อความ...",
+    "fileLabel": "ไฟล์",
+    "fallbacks": {
+      "chat": "แชท"
+    },
+    "roomTypes": {
+      "project": "โปรเจกต์",
+      "group": "กลุ่ม"
+    },
+    "actions": {
+      "back": "ย้อนกลับ",
+      "openFull": "เปิดเต็ม",
+      "openAll": "เปิดทั้งหมด",
+      "newChat": "เริ่มการสนทนาใหม่",
+      "close": "ปิด",
+      "send": "ส่ง"
+    },
+    "states": {
+      "loading": "กำลังโหลด...",
+      "empty": "ยังไม่มีการสนทนา",
+      "noMessages": "ยังไม่มีข้อความ"
+    }
+  }
+}
