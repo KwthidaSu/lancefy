@@ -75,41 +75,6 @@ lancefy/
 └── README.md             # Project overview
 ```
 
-## Getting Started
-
-Each application has its own setup instructions.
-
-Backend setup:
-
-```txt
-lancefy-backend/README.md
-```
-
-Frontend setup:
-
-```txt
-lancefy-frontend/README.md
-```
-
-## Environment Variables
-
-This project uses environment variables for local configuration.
-
-Example files are included:
-
-```txt
-lancefy-backend/.env.example
-lancefy-frontend/.env.example
-```
-
-Create your own `.env` files based on the example files.
-
-Do not commit real `.env` files or secrets to GitHub.
-
-## Screenshots
-
-Screenshots will be added to demonstrate the main user and admin workflows.
-
 ## Project Status
 
 This project is currently presented as a portfolio and code showcase.
@@ -122,11 +87,3 @@ This project was originally developed as a team graduation project.
 
 This repository is a cleaned and organized version for portfolio and learning purposes.
 
-## What I Learned
-
-* Building a full-stack application structure
-* Working with frontend and backend integration
-* Designing admin workflows
-* Handling authentication and role-based access
-* Managing project features across multiple user roles
-* Organizing and cleaning a large team project for GitHub
